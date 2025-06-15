@@ -1,0 +1,18 @@
+{
+  "gpt-4o-mini": {
+    "prompt_tokens": 1364972,
+    "completion_tokens": 67308
+  },
+  "gpt-4.1": {
+    "prompt_tokens": 16397,
+    "completion_tokens": 579
+  },
+  "gemini-2.5-pro": {
+    "prompt_tokens": 61383,
+    "completion_tokens": 4517
+  },
+  "gpt-4.1-mini": {
+    "prompt_tokens": 34455,
+    "completion_tokens": 2670
+  }
+}

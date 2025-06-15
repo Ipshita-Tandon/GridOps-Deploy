@@ -1,0 +1,14 @@
+{
+    "images": [
+      {
+        "sheet_name": "Monthly budget report", 
+        "images_on_sheet": [
+          {
+            "filename": "image1.png",
+            "coords": "H3:J7", 
+            "base64": "..."
+          }
+        ]
+      }
+    ]
+  } 

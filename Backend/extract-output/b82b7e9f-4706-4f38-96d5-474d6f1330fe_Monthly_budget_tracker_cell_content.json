@@ -1,0 +1,1083 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "START": {
+    "B1": [
+      "ABOUT THIS TEMPLATE",
+      null
+    ],
+    "B2": [
+      "Use this personal monthly budget worksheet to track your projected and actual monthly income and projected and actual cost.",
+      null
+    ],
+    "B3": [
+      "Enter expenses incurred on various categories in respective tables.",
+      null
+    ],
+    "B4": [
+      "Projected balance, actual balance, and difference are auto-calculated.",
+      null
+    ],
+    "B5": [
+      "Note: ",
+      null
+    ],
+    "B6": [
+      "Additional instructions have been provided in column A in PERSONAL MONTHLY BUDGET worksheet. This text has been intentionally hidden. To remove text, select column A, then select DELETE. To unhide text, select column A, then change font color.",
+      null
+    ],
+    "B7": [
+      "To learn more about tables in the worksheet, press SHIFT and then F10 within a table, select the TABLE option, and then select ALTERNATIVE TEXT.",
+      null
+    ]
+  },
+  "PERSONAL MONTHLY BUDGET": {
+    "C6:D6": [
+      "Total monthly income",
+      null
+    ],
+    "G59:I60": [
+      "TOTAL PROJECTED COST",
+      null
+    ],
+    "C5:D5": [
+      "Extra income",
+      null
+    ],
+    "J6:J7": [
+      "3064",
+      "=E10-J61"
+    ],
+    "J59:J60": [
+      "1195",
+      "=SUBTOTAL(109,Housing[Projected Cost],Transportation[Projected Cost],Insurance[Projected Cost],Food[Projected Cost],Pets[Projected Cost],PersonalCare[Projected Cost],Entertainment[Projected Cost],Loans[Projected Cost],Taxes[Projected Cost],Savings[Projected Cost],Gifts[Projected Cost],Legal[Projected Cost])"
+    ],
+    "C4:D4": [
+      "Income 1",
+      null
+    ],
+    "C10:D10": [
+      "Total monthly income",
+      null
+    ],
+    "B4:B6": [
+      "PROJECTED MONTHLY INCOME",
+      null
+    ],
+    "J4:J5": [
+      "3405",
+      "=E6-J59"
+    ],
+    "G61:I62": [
+      "TOTAL ACTUAL COST",
+      null
+    ],
+    "G8:I9": [
+      "DIFFERENCE \n(Actual minus projected)",
+      null
+    ],
+    "C9:D9": [
+      "Extra income",
+      null
+    ],
+    "J63:J64": [
+      "-41",
+      "=J59-J61"
+    ],
+    "B8:B10": [
+      "ACTUAL MONTHLY INCOME",
+      null
+    ],
+    "C8:D8": [
+      "Income 1",
+      null
+    ],
+    "G6:I7": [
+      "ACTUAL BALANCE \n(Actual income minus expenses)",
+      null
+    ],
+    "J61:J62": [
+      "1236",
+      "=SUBTOTAL(109,Housing[Actual Cost],Transportation[Actual Cost],Insurance[Actual Cost],Food[Actual Cost],Pets[Actual Cost],PersonalCare[Actual Cost],Entertainment[Actual Cost],Loans[Actual Cost],Taxes[Actual Cost],Savings[Actual Cost],Gifts[Actual Cost],Legal[Actual Cost])"
+    ],
+    "J8:J9": [
+      "-341",
+      "=J6-J4"
+    ],
+    "G63:I64": [
+      "TOTAL DIFFERENCE",
+      null
+    ],
+    "G4:I5": [
+      "PROJECTED BALANCE \n(Projected income minus expenses)",
+      null
+    ],
+    "A1": [
+      "Create a Personal Monthly Budget in this worksheet. Helpful instructions on how to use this worksheet are in cells in this column. Arrow down to get started.",
+      null
+    ],
+    "A2": [
+      "Title of this worksheet is in cell at right. Next instruction is in cell A4.",
+      null
+    ],
+    "B2": [
+      "PERSONAL MONTHLY BUDGET",
+      null
+    ],
+    "A4": [
+      "Projected Monthly Income label is in cell at right. Enter Income 1 in cell E4 and Extra Income in E5 to calculate Total monthly income in E6. Next instruction is in cell A6.",
+      null
+    ],
+    "E4": [
+      "4300",
+      null
+    ],
+    "E5": [
+      "300",
+      null
+    ],
+    "A6": [
+      "Projected Balance is auto calculated in cell J4, Actual Balance in J6, and Difference in J8. Next instruction is in cell A8.",
+      null
+    ],
+    "E6": [
+      "4600",
+      "=SUM(E4:E5)"
+    ],
+    "A8": [
+      "Actual Monthly Income label is in cell at right. Enter Income 1 in cell E8 and Extra Income in E9 to calculate Total monthly income in E10. Next instruction is in cell A12.",
+      null
+    ],
+    "E8": [
+      "4000",
+      null
+    ],
+    "E9": [
+      "300",
+      null
+    ],
+    "E10": [
+      "4300",
+      "=SUM(E8:E9)"
+    ],
+    "A12": [
+      "Enter details in Housing table starting in cell at right and in Entertainment table starting in cell G12. Next instruction is in cell A25.",
+      null
+    ],
+    "B12": [
+      "HOUSING",
+      null
+    ],
+    "C12": [
+      "Projected Cost",
+      null
+    ],
+    "D12": [
+      "Actual Cost",
+      null
+    ],
+    "E12": [
+      "Difference",
+      null
+    ],
+    "G12": [
+      "ENTERTAINMENT",
+      null
+    ],
+    "H12": [
+      "Projected Cost",
+      null
+    ],
+    "I12": [
+      "Actual Cost",
+      null
+    ],
+    "J12": [
+      "Difference",
+      null
+    ],
+    "B13": [
+      "Mortgage or rent",
+      null
+    ],
+    "C13": [
+      "1000",
+      null
+    ],
+    "D13": [
+      "1000",
+      null
+    ],
+    "E13": [
+      "0",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G13": [
+      "Night out",
+      null
+    ],
+    "J13": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B14": [
+      "Phone",
+      null
+    ],
+    "C14": [
+      "54",
+      null
+    ],
+    "D14": [
+      "100",
+      null
+    ],
+    "E14": [
+      "-46",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G14": [
+      "Music platforms",
+      null
+    ],
+    "J14": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B15": [
+      "Electricity",
+      null
+    ],
+    "C15": [
+      "44",
+      null
+    ],
+    "D15": [
+      "56",
+      null
+    ],
+    "E15": [
+      "-12",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G15": [
+      "Movies",
+      null
+    ],
+    "J15": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B16": [
+      "Gas",
+      null
+    ],
+    "C16": [
+      "22",
+      null
+    ],
+    "D16": [
+      "28",
+      null
+    ],
+    "E16": [
+      "-6",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G16": [
+      "Concerts",
+      null
+    ],
+    "J16": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B17": [
+      "Water and sewer",
+      null
+    ],
+    "C17": [
+      "8",
+      null
+    ],
+    "D17": [
+      "8",
+      null
+    ],
+    "E17": [
+      "0",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G17": [
+      "Sporting events",
+      null
+    ],
+    "J17": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B18": [
+      "Cable",
+      null
+    ],
+    "C18": [
+      "34",
+      null
+    ],
+    "D18": [
+      "34",
+      null
+    ],
+    "E18": [
+      "0",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G18": [
+      "Live theater",
+      null
+    ],
+    "J18": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B19": [
+      "Waste removal",
+      null
+    ],
+    "C19": [
+      "10",
+      null
+    ],
+    "D19": [
+      "10",
+      null
+    ],
+    "E19": [
+      "0",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G19": [
+      "Other",
+      null
+    ],
+    "J19": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B20": [
+      "Maintenance or repairs",
+      null
+    ],
+    "C20": [
+      "23",
+      null
+    ],
+    "D20": [
+      "0",
+      null
+    ],
+    "E20": [
+      "23",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G20": [
+      "Other",
+      null
+    ],
+    "J20": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B21": [
+      "Supplies",
+      null
+    ],
+    "C21": [
+      "0",
+      null
+    ],
+    "D21": [
+      "0",
+      null
+    ],
+    "E21": [
+      "0",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G21": [
+      "Other",
+      null
+    ],
+    "J21": [
+      "0",
+      "=Entertainment[[#This Row],[Projected Cost]]-Entertainment[[#This Row],[Actual Cost]]"
+    ],
+    "B22": [
+      "Other",
+      null
+    ],
+    "C22": [
+      "0",
+      null
+    ],
+    "D22": [
+      "0",
+      null
+    ],
+    "E22": [
+      "0",
+      "=Housing[[#This Row],[Projected Cost]]-Housing[[#This Row],[Actual Cost]]"
+    ],
+    "G22": [
+      "Subtotal",
+      null
+    ],
+    "J22": [
+      "0",
+      "=SUBTOTAL(109,Entertainment[Difference])"
+    ],
+    "B23": [
+      "Subtotal",
+      null
+    ],
+    "E23": [
+      "-41",
+      "=SUBTOTAL(109,Housing[Difference])"
+    ],
+    "G24": [
+      "LOANS",
+      null
+    ],
+    "H24": [
+      "Projected Cost",
+      null
+    ],
+    "I24": [
+      "Actual Cost",
+      null
+    ],
+    "J24": [
+      "Difference",
+      null
+    ],
+    "A25": [
+      "Enter details in Transportation table starting in cell at right and in Loans table starting in cell G24. Next instruction is in cell A35.",
+      null
+    ],
+    "B25": [
+      "TRANSPORTATION",
+      null
+    ],
+    "C25": [
+      "Projected Cost",
+      null
+    ],
+    "D25": [
+      "Actual Cost",
+      null
+    ],
+    "E25": [
+      "Difference",
+      null
+    ],
+    "G25": [
+      "Personal",
+      null
+    ],
+    "J25": [
+      "0",
+      "=Loans[[#This Row],[Projected Cost]]-Loans[[#This Row],[Actual Cost]]"
+    ],
+    "B26": [
+      "Vehicle payment",
+      null
+    ],
+    "E26": [
+      "0",
+      "=Transportation[[#This Row],[Projected Cost]]-Transportation[[#This Row],[Actual Cost]]"
+    ],
+    "G26": [
+      "Student",
+      null
+    ],
+    "J26": [
+      "0",
+      "=Loans[[#This Row],[Projected Cost]]-Loans[[#This Row],[Actual Cost]]"
+    ],
+    "B27": [
+      "Bus/taxi fare",
+      null
+    ],
+    "E27": [
+      "0",
+      "=Transportation[[#This Row],[Projected Cost]]-Transportation[[#This Row],[Actual Cost]]"
+    ],
+    "G27": [
+      "Credit card",
+      null
+    ],
+    "J27": [
+      "0",
+      "=Loans[[#This Row],[Projected Cost]]-Loans[[#This Row],[Actual Cost]]"
+    ],
+    "B28": [
+      "Insurance",
+      null
+    ],
+    "E28": [
+      "0",
+      "=Transportation[[#This Row],[Projected Cost]]-Transportation[[#This Row],[Actual Cost]]"
+    ],
+    "G28": [
+      "Credit card",
+      null
+    ],
+    "J28": [
+      "0",
+      "=Loans[[#This Row],[Projected Cost]]-Loans[[#This Row],[Actual Cost]]"
+    ],
+    "B29": [
+      "Licensing",
+      null
+    ],
+    "E29": [
+      "0",
+      "=Transportation[[#This Row],[Projected Cost]]-Transportation[[#This Row],[Actual Cost]]"
+    ],
+    "G29": [
+      "Credit card",
+      null
+    ],
+    "J29": [
+      "0",
+      "=Loans[[#This Row],[Projected Cost]]-Loans[[#This Row],[Actual Cost]]"
+    ],
+    "B30": [
+      "Fuel",
+      null
+    ],
+    "E30": [
+      "0",
+      "=Transportation[[#This Row],[Projected Cost]]-Transportation[[#This Row],[Actual Cost]]"
+    ],
+    "G30": [
+      "Other",
+      null
+    ],
+    "J30": [
+      "0",
+      "=Loans[[#This Row],[Projected Cost]]-Loans[[#This Row],[Actual Cost]]"
+    ],
+    "B31": [
+      "Maintenance",
+      null
+    ],
+    "E31": [
+      "0",
+      "=Transportation[[#This Row],[Projected Cost]]-Transportation[[#This Row],[Actual Cost]]"
+    ],
+    "G31": [
+      "Subtotal",
+      null
+    ],
+    "J31": [
+      "0",
+      "=SUBTOTAL(109,Loans[Difference])"
+    ],
+    "B32": [
+      "Other",
+      null
+    ],
+    "E32": [
+      "0",
+      "=Transportation[[#This Row],[Projected Cost]]-Transportation[[#This Row],[Actual Cost]]"
+    ],
+    "B33": [
+      "Subtotal",
+      null
+    ],
+    "E33": [
+      "0",
+      "=SUBTOTAL(109,Transportation[Difference])"
+    ],
+    "G33": [
+      "TAXES",
+      null
+    ],
+    "H33": [
+      "Projected Cost",
+      null
+    ],
+    "I33": [
+      "Actual Cost",
+      null
+    ],
+    "J33": [
+      "Difference",
+      null
+    ],
+    "G34": [
+      "Federal",
+      null
+    ],
+    "J34": [
+      "0",
+      "=Taxes[[#This Row],[Projected Cost]]-Taxes[[#This Row],[Actual Cost]]"
+    ],
+    "A35": [
+      "Enter details in Insurance table starting in cell at right and in Taxes table starting in cell G33. Next instruction is in cell A42.",
+      null
+    ],
+    "B35": [
+      "INSURANCE",
+      null
+    ],
+    "C35": [
+      "Projected Cost",
+      null
+    ],
+    "D35": [
+      "Actual Cost",
+      null
+    ],
+    "E35": [
+      "Difference",
+      null
+    ],
+    "G35": [
+      "State",
+      null
+    ],
+    "J35": [
+      "0",
+      "=Taxes[[#This Row],[Projected Cost]]-Taxes[[#This Row],[Actual Cost]]"
+    ],
+    "B36": [
+      "Home",
+      null
+    ],
+    "E36": [
+      "0",
+      "=Insurance[[#This Row],[Projected Cost]]-Insurance[[#This Row],[Actual Cost]]"
+    ],
+    "G36": [
+      "Local",
+      null
+    ],
+    "J36": [
+      "0",
+      "=Taxes[[#This Row],[Projected Cost]]-Taxes[[#This Row],[Actual Cost]]"
+    ],
+    "B37": [
+      "Health",
+      null
+    ],
+    "E37": [
+      "0",
+      "=Insurance[[#This Row],[Projected Cost]]-Insurance[[#This Row],[Actual Cost]]"
+    ],
+    "G37": [
+      "Other",
+      null
+    ],
+    "J37": [
+      "0",
+      "=Taxes[[#This Row],[Projected Cost]]-Taxes[[#This Row],[Actual Cost]]"
+    ],
+    "B38": [
+      "Life",
+      null
+    ],
+    "E38": [
+      "0",
+      "=Insurance[[#This Row],[Projected Cost]]-Insurance[[#This Row],[Actual Cost]]"
+    ],
+    "G38": [
+      "Subtotal",
+      null
+    ],
+    "J38": [
+      "0",
+      "=SUBTOTAL(109,Taxes[Difference])"
+    ],
+    "B39": [
+      "Other",
+      null
+    ],
+    "E39": [
+      "0",
+      "=Insurance[[#This Row],[Projected Cost]]-Insurance[[#This Row],[Actual Cost]]"
+    ],
+    "B40": [
+      "Subtotal",
+      null
+    ],
+    "E40": [
+      "0",
+      "=SUBTOTAL(109,Insurance[Difference])"
+    ],
+    "G40": [
+      "SAVINGS OR INVESTMENTS",
+      null
+    ],
+    "H40": [
+      "Projected Cost",
+      null
+    ],
+    "I40": [
+      "Actual Cost",
+      null
+    ],
+    "J40": [
+      "Difference",
+      null
+    ],
+    "G41": [
+      "Retirement account",
+      null
+    ],
+    "J41": [
+      "0",
+      "=Savings[[#This Row],[Projected Cost]]-Savings[[#This Row],[Actual Cost]]"
+    ],
+    "A42": [
+      "Enter details in Food table starting in cell at right and in Savings table starting in cell G40. Next instruction is in cell A48.",
+      null
+    ],
+    "B42": [
+      "FOOD",
+      null
+    ],
+    "C42": [
+      "Projected Cost",
+      null
+    ],
+    "D42": [
+      "Actual Cost",
+      null
+    ],
+    "E42": [
+      "Difference",
+      null
+    ],
+    "G42": [
+      "Investment account",
+      null
+    ],
+    "J42": [
+      "0",
+      "=Savings[[#This Row],[Projected Cost]]-Savings[[#This Row],[Actual Cost]]"
+    ],
+    "B43": [
+      "Groceries",
+      null
+    ],
+    "E43": [
+      "0",
+      "=Food[[#This Row],[Projected Cost]]-Food[[#This Row],[Actual Cost]]"
+    ],
+    "G43": [
+      "Other",
+      null
+    ],
+    "J43": [
+      "0",
+      "=Savings[[#This Row],[Projected Cost]]-Savings[[#This Row],[Actual Cost]]"
+    ],
+    "B44": [
+      "Dining out",
+      null
+    ],
+    "E44": [
+      "0",
+      "=Food[[#This Row],[Projected Cost]]-Food[[#This Row],[Actual Cost]]"
+    ],
+    "G44": [
+      "Subtotal",
+      null
+    ],
+    "J44": [
+      "0",
+      "=SUBTOTAL(109,Savings[Difference])"
+    ],
+    "B45": [
+      "Other",
+      null
+    ],
+    "E45": [
+      "0",
+      "=Food[[#This Row],[Projected Cost]]-Food[[#This Row],[Actual Cost]]"
+    ],
+    "B46": [
+      "Subtotal",
+      null
+    ],
+    "E46": [
+      "0",
+      "=SUBTOTAL(109,Food[Difference])"
+    ],
+    "G46": [
+      "GIFTS AND DONATIONS",
+      null
+    ],
+    "H46": [
+      "Projected Cost",
+      null
+    ],
+    "I46": [
+      "Actual Cost",
+      null
+    ],
+    "J46": [
+      "Difference",
+      null
+    ],
+    "G47": [
+      "Charity 1",
+      null
+    ],
+    "J47": [
+      "0",
+      "=Gifts[[#This Row],[Projected Cost]]-Gifts[[#This Row],[Actual Cost]]"
+    ],
+    "A48": [
+      "Enter details in Pets table starting in cell at right and in Gifts table starting in cell G46. Next instruction is in cell A56.",
+      null
+    ],
+    "B48": [
+      "PETS",
+      null
+    ],
+    "C48": [
+      "Projected Cost",
+      null
+    ],
+    "D48": [
+      "Actual Cost",
+      null
+    ],
+    "E48": [
+      "Difference",
+      null
+    ],
+    "G48": [
+      "Charity 2",
+      null
+    ],
+    "J48": [
+      "0",
+      "=Gifts[[#This Row],[Projected Cost]]-Gifts[[#This Row],[Actual Cost]]"
+    ],
+    "B49": [
+      "Food",
+      null
+    ],
+    "E49": [
+      "0",
+      "=Pets[[#This Row],[Projected Cost]]-Pets[[#This Row],[Actual Cost]]"
+    ],
+    "G49": [
+      "Charity 3",
+      null
+    ],
+    "J49": [
+      "0",
+      "=Gifts[[#This Row],[Projected Cost]]-Gifts[[#This Row],[Actual Cost]]"
+    ],
+    "B50": [
+      "Medical",
+      null
+    ],
+    "E50": [
+      "0",
+      "=Pets[[#This Row],[Projected Cost]]-Pets[[#This Row],[Actual Cost]]"
+    ],
+    "G50": [
+      "Subtotal",
+      null
+    ],
+    "J50": [
+      "0",
+      "=SUBTOTAL(109,Gifts[Difference])"
+    ],
+    "B51": [
+      "Grooming",
+      null
+    ],
+    "E51": [
+      "0",
+      "=Pets[[#This Row],[Projected Cost]]-Pets[[#This Row],[Actual Cost]]"
+    ],
+    "B52": [
+      "Toys",
+      null
+    ],
+    "E52": [
+      "0",
+      "=Pets[[#This Row],[Projected Cost]]-Pets[[#This Row],[Actual Cost]]"
+    ],
+    "G52": [
+      "LEGAL",
+      null
+    ],
+    "H52": [
+      "Projected Cost",
+      null
+    ],
+    "I52": [
+      "Actual Cost",
+      null
+    ],
+    "J52": [
+      "Difference",
+      null
+    ],
+    "B53": [
+      "Other",
+      null
+    ],
+    "E53": [
+      "0",
+      "=Pets[[#This Row],[Projected Cost]]-Pets[[#This Row],[Actual Cost]]"
+    ],
+    "G53": [
+      "Attorney",
+      null
+    ],
+    "J53": [
+      "0",
+      "=Legal[[#This Row],[Projected Cost]]-Legal[[#This Row],[Actual Cost]]"
+    ],
+    "B54": [
+      "Subtotal",
+      null
+    ],
+    "E54": [
+      "0",
+      "=SUBTOTAL(109,Pets[Difference])"
+    ],
+    "G54": [
+      "Alimony",
+      null
+    ],
+    "J54": [
+      "0",
+      "=Legal[[#This Row],[Projected Cost]]-Legal[[#This Row],[Actual Cost]]"
+    ],
+    "G55": [
+      "Payments on lien or judgment",
+      null
+    ],
+    "J55": [
+      "0",
+      "=Legal[[#This Row],[Projected Cost]]-Legal[[#This Row],[Actual Cost]]"
+    ],
+    "A56": [
+      "Enter details in Personal Care table starting in cell at right and in Legal table starting in cell G52. Next instruction is in cell A59.",
+      null
+    ],
+    "B56": [
+      "PERSONAL CARE",
+      null
+    ],
+    "C56": [
+      "Projected Cost",
+      null
+    ],
+    "D56": [
+      "Actual Cost",
+      null
+    ],
+    "E56": [
+      "Difference",
+      null
+    ],
+    "G56": [
+      "Other",
+      null
+    ],
+    "J56": [
+      "0",
+      "=Legal[[#This Row],[Projected Cost]]-Legal[[#This Row],[Actual Cost]]"
+    ],
+    "B57": [
+      "Medical",
+      null
+    ],
+    "E57": [
+      "0",
+      "=PersonalCare[[#This Row],[Projected Cost]]-PersonalCare[[#This Row],[Actual Cost]]"
+    ],
+    "G57": [
+      "Subtotal",
+      null
+    ],
+    "J57": [
+      "0",
+      "=SUBTOTAL(109,Legal[Difference])"
+    ],
+    "B58": [
+      "Hair/nails",
+      null
+    ],
+    "E58": [
+      "0",
+      "=PersonalCare[[#This Row],[Projected Cost]]-PersonalCare[[#This Row],[Actual Cost]]"
+    ],
+    "A59": [
+      "Total Projected Cost is auto calculated in cell J59, Total Actual Cost in J61, and Total Difference in J63.",
+      null
+    ],
+    "B59": [
+      "Clothing",
+      null
+    ],
+    "E59": [
+      "0",
+      "=PersonalCare[[#This Row],[Projected Cost]]-PersonalCare[[#This Row],[Actual Cost]]"
+    ],
+    "B60": [
+      "Dry cleaning",
+      null
+    ],
+    "E60": [
+      "0",
+      "=PersonalCare[[#This Row],[Projected Cost]]-PersonalCare[[#This Row],[Actual Cost]]"
+    ],
+    "B61": [
+      "Health club",
+      null
+    ],
+    "E61": [
+      "0",
+      "=PersonalCare[[#This Row],[Projected Cost]]-PersonalCare[[#This Row],[Actual Cost]]"
+    ],
+    "B62": [
+      "Organization dues or fees",
+      null
+    ],
+    "E62": [
+      "0",
+      "=PersonalCare[[#This Row],[Projected Cost]]-PersonalCare[[#This Row],[Actual Cost]]"
+    ],
+    "B63": [
+      "Other",
+      null
+    ],
+    "E63": [
+      "0",
+      "=PersonalCare[[#This Row],[Projected Cost]]-PersonalCare[[#This Row],[Actual Cost]]"
+    ],
+    "B64": [
+      "Subtotal",
+      null
+    ],
+    "E64": [
+      "0",
+      "=SUBTOTAL(109,PersonalCare[Difference])"
+    ]
+  }
+}

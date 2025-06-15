@@ -1,0 +1,311 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Check register": {
+    "M2": [
+      "Breakdown of withdrawals",
+      null
+    ],
+    "F3": [
+      "CHECK REGISTER",
+      null
+    ],
+    "R3": [
+      "Credit card",
+      null
+    ],
+    "F4": [
+      "Bank account number: ",
+      null
+    ],
+    "H4": [
+      "987654321",
+      null
+    ],
+    "R4": [
+      "Groceries",
+      null
+    ],
+    "F5": [
+      "Current balance: ",
+      null
+    ],
+    "R5": [
+      "Insurance",
+      null
+    ],
+    "R6": [
+      "Investment",
+      null
+    ],
+    "R7": [
+      "Mortgage",
+      null
+    ],
+    "R8": [
+      "Other",
+      null
+    ],
+    "R9": [
+      "Utilities",
+      null
+    ],
+    "C10": [
+      "Date",
+      null
+    ],
+    "D10": [
+      "Check #",
+      null
+    ],
+    "E10": [
+      "Description",
+      null
+    ],
+    "F10": [
+      "Category",
+      null
+    ],
+    "G10": [
+      "Withdrawal",
+      null
+    ],
+    "H10": [
+      "Deposit",
+      null
+    ],
+    "I10": [
+      "Balance",
+      null
+    ],
+    "B12": [
+      "60",
+      null
+    ],
+    "E12": [
+      "Beginning balance",
+      null
+    ],
+    "F12": [
+      "Deposit",
+      null
+    ],
+    "H12": [
+      "2916.73",
+      null
+    ],
+    "B13": [
+      "45",
+      null
+    ],
+    "D13": [
+      "2251",
+      null
+    ],
+    "E13": [
+      "Grocery store",
+      null
+    ],
+    "F13": [
+      "Groceries",
+      null
+    ],
+    "G13": [
+      "205.61",
+      null
+    ],
+    "B14": [
+      "40",
+      null
+    ],
+    "D14": [
+      "67112449",
+      null
+    ],
+    "E14": [
+      "Home mortgage",
+      null
+    ],
+    "F14": [
+      "Mortgage",
+      null
+    ],
+    "G14": [
+      "961.77",
+      null
+    ],
+    "B15": [
+      "35",
+      null
+    ],
+    "D15": [
+      "Debit",
+      null
+    ],
+    "E15": [
+      "Coffee shop",
+      null
+    ],
+    "F15": [
+      "Other",
+      null
+    ],
+    "G15": [
+      "3.65",
+      null
+    ],
+    "B16": [
+      "30",
+      null
+    ],
+    "D16": [
+      "2252",
+      null
+    ],
+    "E16": [
+      "Gas and electric company",
+      null
+    ],
+    "F16": [
+      "Utilities",
+      null
+    ],
+    "G16": [
+      "145.33",
+      null
+    ],
+    "B17": [
+      "25",
+      null
+    ],
+    "D17": [
+      "ATM",
+      null
+    ],
+    "E17": [
+      "Cash",
+      null
+    ],
+    "F17": [
+      "Other",
+      null
+    ],
+    "G17": [
+      "50",
+      null
+    ],
+    "B18": [
+      "20",
+      null
+    ],
+    "D18": [
+      "68240158",
+      null
+    ],
+    "E18": [
+      "Credit card",
+      null
+    ],
+    "F18": [
+      "Credit card",
+      null
+    ],
+    "G18": [
+      "936.48",
+      null
+    ],
+    "B19": [
+      "15",
+      null
+    ],
+    "E19": [
+      "Paycheck",
+      null
+    ],
+    "F19": [
+      "Deposit",
+      null
+    ],
+    "H19": [
+      "2365.82",
+      null
+    ],
+    "B20": [
+      "7",
+      null
+    ],
+    "E20": [
+      "Mutual fund investment",
+      null
+    ],
+    "F20": [
+      "Investment",
+      null
+    ],
+    "G20": [
+      "200",
+      null
+    ],
+    "B21": [
+      "1",
+      null
+    ],
+    "D21": [
+      "2253",
+      null
+    ],
+    "E21": [
+      "The Phone Company",
+      null
+    ],
+    "F21": [
+      "Utilities",
+      null
+    ],
+    "G21": [
+      "48.87",
+      null
+    ],
+    "B22": [
+      "0",
+      null
+    ],
+    "D22": [
+      "25-552",
+      null
+    ],
+    "E22": [
+      "Insurance",
+      null
+    ],
+    "F22": [
+      "Insurance",
+      null
+    ],
+    "G22": [
+      "35.2",
+      null
+    ]
+  },
+  "Sheet1": {
+    "B5:D5": [
+      "I AM MERGED",
+      null
+    ],
+    "B6": [
+      "M1",
+      null
+    ],
+    "C6": [
+      "M2",
+      null
+    ],
+    "D6": [
+      "M3",
+      null
+    ]
+  }
+}

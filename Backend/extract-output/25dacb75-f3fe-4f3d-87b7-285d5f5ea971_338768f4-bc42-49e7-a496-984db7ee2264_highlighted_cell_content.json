@@ -1,0 +1,743 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "START": {
+    "B1": [
+      "ABOUT THIS TEMPLATE",
+      null
+    ],
+    "B2": [
+      "Use this personal monthly budget worksheet to track your projected and actual monthly income and projected and actual cost.",
+      null
+    ],
+    "B3": [
+      "Enter expenses incurred on various categories in respective tables.",
+      null
+    ],
+    "B4": [
+      "Projected balance, actual balance, and difference are auto-calculated.",
+      null
+    ],
+    "B5": [
+      "Note: ",
+      null
+    ],
+    "B6": [
+      "Additional instructions have been provided in column A in PERSONAL MONTHLY BUDGET worksheet. This text has been intentionally hidden. To remove text, select column A, then select DELETE. To unhide text, select column A, then change font color.",
+      null
+    ],
+    "B7": [
+      "To learn more about tables in the worksheet, press SHIFT and then F10 within a table, select the TABLE option, and then select ALTERNATIVE TEXT.",
+      null
+    ]
+  },
+  "PERSONAL MONTHLY BUDGET": {
+    "C6:D6": [
+      "Total monthly income",
+      null
+    ],
+    "G59:I60": [
+      "TOTAL PROJECTED COST",
+      null
+    ],
+    "C5:D5": [
+      "Extra income",
+      null
+    ],
+    "C4:D4": [
+      "Income 1",
+      null
+    ],
+    "C10:D10": [
+      "Total monthly income",
+      null
+    ],
+    "B4:B6": [
+      "PROJECTED MONTHLY INCOME",
+      null
+    ],
+    "G61:I62": [
+      "TOTAL ACTUAL COST",
+      null
+    ],
+    "G8:I9": [
+      "DIFFERENCE \n(Actual minus projected)",
+      null
+    ],
+    "C9:D9": [
+      "Extra income",
+      null
+    ],
+    "B8:B10": [
+      "ACTUAL MONTHLY INCOME",
+      null
+    ],
+    "C8:D8": [
+      "Income 1",
+      null
+    ],
+    "G6:I7": [
+      "ACTUAL BALANCE \n(Actual income minus expenses)",
+      null
+    ],
+    "G63:I64": [
+      "TOTAL DIFFERENCE",
+      null
+    ],
+    "G4:I5": [
+      "PROJECTED BALANCE \n(Projected income minus expenses)",
+      null
+    ],
+    "A1": [
+      "Create a Personal Monthly Budget in this worksheet. Helpful instructions on how to use this worksheet are in cells in this column. Arrow down to get started.",
+      null
+    ],
+    "A2": [
+      "Title of this worksheet is in cell at right. Next instruction is in cell A4.",
+      null
+    ],
+    "B2": [
+      "PERSONAL MONTHLY BUDGET",
+      null
+    ],
+    "A4": [
+      "Projected Monthly Income label is in cell at right. Enter Income 1 in cell E4 and Extra Income in E5 to calculate Total monthly income in E6. Next instruction is in cell A6.",
+      null
+    ],
+    "E4": [
+      "4300",
+      null
+    ],
+    "E5": [
+      "300",
+      null
+    ],
+    "A6": [
+      "Projected Balance is auto calculated in cell J4, Actual Balance in J6, and Difference in J8. Next instruction is in cell A8.",
+      null
+    ],
+    "A8": [
+      "Actual Monthly Income label is in cell at right. Enter Income 1 in cell E8 and Extra Income in E9 to calculate Total monthly income in E10. Next instruction is in cell A12.",
+      null
+    ],
+    "E8": [
+      "4000",
+      null
+    ],
+    "E9": [
+      "300",
+      null
+    ],
+    "A12": [
+      "Enter details in Housing table starting in cell at right and in Entertainment table starting in cell G12. Next instruction is in cell A25.",
+      null
+    ],
+    "B12": [
+      "HOUSING",
+      null
+    ],
+    "C12": [
+      "Projected Cost",
+      null
+    ],
+    "D12": [
+      "Actual Cost",
+      null
+    ],
+    "E12": [
+      "Difference",
+      null
+    ],
+    "G12": [
+      "ENTERTAINMENT",
+      null
+    ],
+    "H12": [
+      "Projected Cost",
+      null
+    ],
+    "I12": [
+      "Actual Cost",
+      null
+    ],
+    "J12": [
+      "Difference",
+      null
+    ],
+    "B13": [
+      "Mortgage or rent",
+      null
+    ],
+    "C13": [
+      "1000",
+      null
+    ],
+    "D13": [
+      "1000",
+      null
+    ],
+    "G13": [
+      "Night out",
+      null
+    ],
+    "B14": [
+      "Phone",
+      null
+    ],
+    "C14": [
+      "54",
+      null
+    ],
+    "D14": [
+      "100",
+      null
+    ],
+    "G14": [
+      "Music platforms",
+      null
+    ],
+    "B15": [
+      "Electricity",
+      null
+    ],
+    "C15": [
+      "44",
+      null
+    ],
+    "D15": [
+      "56",
+      null
+    ],
+    "G15": [
+      "Movies",
+      null
+    ],
+    "B16": [
+      "Gas",
+      null
+    ],
+    "C16": [
+      "22",
+      null
+    ],
+    "D16": [
+      "28",
+      null
+    ],
+    "G16": [
+      "Concerts",
+      null
+    ],
+    "B17": [
+      "Water and sewer",
+      null
+    ],
+    "C17": [
+      "8",
+      null
+    ],
+    "D17": [
+      "8",
+      null
+    ],
+    "G17": [
+      "Sporting events",
+      null
+    ],
+    "B18": [
+      "Cable",
+      null
+    ],
+    "C18": [
+      "34",
+      null
+    ],
+    "D18": [
+      "34",
+      null
+    ],
+    "G18": [
+      "Live theater",
+      null
+    ],
+    "B19": [
+      "Waste removal",
+      null
+    ],
+    "C19": [
+      "10",
+      null
+    ],
+    "D19": [
+      "10",
+      null
+    ],
+    "G19": [
+      "Other",
+      null
+    ],
+    "B20": [
+      "Maintenance or repairs",
+      null
+    ],
+    "C20": [
+      "23",
+      null
+    ],
+    "D20": [
+      "0",
+      null
+    ],
+    "G20": [
+      "Other",
+      null
+    ],
+    "B21": [
+      "Supplies",
+      null
+    ],
+    "C21": [
+      "0",
+      null
+    ],
+    "D21": [
+      "0",
+      null
+    ],
+    "G21": [
+      "Other",
+      null
+    ],
+    "B22": [
+      "Other",
+      null
+    ],
+    "C22": [
+      "0",
+      null
+    ],
+    "D22": [
+      "0",
+      null
+    ],
+    "G22": [
+      "Subtotal",
+      null
+    ],
+    "B23": [
+      "Subtotal",
+      null
+    ],
+    "G24": [
+      "LOANS",
+      null
+    ],
+    "H24": [
+      "Projected Cost",
+      null
+    ],
+    "I24": [
+      "Actual Cost",
+      null
+    ],
+    "J24": [
+      "Difference",
+      null
+    ],
+    "A25": [
+      "Enter details in Transportation table starting in cell at right and in Loans table starting in cell G24. Next instruction is in cell A35.",
+      null
+    ],
+    "B25": [
+      "TRANSPORTATION",
+      null
+    ],
+    "C25": [
+      "Projected Cost",
+      null
+    ],
+    "D25": [
+      "Actual Cost",
+      null
+    ],
+    "E25": [
+      "Difference",
+      null
+    ],
+    "G25": [
+      "Personal",
+      null
+    ],
+    "B26": [
+      "Vehicle payment",
+      null
+    ],
+    "G26": [
+      "Student",
+      null
+    ],
+    "B27": [
+      "Bus/taxi fare",
+      null
+    ],
+    "G27": [
+      "Credit card",
+      null
+    ],
+    "B28": [
+      "Insurance",
+      null
+    ],
+    "G28": [
+      "Credit card",
+      null
+    ],
+    "B29": [
+      "Licensing",
+      null
+    ],
+    "G29": [
+      "Credit card",
+      null
+    ],
+    "B30": [
+      "Fuel",
+      null
+    ],
+    "G30": [
+      "Other",
+      null
+    ],
+    "B31": [
+      "Maintenance",
+      null
+    ],
+    "G31": [
+      "Subtotal",
+      null
+    ],
+    "B32": [
+      "Other",
+      null
+    ],
+    "B33": [
+      "Subtotal",
+      null
+    ],
+    "G33": [
+      "TAXES",
+      null
+    ],
+    "H33": [
+      "Projected Cost",
+      null
+    ],
+    "I33": [
+      "Actual Cost",
+      null
+    ],
+    "J33": [
+      "Difference",
+      null
+    ],
+    "G34": [
+      "Federal",
+      null
+    ],
+    "A35": [
+      "Enter details in Insurance table starting in cell at right and in Taxes table starting in cell G33. Next instruction is in cell A42.",
+      null
+    ],
+    "B35": [
+      "INSURANCE",
+      null
+    ],
+    "C35": [
+      "Projected Cost",
+      null
+    ],
+    "D35": [
+      "Actual Cost",
+      null
+    ],
+    "E35": [
+      "Difference",
+      null
+    ],
+    "G35": [
+      "State",
+      null
+    ],
+    "B36": [
+      "Home",
+      null
+    ],
+    "G36": [
+      "Local",
+      null
+    ],
+    "B37": [
+      "Health",
+      null
+    ],
+    "G37": [
+      "Other",
+      null
+    ],
+    "B38": [
+      "Life",
+      null
+    ],
+    "G38": [
+      "Subtotal",
+      null
+    ],
+    "B39": [
+      "Other",
+      null
+    ],
+    "B40": [
+      "Subtotal",
+      null
+    ],
+    "G40": [
+      "SAVINGS OR INVESTMENTS",
+      null
+    ],
+    "H40": [
+      "Projected Cost",
+      null
+    ],
+    "I40": [
+      "Actual Cost",
+      null
+    ],
+    "J40": [
+      "Difference",
+      null
+    ],
+    "G41": [
+      "Retirement account",
+      null
+    ],
+    "A42": [
+      "Enter details in Food table starting in cell at right and in Savings table starting in cell G40. Next instruction is in cell A48.",
+      null
+    ],
+    "B42": [
+      "FOOD",
+      null
+    ],
+    "C42": [
+      "Projected Cost",
+      null
+    ],
+    "D42": [
+      "Actual Cost",
+      null
+    ],
+    "E42": [
+      "Difference",
+      null
+    ],
+    "G42": [
+      "Investment account",
+      null
+    ],
+    "B43": [
+      "Groceries",
+      null
+    ],
+    "G43": [
+      "Other",
+      null
+    ],
+    "B44": [
+      "Dining out",
+      null
+    ],
+    "G44": [
+      "Subtotal",
+      null
+    ],
+    "B45": [
+      "Other",
+      null
+    ],
+    "B46": [
+      "Subtotal",
+      null
+    ],
+    "G46": [
+      "GIFTS AND DONATIONS",
+      null
+    ],
+    "H46": [
+      "Projected Cost",
+      null
+    ],
+    "I46": [
+      "Actual Cost",
+      null
+    ],
+    "J46": [
+      "Difference",
+      null
+    ],
+    "G47": [
+      "Charity 1",
+      null
+    ],
+    "A48": [
+      "Enter details in Pets table starting in cell at right and in Gifts table starting in cell G46. Next instruction is in cell A56.",
+      null
+    ],
+    "B48": [
+      "PETS",
+      null
+    ],
+    "C48": [
+      "Projected Cost",
+      null
+    ],
+    "D48": [
+      "Actual Cost",
+      null
+    ],
+    "E48": [
+      "Difference",
+      null
+    ],
+    "G48": [
+      "Charity 2",
+      null
+    ],
+    "B49": [
+      "Food",
+      null
+    ],
+    "G49": [
+      "Charity 3",
+      null
+    ],
+    "B50": [
+      "Medical",
+      null
+    ],
+    "G50": [
+      "Subtotal",
+      null
+    ],
+    "B51": [
+      "Grooming",
+      null
+    ],
+    "B52": [
+      "Toys",
+      null
+    ],
+    "G52": [
+      "LEGAL",
+      null
+    ],
+    "H52": [
+      "Projected Cost",
+      null
+    ],
+    "I52": [
+      "Actual Cost",
+      null
+    ],
+    "J52": [
+      "Difference",
+      null
+    ],
+    "B53": [
+      "Other",
+      null
+    ],
+    "G53": [
+      "Attorney",
+      null
+    ],
+    "B54": [
+      "Subtotal",
+      null
+    ],
+    "G54": [
+      "Alimony",
+      null
+    ],
+    "G55": [
+      "Payments on lien or judgment",
+      null
+    ],
+    "A56": [
+      "Enter details in Personal Care table starting in cell at right and in Legal table starting in cell G52. Next instruction is in cell A59.",
+      null
+    ],
+    "B56": [
+      "PERSONAL CARE",
+      null
+    ],
+    "C56": [
+      "Projected Cost",
+      null
+    ],
+    "D56": [
+      "Actual Cost",
+      null
+    ],
+    "E56": [
+      "Difference",
+      null
+    ],
+    "G56": [
+      "Other",
+      null
+    ],
+    "B57": [
+      "Medical",
+      null
+    ],
+    "G57": [
+      "Subtotal",
+      null
+    ],
+    "B58": [
+      "Hair/nails",
+      null
+    ],
+    "A59": [
+      "Total Projected Cost is auto calculated in cell J59, Total Actual Cost in J61, and Total Difference in J63.",
+      null
+    ],
+    "B59": [
+      "Clothing",
+      null
+    ],
+    "B60": [
+      "Dry cleaning",
+      null
+    ],
+    "B61": [
+      "Health club",
+      null
+    ],
+    "B62": [
+      "Organization dues or fees",
+      null
+    ],
+    "B63": [
+      "Other",
+      null
+    ],
+    "B64": [
+      "Subtotal",
+      null
+    ]
+  }
+}

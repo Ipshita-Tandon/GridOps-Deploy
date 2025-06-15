@@ -1,0 +1,2589 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "EXAMPLE Bar Inventory Template": {
+    "I32:I33": [
+      "REORDER LEVEL",
+      null
+    ],
+    "B99:K99": [
+      "LIQUOR",
+      null
+    ],
+    "C6:D6": [
+      "ORDER BY",
+      null
+    ],
+    "K32:K33": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "J84:J85": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "G2:H2": [
+      "DATE",
+      null
+    ],
+    "B68:K68": [
+      "WINE",
+      null
+    ],
+    "B83:K83": [
+      "LOCATION: LIQUOR STORAGE",
+      null
+    ],
+    "C58:D58": [
+      "ORDER BY",
+      null
+    ],
+    "H6:H7": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "J6:J7": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "B64:K64": [
+      "KEG BEER",
+      null
+    ],
+    "B58:B59": [
+      "CATEGORY",
+      null
+    ],
+    "H58:H59": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "B104:K104": [
+      "Other",
+      null
+    ],
+    "B5:K5": [
+      "LOCATION: FRONT BAR",
+      null
+    ],
+    "K84:K85": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "B94:K94": [
+      "WINE",
+      null
+    ],
+    "B26:K26": [
+      "Other",
+      null
+    ],
+    "G6:G7": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "B2:D2": [
+      "LOCATION",
+      null
+    ],
+    "C84:D84": [
+      "ORDER BY",
+      null
+    ],
+    "B78:K78": [
+      "Other",
+      null
+    ],
+    "E84:F84": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "B47:K47": [
+      "LIQUOR",
+      null
+    ],
+    "B16:K16": [
+      "WINE",
+      null
+    ],
+    "B6:B7": [
+      "CATEGORY",
+      null
+    ],
+    "G58:G59": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "B90:K90": [
+      "KEG BEER",
+      null
+    ],
+    "G3:H3": [
+      "MM/DD/YYYY",
+      null
+    ],
+    "B84:B85": [
+      "CATEGORY",
+      null
+    ],
+    "H84:H85": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "I58:I59": [
+      "REORDER LEVEL",
+      null
+    ],
+    "K58:K59": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "J32:J33": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "B31:K31": [
+      "LOCATION: BACK BAR",
+      null
+    ],
+    "E6:F6": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "E2:F2": [
+      "PREPARED BY",
+      null
+    ],
+    "H32:H33": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "B52:K52": [
+      "Other",
+      null
+    ],
+    "B21:K21": [
+      "LIQUOR",
+      null
+    ],
+    "B12:K12": [
+      "KEG BEER",
+      null
+    ],
+    "B86:K86": [
+      "BOTTLED BEER",
+      null
+    ],
+    "B42:K42": [
+      "WINE",
+      null
+    ],
+    "G32:G33": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "B60:K60": [
+      "BOTTLED BEER",
+      null
+    ],
+    "G84:G85": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "J58:J59": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "I84:I85": [
+      "REORDER LEVEL",
+      null
+    ],
+    "B3:D3": [
+      "Freestyles Inn",
+      null
+    ],
+    "B57:K57": [
+      "LOCATION: BEER FRIDGE",
+      null
+    ],
+    "B32:B33": [
+      "CATEGORY",
+      null
+    ],
+    "C32:D32": [
+      "ORDER BY",
+      null
+    ],
+    "E32:F32": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "B8:K8": [
+      "BOTTLED BEER",
+      null
+    ],
+    "I6:I7": [
+      "REORDER LEVEL",
+      null
+    ],
+    "B73:K73": [
+      "LIQUOR",
+      null
+    ],
+    "K6:K7": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "B38:K38": [
+      "KEG BEER",
+      null
+    ],
+    "B34:K34": [
+      "BOTTLED BEER",
+      null
+    ],
+    "E58:F58": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "E3:F3": [
+      "Ben B.",
+      null
+    ],
+    "B1": [
+      "BAR INVENTORY TEMPLATE WITH SAMPLE DATA",
+      null
+    ],
+    "C7": [
+      "UNIT",
+      null
+    ],
+    "D7": [
+      "COST",
+      null
+    ],
+    "E7": [
+      "QTY/UNIT",
+      null
+    ],
+    "F7": [
+      "ITEM SIZE",
+      null
+    ],
+    "B9": [
+      "Heineken",
+      null
+    ],
+    "C9": [
+      "Case",
+      null
+    ],
+    "D9": [
+      "35",
+      null
+    ],
+    "E9": [
+      "24",
+      null
+    ],
+    "F9": [
+      "12 oz bottle",
+      null
+    ],
+    "H9": [
+      "200",
+      null
+    ],
+    "I9": [
+      "50",
+      null
+    ],
+    "K9": [
+      "100",
+      null
+    ],
+    "B10": [
+      "Iron City",
+      null
+    ],
+    "C10": [
+      "Case",
+      null
+    ],
+    "D10": [
+      "23",
+      null
+    ],
+    "E10": [
+      "24",
+      null
+    ],
+    "F10": [
+      "12 oz bottle",
+      null
+    ],
+    "H10": [
+      "12",
+      null
+    ],
+    "I10": [
+      "24",
+      null
+    ],
+    "K10": [
+      "50",
+      null
+    ],
+    "B11": [
+      "Coors Light",
+      null
+    ],
+    "C11": [
+      "Case",
+      null
+    ],
+    "D11": [
+      "22",
+      null
+    ],
+    "E11": [
+      "24",
+      null
+    ],
+    "F11": [
+      "12 oz bottle",
+      null
+    ],
+    "H11": [
+      "17",
+      null
+    ],
+    "I11": [
+      "24",
+      null
+    ],
+    "K11": [
+      "50",
+      null
+    ],
+    "B13": [
+      "Heineken",
+      null
+    ],
+    "C13": [
+      ".5 barrel",
+      null
+    ],
+    "D13": [
+      "185",
+      null
+    ],
+    "E13": [
+      "62",
+      null
+    ],
+    "F13": [
+      "16 oz pint",
+      null
+    ],
+    "H13": [
+      "15",
+      null
+    ],
+    "I13": [
+      "12",
+      null
+    ],
+    "K13": [
+      "100",
+      null
+    ],
+    "B14": [
+      "Guinness",
+      null
+    ],
+    "C14": [
+      ".5 barrel",
+      null
+    ],
+    "D14": [
+      "165",
+      null
+    ],
+    "E14": [
+      "62",
+      null
+    ],
+    "F14": [
+      "16 oz pint",
+      null
+    ],
+    "H14": [
+      "5",
+      null
+    ],
+    "I14": [
+      "5",
+      null
+    ],
+    "K14": [
+      "50",
+      null
+    ],
+    "B15": [
+      "Lagunitas",
+      null
+    ],
+    "C15": [
+      ".5 barrel",
+      null
+    ],
+    "D15": [
+      "207",
+      null
+    ],
+    "E15": [
+      "62",
+      null
+    ],
+    "F15": [
+      "16 oz pint",
+      null
+    ],
+    "H15": [
+      "12",
+      null
+    ],
+    "I15": [
+      "11",
+      null
+    ],
+    "K15": [
+      "50",
+      null
+    ],
+    "B17": [
+      "Cabernet",
+      null
+    ],
+    "C17": [
+      "750 ml",
+      null
+    ],
+    "D17": [
+      "0",
+      null
+    ],
+    "E17": [
+      "24",
+      null
+    ],
+    "F17": [
+      "7 oz",
+      null
+    ],
+    "H17": [
+      "35",
+      null
+    ],
+    "I17": [
+      "50",
+      null
+    ],
+    "K17": [
+      "100",
+      null
+    ],
+    "B18": [
+      "Merlot",
+      null
+    ],
+    "C18": [
+      "750 ml",
+      null
+    ],
+    "D18": [
+      "0",
+      null
+    ],
+    "E18": [
+      "24",
+      null
+    ],
+    "F18": [
+      "7 oz",
+      null
+    ],
+    "H18": [
+      "22",
+      null
+    ],
+    "I18": [
+      "24",
+      null
+    ],
+    "K18": [
+      "50",
+      null
+    ],
+    "B19": [
+      "Pinot Grigio",
+      null
+    ],
+    "C19": [
+      "750 ml",
+      null
+    ],
+    "D19": [
+      "0",
+      null
+    ],
+    "E19": [
+      "24",
+      null
+    ],
+    "H19": [
+      "20",
+      null
+    ],
+    "I19": [
+      "15",
+      null
+    ],
+    "K19": [
+      "50",
+      null
+    ],
+    "B20": [
+      "Prosecco",
+      null
+    ],
+    "C20": [
+      "750 ml",
+      null
+    ],
+    "D20": [
+      "0",
+      null
+    ],
+    "E20": [
+      "0",
+      null
+    ],
+    "H20": [
+      "12",
+      null
+    ],
+    "I20": [
+      "12",
+      null
+    ],
+    "K20": [
+      "0",
+      null
+    ],
+    "B22": [
+      "Bourbon",
+      null
+    ],
+    "D22": [
+      "0",
+      null
+    ],
+    "E22": [
+      "24",
+      null
+    ],
+    "F22": [
+      "2 oz",
+      null
+    ],
+    "H22": [
+      "200",
+      null
+    ],
+    "I22": [
+      "50",
+      null
+    ],
+    "K22": [
+      "100",
+      null
+    ],
+    "B23": [
+      "Vodka",
+      null
+    ],
+    "D23": [
+      "0",
+      null
+    ],
+    "E23": [
+      "24",
+      null
+    ],
+    "F23": [
+      "2 oz",
+      null
+    ],
+    "H23": [
+      "12",
+      null
+    ],
+    "I23": [
+      "24",
+      null
+    ],
+    "K23": [
+      "50",
+      null
+    ],
+    "B24": [
+      "Gin",
+      null
+    ],
+    "D24": [
+      "0",
+      null
+    ],
+    "E24": [
+      "24",
+      null
+    ],
+    "H24": [
+      "12",
+      null
+    ],
+    "I24": [
+      "24",
+      null
+    ],
+    "K24": [
+      "50",
+      null
+    ],
+    "B25": [
+      "Tequila",
+      null
+    ],
+    "D25": [
+      "0",
+      null
+    ],
+    "E25": [
+      "0",
+      null
+    ],
+    "H25": [
+      "12",
+      null
+    ],
+    "I25": [
+      "12",
+      null
+    ],
+    "K25": [
+      "0",
+      null
+    ],
+    "B27": [
+      "Tonic",
+      null
+    ],
+    "D27": [
+      "0",
+      null
+    ],
+    "E27": [
+      "24",
+      null
+    ],
+    "H27": [
+      "200",
+      null
+    ],
+    "I27": [
+      "50",
+      null
+    ],
+    "K27": [
+      "100",
+      null
+    ],
+    "B28": [
+      "Club soda",
+      null
+    ],
+    "D28": [
+      "0",
+      null
+    ],
+    "E28": [
+      "24",
+      null
+    ],
+    "H28": [
+      "12",
+      null
+    ],
+    "I28": [
+      "24",
+      null
+    ],
+    "K28": [
+      "50",
+      null
+    ],
+    "B29": [
+      "Lime juice",
+      null
+    ],
+    "D29": [
+      "0",
+      null
+    ],
+    "E29": [
+      "24",
+      null
+    ],
+    "H29": [
+      "12",
+      null
+    ],
+    "I29": [
+      "24",
+      null
+    ],
+    "K29": [
+      "50",
+      null
+    ],
+    "C33": [
+      "UNIT",
+      null
+    ],
+    "D33": [
+      "COST",
+      null
+    ],
+    "E33": [
+      "QTY/UNIT",
+      null
+    ],
+    "F33": [
+      "ITEM SIZE",
+      null
+    ],
+    "B35": [
+      "Heineken",
+      null
+    ],
+    "C35": [
+      "Case",
+      null
+    ],
+    "D35": [
+      "35",
+      null
+    ],
+    "E35": [
+      "24",
+      null
+    ],
+    "F35": [
+      "12 oz bottle",
+      null
+    ],
+    "H35": [
+      "200",
+      null
+    ],
+    "I35": [
+      "50",
+      null
+    ],
+    "K35": [
+      "100",
+      null
+    ],
+    "B36": [
+      "Iron City",
+      null
+    ],
+    "C36": [
+      "Case",
+      null
+    ],
+    "D36": [
+      "23",
+      null
+    ],
+    "E36": [
+      "24",
+      null
+    ],
+    "F36": [
+      "12 oz bottle",
+      null
+    ],
+    "H36": [
+      "12",
+      null
+    ],
+    "I36": [
+      "24",
+      null
+    ],
+    "K36": [
+      "50",
+      null
+    ],
+    "B37": [
+      "Coors Light",
+      null
+    ],
+    "C37": [
+      "Case",
+      null
+    ],
+    "D37": [
+      "22",
+      null
+    ],
+    "E37": [
+      "24",
+      null
+    ],
+    "F37": [
+      "12 oz bottle",
+      null
+    ],
+    "H37": [
+      "17",
+      null
+    ],
+    "I37": [
+      "24",
+      null
+    ],
+    "K37": [
+      "50",
+      null
+    ],
+    "B39": [
+      "Heineken",
+      null
+    ],
+    "C39": [
+      ".5 barrel",
+      null
+    ],
+    "D39": [
+      "185",
+      null
+    ],
+    "E39": [
+      "62",
+      null
+    ],
+    "F39": [
+      "16 oz pint",
+      null
+    ],
+    "H39": [
+      "15",
+      null
+    ],
+    "I39": [
+      "12",
+      null
+    ],
+    "K39": [
+      "100",
+      null
+    ],
+    "B40": [
+      "Guinness",
+      null
+    ],
+    "C40": [
+      ".5 barrel",
+      null
+    ],
+    "D40": [
+      "165",
+      null
+    ],
+    "E40": [
+      "62",
+      null
+    ],
+    "F40": [
+      "16 oz pint",
+      null
+    ],
+    "H40": [
+      "5",
+      null
+    ],
+    "I40": [
+      "5",
+      null
+    ],
+    "K40": [
+      "50",
+      null
+    ],
+    "B41": [
+      "Lagunitas",
+      null
+    ],
+    "C41": [
+      ".5 barrel",
+      null
+    ],
+    "D41": [
+      "207",
+      null
+    ],
+    "E41": [
+      "62",
+      null
+    ],
+    "F41": [
+      "16 oz pint",
+      null
+    ],
+    "H41": [
+      "12",
+      null
+    ],
+    "I41": [
+      "11",
+      null
+    ],
+    "K41": [
+      "50",
+      null
+    ],
+    "B43": [
+      "Cabernet",
+      null
+    ],
+    "C43": [
+      "750 ml",
+      null
+    ],
+    "D43": [
+      "0",
+      null
+    ],
+    "E43": [
+      "24",
+      null
+    ],
+    "F43": [
+      "7 oz",
+      null
+    ],
+    "H43": [
+      "35",
+      null
+    ],
+    "I43": [
+      "50",
+      null
+    ],
+    "K43": [
+      "100",
+      null
+    ],
+    "B44": [
+      "Merlot",
+      null
+    ],
+    "C44": [
+      "750 ml",
+      null
+    ],
+    "D44": [
+      "0",
+      null
+    ],
+    "E44": [
+      "24",
+      null
+    ],
+    "F44": [
+      "7 oz",
+      null
+    ],
+    "H44": [
+      "22",
+      null
+    ],
+    "I44": [
+      "24",
+      null
+    ],
+    "K44": [
+      "50",
+      null
+    ],
+    "B45": [
+      "Pinot Grigio",
+      null
+    ],
+    "C45": [
+      "750 ml",
+      null
+    ],
+    "D45": [
+      "0",
+      null
+    ],
+    "E45": [
+      "24",
+      null
+    ],
+    "H45": [
+      "20",
+      null
+    ],
+    "I45": [
+      "15",
+      null
+    ],
+    "K45": [
+      "50",
+      null
+    ],
+    "B46": [
+      "Prosecco",
+      null
+    ],
+    "C46": [
+      "750 ml",
+      null
+    ],
+    "D46": [
+      "0",
+      null
+    ],
+    "E46": [
+      "0",
+      null
+    ],
+    "H46": [
+      "12",
+      null
+    ],
+    "I46": [
+      "12",
+      null
+    ],
+    "K46": [
+      "0",
+      null
+    ],
+    "B48": [
+      "Bourbon",
+      null
+    ],
+    "D48": [
+      "0",
+      null
+    ],
+    "E48": [
+      "24",
+      null
+    ],
+    "F48": [
+      "2 oz",
+      null
+    ],
+    "H48": [
+      "200",
+      null
+    ],
+    "I48": [
+      "50",
+      null
+    ],
+    "K48": [
+      "100",
+      null
+    ],
+    "B49": [
+      "Vodka",
+      null
+    ],
+    "D49": [
+      "0",
+      null
+    ],
+    "E49": [
+      "24",
+      null
+    ],
+    "F49": [
+      "2 oz",
+      null
+    ],
+    "H49": [
+      "12",
+      null
+    ],
+    "I49": [
+      "24",
+      null
+    ],
+    "K49": [
+      "50",
+      null
+    ],
+    "B50": [
+      "Gin",
+      null
+    ],
+    "D50": [
+      "0",
+      null
+    ],
+    "E50": [
+      "24",
+      null
+    ],
+    "H50": [
+      "12",
+      null
+    ],
+    "I50": [
+      "24",
+      null
+    ],
+    "K50": [
+      "50",
+      null
+    ],
+    "B51": [
+      "Tequila",
+      null
+    ],
+    "D51": [
+      "0",
+      null
+    ],
+    "E51": [
+      "0",
+      null
+    ],
+    "H51": [
+      "12",
+      null
+    ],
+    "I51": [
+      "12",
+      null
+    ],
+    "K51": [
+      "0",
+      null
+    ],
+    "B53": [
+      "Tonic",
+      null
+    ],
+    "D53": [
+      "0",
+      null
+    ],
+    "E53": [
+      "24",
+      null
+    ],
+    "H53": [
+      "200",
+      null
+    ],
+    "I53": [
+      "50",
+      null
+    ],
+    "K53": [
+      "100",
+      null
+    ],
+    "B54": [
+      "Club soda",
+      null
+    ],
+    "D54": [
+      "0",
+      null
+    ],
+    "E54": [
+      "24",
+      null
+    ],
+    "H54": [
+      "12",
+      null
+    ],
+    "I54": [
+      "24",
+      null
+    ],
+    "K54": [
+      "50",
+      null
+    ],
+    "B55": [
+      "Lime juice",
+      null
+    ],
+    "D55": [
+      "0",
+      null
+    ],
+    "E55": [
+      "24",
+      null
+    ],
+    "H55": [
+      "12",
+      null
+    ],
+    "I55": [
+      "24",
+      null
+    ],
+    "K55": [
+      "50",
+      null
+    ],
+    "C59": [
+      "UNIT",
+      null
+    ],
+    "D59": [
+      "COST",
+      null
+    ],
+    "E59": [
+      "QTY/UNIT",
+      null
+    ],
+    "F59": [
+      "ITEM SIZE",
+      null
+    ],
+    "B61": [
+      "Heineken",
+      null
+    ],
+    "C61": [
+      "Case",
+      null
+    ],
+    "D61": [
+      "35",
+      null
+    ],
+    "E61": [
+      "24",
+      null
+    ],
+    "F61": [
+      "12 oz bottle",
+      null
+    ],
+    "H61": [
+      "200",
+      null
+    ],
+    "I61": [
+      "50",
+      null
+    ],
+    "K61": [
+      "100",
+      null
+    ],
+    "B62": [
+      "Iron City",
+      null
+    ],
+    "C62": [
+      "Case",
+      null
+    ],
+    "D62": [
+      "23",
+      null
+    ],
+    "E62": [
+      "24",
+      null
+    ],
+    "F62": [
+      "12 oz bottle",
+      null
+    ],
+    "H62": [
+      "12",
+      null
+    ],
+    "I62": [
+      "24",
+      null
+    ],
+    "K62": [
+      "50",
+      null
+    ],
+    "B63": [
+      "Coors Light",
+      null
+    ],
+    "C63": [
+      "Case",
+      null
+    ],
+    "D63": [
+      "22",
+      null
+    ],
+    "E63": [
+      "24",
+      null
+    ],
+    "F63": [
+      "12 oz bottle",
+      null
+    ],
+    "H63": [
+      "17",
+      null
+    ],
+    "I63": [
+      "24",
+      null
+    ],
+    "K63": [
+      "50",
+      null
+    ],
+    "B65": [
+      "Heineken",
+      null
+    ],
+    "C65": [
+      ".5 barrel",
+      null
+    ],
+    "D65": [
+      "185",
+      null
+    ],
+    "E65": [
+      "62",
+      null
+    ],
+    "F65": [
+      "16 oz pint",
+      null
+    ],
+    "H65": [
+      "15",
+      null
+    ],
+    "I65": [
+      "12",
+      null
+    ],
+    "K65": [
+      "100",
+      null
+    ],
+    "B66": [
+      "Guinness",
+      null
+    ],
+    "C66": [
+      ".5 barrel",
+      null
+    ],
+    "D66": [
+      "165",
+      null
+    ],
+    "E66": [
+      "62",
+      null
+    ],
+    "F66": [
+      "16 oz pint",
+      null
+    ],
+    "H66": [
+      "5",
+      null
+    ],
+    "I66": [
+      "5",
+      null
+    ],
+    "K66": [
+      "50",
+      null
+    ],
+    "B67": [
+      "Lagunitas",
+      null
+    ],
+    "C67": [
+      ".5 barrel",
+      null
+    ],
+    "D67": [
+      "207",
+      null
+    ],
+    "E67": [
+      "62",
+      null
+    ],
+    "F67": [
+      "16 oz pint",
+      null
+    ],
+    "H67": [
+      "12",
+      null
+    ],
+    "I67": [
+      "11",
+      null
+    ],
+    "K67": [
+      "50",
+      null
+    ],
+    "B69": [
+      "Cabernet",
+      null
+    ],
+    "C69": [
+      "750 ml",
+      null
+    ],
+    "D69": [
+      "0",
+      null
+    ],
+    "E69": [
+      "24",
+      null
+    ],
+    "F69": [
+      "7 oz",
+      null
+    ],
+    "H69": [
+      "35",
+      null
+    ],
+    "I69": [
+      "50",
+      null
+    ],
+    "K69": [
+      "100",
+      null
+    ],
+    "B70": [
+      "Merlot",
+      null
+    ],
+    "C70": [
+      "750 ml",
+      null
+    ],
+    "D70": [
+      "0",
+      null
+    ],
+    "E70": [
+      "24",
+      null
+    ],
+    "F70": [
+      "7 oz",
+      null
+    ],
+    "H70": [
+      "22",
+      null
+    ],
+    "I70": [
+      "24",
+      null
+    ],
+    "K70": [
+      "50",
+      null
+    ],
+    "B71": [
+      "Pinot Grigio",
+      null
+    ],
+    "C71": [
+      "750 ml",
+      null
+    ],
+    "D71": [
+      "0",
+      null
+    ],
+    "E71": [
+      "24",
+      null
+    ],
+    "H71": [
+      "20",
+      null
+    ],
+    "I71": [
+      "15",
+      null
+    ],
+    "K71": [
+      "50",
+      null
+    ],
+    "B72": [
+      "Prosecco",
+      null
+    ],
+    "C72": [
+      "750 ml",
+      null
+    ],
+    "D72": [
+      "0",
+      null
+    ],
+    "E72": [
+      "0",
+      null
+    ],
+    "H72": [
+      "12",
+      null
+    ],
+    "I72": [
+      "12",
+      null
+    ],
+    "K72": [
+      "0",
+      null
+    ],
+    "B74": [
+      "Bourbon",
+      null
+    ],
+    "D74": [
+      "0",
+      null
+    ],
+    "E74": [
+      "24",
+      null
+    ],
+    "F74": [
+      "2 oz",
+      null
+    ],
+    "H74": [
+      "200",
+      null
+    ],
+    "I74": [
+      "50",
+      null
+    ],
+    "K74": [
+      "100",
+      null
+    ],
+    "B75": [
+      "Vodka",
+      null
+    ],
+    "D75": [
+      "0",
+      null
+    ],
+    "E75": [
+      "24",
+      null
+    ],
+    "F75": [
+      "2 oz",
+      null
+    ],
+    "H75": [
+      "12",
+      null
+    ],
+    "I75": [
+      "24",
+      null
+    ],
+    "K75": [
+      "50",
+      null
+    ],
+    "B76": [
+      "Gin",
+      null
+    ],
+    "D76": [
+      "0",
+      null
+    ],
+    "E76": [
+      "24",
+      null
+    ],
+    "H76": [
+      "12",
+      null
+    ],
+    "I76": [
+      "24",
+      null
+    ],
+    "K76": [
+      "50",
+      null
+    ],
+    "B77": [
+      "Tequila",
+      null
+    ],
+    "D77": [
+      "0",
+      null
+    ],
+    "E77": [
+      "0",
+      null
+    ],
+    "H77": [
+      "12",
+      null
+    ],
+    "I77": [
+      "12",
+      null
+    ],
+    "K77": [
+      "0",
+      null
+    ],
+    "B79": [
+      "Tonic",
+      null
+    ],
+    "D79": [
+      "0",
+      null
+    ],
+    "E79": [
+      "24",
+      null
+    ],
+    "H79": [
+      "200",
+      null
+    ],
+    "I79": [
+      "50",
+      null
+    ],
+    "K79": [
+      "100",
+      null
+    ],
+    "B80": [
+      "Club soda",
+      null
+    ],
+    "D80": [
+      "0",
+      null
+    ],
+    "E80": [
+      "24",
+      null
+    ],
+    "H80": [
+      "12",
+      null
+    ],
+    "I80": [
+      "24",
+      null
+    ],
+    "K80": [
+      "50",
+      null
+    ],
+    "B81": [
+      "Lime juice",
+      null
+    ],
+    "D81": [
+      "0",
+      null
+    ],
+    "E81": [
+      "24",
+      null
+    ],
+    "H81": [
+      "12",
+      null
+    ],
+    "I81": [
+      "24",
+      null
+    ],
+    "K81": [
+      "50",
+      null
+    ],
+    "C85": [
+      "UNIT",
+      null
+    ],
+    "D85": [
+      "COST",
+      null
+    ],
+    "E85": [
+      "QTY/UNIT",
+      null
+    ],
+    "F85": [
+      "ITEM SIZE",
+      null
+    ],
+    "B87": [
+      "Heineken",
+      null
+    ],
+    "C87": [
+      "Case",
+      null
+    ],
+    "D87": [
+      "35",
+      null
+    ],
+    "E87": [
+      "24",
+      null
+    ],
+    "F87": [
+      "12 oz bottle",
+      null
+    ],
+    "H87": [
+      "200",
+      null
+    ],
+    "I87": [
+      "50",
+      null
+    ],
+    "K87": [
+      "100",
+      null
+    ],
+    "B88": [
+      "Iron City",
+      null
+    ],
+    "C88": [
+      "Case",
+      null
+    ],
+    "D88": [
+      "23",
+      null
+    ],
+    "E88": [
+      "24",
+      null
+    ],
+    "F88": [
+      "12 oz bottle",
+      null
+    ],
+    "H88": [
+      "12",
+      null
+    ],
+    "I88": [
+      "24",
+      null
+    ],
+    "K88": [
+      "50",
+      null
+    ],
+    "B89": [
+      "Coors Light",
+      null
+    ],
+    "C89": [
+      "Case",
+      null
+    ],
+    "D89": [
+      "22",
+      null
+    ],
+    "E89": [
+      "24",
+      null
+    ],
+    "F89": [
+      "12 oz bottle",
+      null
+    ],
+    "H89": [
+      "17",
+      null
+    ],
+    "I89": [
+      "24",
+      null
+    ],
+    "K89": [
+      "50",
+      null
+    ],
+    "B91": [
+      "Heineken",
+      null
+    ],
+    "C91": [
+      ".5 barrel",
+      null
+    ],
+    "D91": [
+      "185",
+      null
+    ],
+    "E91": [
+      "62",
+      null
+    ],
+    "F91": [
+      "16 oz pint",
+      null
+    ],
+    "H91": [
+      "15",
+      null
+    ],
+    "I91": [
+      "12",
+      null
+    ],
+    "K91": [
+      "100",
+      null
+    ],
+    "B92": [
+      "Guinness",
+      null
+    ],
+    "C92": [
+      ".5 barrel",
+      null
+    ],
+    "D92": [
+      "165",
+      null
+    ],
+    "E92": [
+      "62",
+      null
+    ],
+    "F92": [
+      "16 oz pint",
+      null
+    ],
+    "H92": [
+      "5",
+      null
+    ],
+    "I92": [
+      "5",
+      null
+    ],
+    "K92": [
+      "50",
+      null
+    ],
+    "B93": [
+      "Lagunitas",
+      null
+    ],
+    "C93": [
+      ".5 barrel",
+      null
+    ],
+    "D93": [
+      "207",
+      null
+    ],
+    "E93": [
+      "62",
+      null
+    ],
+    "F93": [
+      "16 oz pint",
+      null
+    ],
+    "H93": [
+      "12",
+      null
+    ],
+    "I93": [
+      "11",
+      null
+    ],
+    "K93": [
+      "50",
+      null
+    ],
+    "B95": [
+      "Cabernet",
+      null
+    ],
+    "C95": [
+      "750 ml",
+      null
+    ],
+    "D95": [
+      "0",
+      null
+    ],
+    "E95": [
+      "24",
+      null
+    ],
+    "F95": [
+      "7 oz",
+      null
+    ],
+    "H95": [
+      "35",
+      null
+    ],
+    "I95": [
+      "50",
+      null
+    ],
+    "K95": [
+      "100",
+      null
+    ],
+    "B96": [
+      "Merlot",
+      null
+    ],
+    "C96": [
+      "750 ml",
+      null
+    ],
+    "D96": [
+      "0",
+      null
+    ],
+    "E96": [
+      "24",
+      null
+    ],
+    "F96": [
+      "7 oz",
+      null
+    ],
+    "H96": [
+      "22",
+      null
+    ],
+    "I96": [
+      "24",
+      null
+    ],
+    "K96": [
+      "50",
+      null
+    ],
+    "B97": [
+      "Pinot Grigio",
+      null
+    ],
+    "C97": [
+      "750 ml",
+      null
+    ],
+    "D97": [
+      "0",
+      null
+    ],
+    "E97": [
+      "24",
+      null
+    ],
+    "H97": [
+      "20",
+      null
+    ],
+    "I97": [
+      "15",
+      null
+    ],
+    "K97": [
+      "50",
+      null
+    ],
+    "B98": [
+      "Prosecco",
+      null
+    ],
+    "C98": [
+      "750 ml",
+      null
+    ],
+    "D98": [
+      "0",
+      null
+    ],
+    "E98": [
+      "0",
+      null
+    ],
+    "H98": [
+      "12",
+      null
+    ],
+    "I98": [
+      "12",
+      null
+    ],
+    "K98": [
+      "0",
+      null
+    ],
+    "B100": [
+      "Bourbon",
+      null
+    ],
+    "D100": [
+      "0",
+      null
+    ],
+    "E100": [
+      "24",
+      null
+    ],
+    "F100": [
+      "2 oz",
+      null
+    ],
+    "H100": [
+      "200",
+      null
+    ],
+    "I100": [
+      "50",
+      null
+    ],
+    "K100": [
+      "100",
+      null
+    ],
+    "B101": [
+      "Vodka",
+      null
+    ],
+    "D101": [
+      "0",
+      null
+    ],
+    "E101": [
+      "24",
+      null
+    ],
+    "F101": [
+      "2 oz",
+      null
+    ],
+    "H101": [
+      "12",
+      null
+    ],
+    "I101": [
+      "24",
+      null
+    ],
+    "K101": [
+      "50",
+      null
+    ],
+    "B102": [
+      "Gin",
+      null
+    ],
+    "D102": [
+      "0",
+      null
+    ],
+    "E102": [
+      "24",
+      null
+    ],
+    "H102": [
+      "12",
+      null
+    ],
+    "I102": [
+      "24",
+      null
+    ],
+    "K102": [
+      "50",
+      null
+    ],
+    "B103": [
+      "Tequila",
+      null
+    ],
+    "D103": [
+      "0",
+      null
+    ],
+    "E103": [
+      "0",
+      null
+    ],
+    "H103": [
+      "12",
+      null
+    ],
+    "I103": [
+      "12",
+      null
+    ],
+    "K103": [
+      "0",
+      null
+    ],
+    "B105": [
+      "Tonic",
+      null
+    ],
+    "D105": [
+      "0",
+      null
+    ],
+    "E105": [
+      "24",
+      null
+    ],
+    "H105": [
+      "200",
+      null
+    ],
+    "I105": [
+      "50",
+      null
+    ],
+    "K105": [
+      "100",
+      null
+    ],
+    "B106": [
+      "Club soda",
+      null
+    ],
+    "D106": [
+      "0",
+      null
+    ],
+    "E106": [
+      "24",
+      null
+    ],
+    "H106": [
+      "12",
+      null
+    ],
+    "I106": [
+      "24",
+      null
+    ],
+    "K106": [
+      "50",
+      null
+    ],
+    "B107": [
+      "Lime juice",
+      null
+    ],
+    "D107": [
+      "0",
+      null
+    ],
+    "E107": [
+      "24",
+      null
+    ],
+    "H107": [
+      "12",
+      null
+    ],
+    "I107": [
+      "24",
+      null
+    ],
+    "K107": [
+      "50",
+      null
+    ]
+  },
+  "BLANK - Bar Inventory Template": {
+    "J153:J154": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "C6:D6": [
+      "ORDER BY",
+      null
+    ],
+    "E55:F55": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "G2:H2": [
+      "DATE",
+      null
+    ],
+    "C104:D104": [
+      "ORDER BY",
+      null
+    ],
+    "I104:I105": [
+      "REORDER LEVEL",
+      null
+    ],
+    "H6:H7": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "K104:K105": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "J6:J7": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "H55:H56": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "K153:K154": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "E153:F153": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "J55:J56": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "C55:D55": [
+      "ORDER BY",
+      null
+    ],
+    "G6:G7": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "J104:J105": [
+      "REORDER \n(auto-fill)",
+      null
+    ],
+    "B2:D2": [
+      "LOCATION",
+      null
+    ],
+    "G55:G56": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "B6:B7": [
+      "CATEGORY",
+      null
+    ],
+    "H153:H154": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "E6:F6": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "E2:F2": [
+      "PREPARED BY",
+      null
+    ],
+    "E104:F104": [
+      "ITEMS / UNIT DETAILS",
+      null
+    ],
+    "I55:I56": [
+      "REORDER LEVEL",
+      null
+    ],
+    "G104:G105": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "B55:B56": [
+      "CATEGORY",
+      null
+    ],
+    "C153:D153": [
+      "ORDER BY",
+      null
+    ],
+    "G153:G154": [
+      "COST \nPER ITEM",
+      null
+    ],
+    "I153:I154": [
+      "REORDER LEVEL",
+      null
+    ],
+    "B104:B105": [
+      "CATEGORY",
+      null
+    ],
+    "H104:H105": [
+      "STOCK QUANTITY",
+      null
+    ],
+    "I6:I7": [
+      "REORDER LEVEL",
+      null
+    ],
+    "K6:K7": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "K55:K56": [
+      "ITEM REORDER QUANTITY",
+      null
+    ],
+    "B153:B154": [
+      "CATEGORY",
+      null
+    ],
+    "B1": [
+      "BAR INVENTORY TEMPLATE",
+      null
+    ],
+    "B5": [
+      "LOCATION: FRONT BAR",
+      null
+    ],
+    "C7": [
+      "UNIT",
+      null
+    ],
+    "D7": [
+      "COST",
+      null
+    ],
+    "E7": [
+      "QTY/UNIT",
+      null
+    ],
+    "F7": [
+      "ITEM SIZE",
+      null
+    ],
+    "B8": [
+      "BOTTLED BEER",
+      null
+    ],
+    "B17": [
+      "KEG BEER",
+      null
+    ],
+    "B26": [
+      "WINE",
+      null
+    ],
+    "B35": [
+      "LIQUOR",
+      null
+    ],
+    "B44": [
+      "Other",
+      null
+    ],
+    "B54": [
+      "LOCATION: BACK BAR",
+      null
+    ],
+    "C56": [
+      "UNIT",
+      null
+    ],
+    "D56": [
+      "COST",
+      null
+    ],
+    "E56": [
+      "QTY/UNIT",
+      null
+    ],
+    "F56": [
+      "ITEM SIZE",
+      null
+    ],
+    "B57": [
+      "BOTTLED BEER",
+      null
+    ],
+    "B66": [
+      "KEG BEER",
+      null
+    ],
+    "B75": [
+      "WINE",
+      null
+    ],
+    "B84": [
+      "LIQUOR",
+      null
+    ],
+    "B93": [
+      "Other",
+      null
+    ],
+    "B103": [
+      "LOCATION: BEER FRIDGE",
+      null
+    ],
+    "C105": [
+      "UNIT",
+      null
+    ],
+    "D105": [
+      "COST",
+      null
+    ],
+    "E105": [
+      "QTY/UNIT",
+      null
+    ],
+    "F105": [
+      "ITEM SIZE",
+      null
+    ],
+    "B106": [
+      "BOTTLED BEER",
+      null
+    ],
+    "B115": [
+      "KEG BEER",
+      null
+    ],
+    "B124": [
+      "WINE",
+      null
+    ],
+    "B133": [
+      "LIQUOR",
+      null
+    ],
+    "B142": [
+      "Other",
+      null
+    ],
+    "B152": [
+      "LOCATION: LIQUOR STORAGE",
+      null
+    ],
+    "C154": [
+      "UNIT",
+      null
+    ],
+    "D154": [
+      "COST",
+      null
+    ],
+    "E154": [
+      "QTY/UNIT",
+      null
+    ],
+    "F154": [
+      "ITEM SIZE",
+      null
+    ],
+    "B155": [
+      "BOTTLED BEER",
+      null
+    ],
+    "B164": [
+      "KEG BEER",
+      null
+    ],
+    "B173": [
+      "WINE",
+      null
+    ],
+    "B182": [
+      "LIQUOR",
+      null
+    ],
+    "B191": [
+      "Other",
+      null
+    ]
+  },
+  "- Disclaimer -": {
+    "B2": [
+      "Any articles, templates, or information provided by Smartsheet on the website are for reference only. While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, articles, templates, or related graphics contained on the website. Any reliance you place on such information is therefore strictly at your own risk. ",
+      null
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Summary": {
+    "B3:D3": [
+      "2336",
+      "=TotalMonthlyExpenses"
+    ],
+    "B1": [
+      "SIMPLE MONTHLY BUDGET",
+      null
+    ],
+    "B2": [
+      "PERCENTAGE OF INCOME SPENT",
+      null
+    ],
+    "E3": [
+      "0.6229333333333333",
+      "=TotalMonthlyExpenses/TotalMonthlyIncome"
+    ],
+    "B4": [
+      "SUMMARY",
+      null
+    ],
+    "B5": [
+      "Total monthly income",
+      null
+    ],
+    "C5": [
+      "Total monthly expenses",
+      null
+    ],
+    "D5": [
+      "Balance",
+      null
+    ],
+    "B6": [
+      "3750",
+      "=TotalMonthlyIncome"
+    ],
+    "C6": [
+      "2336",
+      "=TotalMonthlyExpenses"
+    ],
+    "D6": [
+      "1414",
+      "=TotalMonthlyIncome-TotalMonthlyExpenses"
+    ]
+  },
+  "Monthly income": {
+    "B1": [
+      "SIMPLE MONTHLY BUDGET",
+      "=BudgetTitle"
+    ],
+    "B2": [
+      "MONTHLY INCOME",
+      null
+    ],
+    "B3": [
+      "Item",
+      null
+    ],
+    "C3": [
+      "Amount",
+      null
+    ],
+    "B4": [
+      "Income 1",
+      null
+    ],
+    "C4": [
+      "2500",
+      null
+    ],
+    "B5": [
+      "Income 2",
+      null
+    ],
+    "C5": [
+      "1000",
+      null
+    ],
+    "B6": [
+      "Other",
+      null
+    ],
+    "C6": [
+      "250",
+      null
+    ]
+  },
+  "Monthly expenses": {
+    "B1": [
+      "SIMPLE MONTHLY BUDGET",
+      "=BudgetTitle"
+    ],
+    "B2": [
+      "MONTHLY EXPENSES",
+      null
+    ],
+    "B3": [
+      "Item",
+      null
+    ],
+    "C3": [
+      "Amount",
+      null
+    ],
+    "B4": [
+      "Rent/mortgage",
+      null
+    ],
+    "C4": [
+      "800",
+      null
+    ],
+    "B5": [
+      "Electric",
+      null
+    ],
+    "C5": [
+      "120",
+      null
+    ],
+    "B6": [
+      "Gas",
+      null
+    ],
+    "C6": [
+      "50",
+      null
+    ],
+    "B7": [
+      "Cell phone",
+      null
+    ],
+    "C7": [
+      "45",
+      null
+    ],
+    "B8": [
+      "Groceries",
+      null
+    ],
+    "C8": [
+      "500",
+      null
+    ],
+    "B9": [
+      "Car payment",
+      null
+    ],
+    "C9": [
+      "273",
+      null
+    ],
+    "B10": [
+      "Auto expenses",
+      null
+    ],
+    "C10": [
+      "120",
+      null
+    ],
+    "B11": [
+      "Student loans",
+      null
+    ],
+    "C11": [
+      "50",
+      null
+    ],
+    "B12": [
+      "Credit cards",
+      null
+    ],
+    "C12": [
+      "100",
+      null
+    ],
+    "B13": [
+      "Auto insurance",
+      null
+    ],
+    "C13": [
+      "78",
+      null
+    ],
+    "B14": [
+      "Personal care",
+      null
+    ],
+    "C14": [
+      "50",
+      null
+    ],
+    "B15": [
+      "Entertainment",
+      null
+    ],
+    "C15": [
+      "100",
+      null
+    ],
+    "B16": [
+      "Miscellaneous",
+      null
+    ],
+    "C16": [
+      "50",
+      null
+    ]
+  }
+}

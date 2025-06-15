@@ -1,0 +1,4349 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "EXAMPLE Inventory Mgmt Dashboar": {
+    "B26:B30": [
+      "Quarter 4",
+      null
+    ],
+    "B21:B25": [
+      "Quarter 3",
+      null
+    ],
+    "B7:C7": [
+      "Total Inventory Value",
+      null
+    ],
+    "B11:B15": [
+      "Quarter 1",
+      null
+    ],
+    "B16:B20": [
+      "Quarter 2",
+      null
+    ],
+    "B3": [
+      "Excel Inventory Management Template Example",
+      null
+    ],
+    "B5": [
+      "To feed the dashboards charts, enter data on the product, purchase, and sales. These charts will then auto-populate.",
+      null
+    ],
+    "D7": [
+      "4356.5",
+      "=SUM('Product Details'!H5:H8)"
+    ],
+    "B9": [
+      "Top 5 Items Sold Per Quarter",
+      null
+    ],
+    "C11": [
+      "1",
+      null
+    ],
+    "D11": [
+      "0",
+      "='Sales Details'!L1"
+    ],
+    "C12": [
+      "2",
+      null
+    ],
+    "D12": [
+      "0",
+      "='Sales Details'!L2"
+    ],
+    "C13": [
+      "3",
+      null
+    ],
+    "D13": [
+      "0",
+      "='Sales Details'!L3"
+    ],
+    "C14": [
+      "4",
+      null
+    ],
+    "D14": [
+      "Item 5",
+      "='Sales Details'!L4"
+    ],
+    "C15": [
+      "5",
+      null
+    ],
+    "D15": [
+      "Item 8",
+      "='Sales Details'!L5"
+    ],
+    "C16": [
+      "1",
+      null
+    ],
+    "D16": [
+      "0",
+      "='Sales Details'!O1"
+    ],
+    "C17": [
+      "2",
+      null
+    ],
+    "D17": [
+      "0",
+      "='Sales Details'!O2"
+    ],
+    "C18": [
+      "3",
+      null
+    ],
+    "D18": [
+      "0",
+      "='Sales Details'!O3"
+    ],
+    "C19": [
+      "4",
+      null
+    ],
+    "D19": [
+      "Item 7",
+      "='Sales Details'!O4"
+    ],
+    "C20": [
+      "5",
+      null
+    ],
+    "D20": [
+      "Item 8",
+      "='Sales Details'!O5"
+    ],
+    "C21": [
+      "1",
+      null
+    ],
+    "D21": [
+      "0",
+      "='Sales Details'!R1"
+    ],
+    "C22": [
+      "2",
+      null
+    ],
+    "D22": [
+      "0",
+      "='Sales Details'!R2"
+    ],
+    "C23": [
+      "3",
+      null
+    ],
+    "D23": [
+      "0",
+      "='Sales Details'!R3"
+    ],
+    "C24": [
+      "4",
+      null
+    ],
+    "D24": [
+      "Item 1",
+      "='Sales Details'!R4"
+    ],
+    "C25": [
+      "5",
+      null
+    ],
+    "D25": [
+      "Item 2",
+      "='Sales Details'!R5"
+    ],
+    "C26": [
+      "1",
+      null
+    ],
+    "D26": [
+      "0",
+      "='Sales Details'!U1"
+    ],
+    "C27": [
+      "2",
+      null
+    ],
+    "D27": [
+      "0",
+      "='Sales Details'!U2"
+    ],
+    "C28": [
+      "3",
+      null
+    ],
+    "D28": [
+      "0",
+      "='Sales Details'!U3"
+    ],
+    "C29": [
+      "4",
+      null
+    ],
+    "D29": [
+      "Item 8",
+      "='Sales Details'!U4"
+    ],
+    "C30": [
+      "5",
+      null
+    ],
+    "D30": [
+      "Item 6",
+      "='Sales Details'!U5"
+    ]
+  },
+  "Product Details": {
+    "F4:G4": [
+      "Quarter 1",
+      null
+    ],
+    "B6:C6": [
+      "Quarter 3",
+      null
+    ],
+    "B9:O9": [
+      "Quarter 1",
+      null
+    ],
+    "B63:N63": [
+      "Total Inventory",
+      null
+    ],
+    "B7:C7": [
+      "Quarter 4",
+      null
+    ],
+    "B5:C5": [
+      "Quarter 2",
+      null
+    ],
+    "B35:N35": [
+      "Total Inventory",
+      null
+    ],
+    "F5:G5": [
+      "Quarter 2",
+      null
+    ],
+    "B49:N49": [
+      "Total Inventory",
+      null
+    ],
+    "F6:G6": [
+      "Quarter 3",
+      null
+    ],
+    "B51:O51": [
+      "Quarter 4",
+      null
+    ],
+    "B21:N21": [
+      "Total Inventory",
+      null
+    ],
+    "B37:O37": [
+      "Quarter 3",
+      null
+    ],
+    "B23:O23": [
+      "Quarter 2",
+      null
+    ],
+    "B4:C4": [
+      "Quarter 1",
+      null
+    ],
+    "F7:G7": [
+      "Quarter 4",
+      null
+    ],
+    "B1": [
+      "Product Details Example",
+      null
+    ],
+    "B2": [
+      "Total Stock Received by Quarter",
+      null
+    ],
+    "F2": [
+      "Total Inventory Value by Quarter",
+      null
+    ],
+    "B3": [
+      "This data auto-populates from the tables below",
+      null
+    ],
+    "F3": [
+      "This data auto-populates from the tables below",
+      null
+    ],
+    "D4": [
+      "42",
+      "=SUM(Table44[Incoming Inventory])"
+    ],
+    "H4": [
+      "1467",
+      "=O21"
+    ],
+    "D5": [
+      "63",
+      "=SUM(Table446[Incoming Inventory])"
+    ],
+    "H5": [
+      "1422.5",
+      "=O35"
+    ],
+    "D6": [
+      "75",
+      "=SUM(Table4467[Incoming Inventory])"
+    ],
+    "H6": [
+      "1467",
+      "=O49"
+    ],
+    "D7": [
+      "57",
+      "=SUM(Table4468[Incoming Inventory])"
+    ],
+    "H7": [
+      "1467",
+      "=O63"
+    ],
+    "B10": [
+      "Item Description",
+      null
+    ],
+    "C10": [
+      "SKU",
+      null
+    ],
+    "D10": [
+      "Dimensions",
+      null
+    ],
+    "E10": [
+      "Category",
+      null
+    ],
+    "F10": [
+      "Starting Inventory",
+      null
+    ],
+    "G10": [
+      "Low Stock Threshold",
+      null
+    ],
+    "H10": [
+      "Unit Cost",
+      null
+    ],
+    "I10": [
+      "Markup",
+      null
+    ],
+    "J10": [
+      "Retail Price",
+      null
+    ],
+    "K10": [
+      "Total Sales Orders",
+      null
+    ],
+    "L10": [
+      "Pending Orders",
+      null
+    ],
+    "M10": [
+      "Incoming Inventory",
+      null
+    ],
+    "N10": [
+      "Current Stock Level",
+      null
+    ],
+    "O10": [
+      "Inventory Value",
+      null
+    ],
+    "B11": [
+      "Item 1",
+      null
+    ],
+    "E11": [
+      "Category A",
+      null
+    ],
+    "F11": [
+      "0",
+      null
+    ],
+    "G11": [
+      "15",
+      null
+    ],
+    "H11": [
+      "10",
+      null
+    ],
+    "I11": [
+      "4",
+      null
+    ],
+    "J11": [
+      "14",
+      "=H11+I11"
+    ],
+    "K11": [
+      "8",
+      null
+    ],
+    "L11": [
+      "1",
+      null
+    ],
+    "M11": [
+      "10",
+      null
+    ],
+    "N11": [
+      "5",
+      null
+    ],
+    "O11": [
+      "50",
+      "=H11*N11"
+    ],
+    "B12": [
+      "Item 2",
+      null
+    ],
+    "E12": [
+      "Category B",
+      null
+    ],
+    "F12": [
+      "0",
+      null
+    ],
+    "G12": [
+      "14",
+      null
+    ],
+    "H12": [
+      "12",
+      null
+    ],
+    "I12": [
+      "5",
+      null
+    ],
+    "J12": [
+      "17",
+      "=H12+I12"
+    ],
+    "K12": [
+      "10",
+      null
+    ],
+    "L12": [
+      "2",
+      null
+    ],
+    "M12": [
+      "10",
+      null
+    ],
+    "N12": [
+      "16",
+      null
+    ],
+    "O12": [
+      "192",
+      "=H12*N12"
+    ],
+    "B13": [
+      "Item 3",
+      null
+    ],
+    "E13": [
+      "Category C",
+      null
+    ],
+    "F13": [
+      "0",
+      null
+    ],
+    "G13": [
+      "22",
+      null
+    ],
+    "H13": [
+      "6",
+      null
+    ],
+    "I13": [
+      "3",
+      null
+    ],
+    "J13": [
+      "9",
+      "=H13+I13"
+    ],
+    "K13": [
+      "5",
+      null
+    ],
+    "L13": [
+      "1",
+      null
+    ],
+    "M13": [
+      "15",
+      null
+    ],
+    "N13": [
+      "25",
+      null
+    ],
+    "O13": [
+      "150",
+      "=H13*N13"
+    ],
+    "B14": [
+      "Item 4",
+      null
+    ],
+    "E14": [
+      "Category D",
+      null
+    ],
+    "F14": [
+      "0",
+      null
+    ],
+    "G14": [
+      "35",
+      null
+    ],
+    "H14": [
+      "15",
+      null
+    ],
+    "I14": [
+      "5",
+      null
+    ],
+    "J14": [
+      "20",
+      "=H14+I14"
+    ],
+    "K14": [
+      "12",
+      null
+    ],
+    "L14": [
+      "1",
+      null
+    ],
+    "M14": [
+      "5",
+      null
+    ],
+    "N14": [
+      "30",
+      null
+    ],
+    "O14": [
+      "450",
+      "=H14*N14"
+    ],
+    "B15": [
+      "Item 5",
+      null
+    ],
+    "E15": [
+      "Category E",
+      null
+    ],
+    "F15": [
+      "0",
+      null
+    ],
+    "G15": [
+      "15",
+      null
+    ],
+    "H15": [
+      "25",
+      null
+    ],
+    "I15": [
+      "7",
+      null
+    ],
+    "J15": [
+      "32",
+      "=H15+I15"
+    ],
+    "K15": [
+      "4",
+      null
+    ],
+    "L15": [
+      "3",
+      null
+    ],
+    "M15": [
+      "2",
+      null
+    ],
+    "N15": [
+      "25",
+      null
+    ],
+    "O15": [
+      "625",
+      "=H15*N15"
+    ],
+    "J16": [
+      "0",
+      "=H16+I16"
+    ],
+    "O16": [
+      "0",
+      "=H16*N16"
+    ],
+    "J17": [
+      "0",
+      "=H17+I17"
+    ],
+    "O17": [
+      "0",
+      "=H17*N17"
+    ],
+    "J18": [
+      "0",
+      "=H18+I18"
+    ],
+    "O18": [
+      "0",
+      "=H18*N18"
+    ],
+    "J19": [
+      "0",
+      "=H19+I19"
+    ],
+    "O19": [
+      "0",
+      "=H19*N19"
+    ],
+    "J20": [
+      "0",
+      "=H20+I20"
+    ],
+    "O20": [
+      "0",
+      "=H20*N20"
+    ],
+    "O21": [
+      "1467",
+      "=SUM(O11:O20)"
+    ],
+    "B24": [
+      "Item Description",
+      null
+    ],
+    "C24": [
+      "SKU",
+      null
+    ],
+    "D24": [
+      "Dimensions",
+      null
+    ],
+    "E24": [
+      "Category",
+      null
+    ],
+    "F24": [
+      "Starting Inventory",
+      null
+    ],
+    "G24": [
+      "Low Stock Threshold",
+      null
+    ],
+    "H24": [
+      "Unit Cost",
+      null
+    ],
+    "I24": [
+      "Markup",
+      null
+    ],
+    "J24": [
+      "Retail Price",
+      null
+    ],
+    "K24": [
+      "Total Sales Orders",
+      null
+    ],
+    "L24": [
+      "Pending Orders",
+      null
+    ],
+    "M24": [
+      "Incoming Inventory",
+      null
+    ],
+    "N24": [
+      "Current Stock Level",
+      null
+    ],
+    "O24": [
+      "Inventory Value",
+      null
+    ],
+    "B25": [
+      "Item 1",
+      null
+    ],
+    "E25": [
+      "Category A",
+      null
+    ],
+    "F25": [
+      "0",
+      null
+    ],
+    "G25": [
+      "15",
+      null
+    ],
+    "H25": [
+      "11",
+      null
+    ],
+    "I25": [
+      "4",
+      null
+    ],
+    "J25": [
+      "15",
+      "=H25+I25"
+    ],
+    "K25": [
+      "8",
+      null
+    ],
+    "L25": [
+      "1",
+      null
+    ],
+    "M25": [
+      "22",
+      null
+    ],
+    "N25": [
+      "5",
+      null
+    ],
+    "O25": [
+      "55",
+      "=H25*N25"
+    ],
+    "B26": [
+      "Item 2",
+      null
+    ],
+    "E26": [
+      "Category B",
+      null
+    ],
+    "F26": [
+      "0",
+      null
+    ],
+    "G26": [
+      "14",
+      null
+    ],
+    "H26": [
+      "12.5",
+      null
+    ],
+    "I26": [
+      "5",
+      null
+    ],
+    "J26": [
+      "17.5",
+      "=H26+I26"
+    ],
+    "K26": [
+      "10",
+      null
+    ],
+    "L26": [
+      "2",
+      null
+    ],
+    "M26": [
+      "32",
+      null
+    ],
+    "N26": [
+      "16",
+      null
+    ],
+    "O26": [
+      "200",
+      "=H26*N26"
+    ],
+    "B27": [
+      "Item 3",
+      null
+    ],
+    "E27": [
+      "Category C",
+      null
+    ],
+    "F27": [
+      "0",
+      null
+    ],
+    "G27": [
+      "22",
+      null
+    ],
+    "H27": [
+      "6",
+      null
+    ],
+    "I27": [
+      "3",
+      null
+    ],
+    "J27": [
+      "9",
+      "=H27+I27"
+    ],
+    "K27": [
+      "5",
+      null
+    ],
+    "L27": [
+      "1",
+      null
+    ],
+    "M27": [
+      "6",
+      null
+    ],
+    "N27": [
+      "25",
+      null
+    ],
+    "O27": [
+      "150",
+      "=H27*N27"
+    ],
+    "B28": [
+      "Item 4",
+      null
+    ],
+    "E28": [
+      "Category D",
+      null
+    ],
+    "F28": [
+      "0",
+      null
+    ],
+    "G28": [
+      "35",
+      null
+    ],
+    "H28": [
+      "14.75",
+      null
+    ],
+    "I28": [
+      "5",
+      null
+    ],
+    "J28": [
+      "19.75",
+      "=H28+I28"
+    ],
+    "K28": [
+      "12",
+      null
+    ],
+    "L28": [
+      "1",
+      null
+    ],
+    "M28": [
+      "3",
+      null
+    ],
+    "N28": [
+      "30",
+      null
+    ],
+    "O28": [
+      "442.5",
+      "=H28*N28"
+    ],
+    "B29": [
+      "Item 5",
+      null
+    ],
+    "E29": [
+      "Category E",
+      null
+    ],
+    "F29": [
+      "0",
+      null
+    ],
+    "G29": [
+      "15",
+      null
+    ],
+    "H29": [
+      "23",
+      null
+    ],
+    "I29": [
+      "7",
+      null
+    ],
+    "J29": [
+      "30",
+      "=H29+I29"
+    ],
+    "K29": [
+      "4",
+      null
+    ],
+    "L29": [
+      "3",
+      null
+    ],
+    "M29": [
+      "0",
+      null
+    ],
+    "N29": [
+      "25",
+      null
+    ],
+    "O29": [
+      "575",
+      "=H29*N29"
+    ],
+    "J30": [
+      "0",
+      "=H30+I30"
+    ],
+    "O30": [
+      "0",
+      "=H30*N30"
+    ],
+    "J31": [
+      "0",
+      "=H31+I31"
+    ],
+    "O31": [
+      "0",
+      "=H31*N31"
+    ],
+    "J32": [
+      "0",
+      "=H32+I32"
+    ],
+    "O32": [
+      "0",
+      "=H32*N32"
+    ],
+    "J33": [
+      "0",
+      "=H33+I33"
+    ],
+    "O33": [
+      "0",
+      "=H33*N33"
+    ],
+    "J34": [
+      "0",
+      "=H34+I34"
+    ],
+    "O34": [
+      "0",
+      "=H34*N34"
+    ],
+    "O35": [
+      "1422.5",
+      "=SUM(O25:O34)"
+    ],
+    "B38": [
+      "Item Description",
+      null
+    ],
+    "C38": [
+      "SKU",
+      null
+    ],
+    "D38": [
+      "Dimensions",
+      null
+    ],
+    "E38": [
+      "Category",
+      null
+    ],
+    "F38": [
+      "Starting Inventory",
+      null
+    ],
+    "G38": [
+      "Low Stock Threshold",
+      null
+    ],
+    "H38": [
+      "Unit Cost",
+      null
+    ],
+    "I38": [
+      "Markup",
+      null
+    ],
+    "J38": [
+      "Retail Price",
+      null
+    ],
+    "K38": [
+      "Total Sales Orders",
+      null
+    ],
+    "L38": [
+      "Pending Orders",
+      null
+    ],
+    "M38": [
+      "Incoming Inventory",
+      null
+    ],
+    "N38": [
+      "Current Stock Level",
+      null
+    ],
+    "O38": [
+      "Inventory Value",
+      null
+    ],
+    "B39": [
+      "Item 1",
+      null
+    ],
+    "E39": [
+      "Category A",
+      null
+    ],
+    "F39": [
+      "0",
+      null
+    ],
+    "G39": [
+      "15",
+      null
+    ],
+    "H39": [
+      "10",
+      null
+    ],
+    "I39": [
+      "4",
+      null
+    ],
+    "J39": [
+      "14",
+      "=H39+I39"
+    ],
+    "K39": [
+      "8",
+      null
+    ],
+    "L39": [
+      "1",
+      null
+    ],
+    "M39": [
+      "40",
+      null
+    ],
+    "N39": [
+      "5",
+      null
+    ],
+    "O39": [
+      "50",
+      "=H39*N39"
+    ],
+    "B40": [
+      "Item 2",
+      null
+    ],
+    "E40": [
+      "Category B",
+      null
+    ],
+    "F40": [
+      "0",
+      null
+    ],
+    "G40": [
+      "14",
+      null
+    ],
+    "H40": [
+      "12",
+      null
+    ],
+    "I40": [
+      "5",
+      null
+    ],
+    "J40": [
+      "17",
+      "=H40+I40"
+    ],
+    "K40": [
+      "10",
+      null
+    ],
+    "L40": [
+      "2",
+      null
+    ],
+    "M40": [
+      "4",
+      null
+    ],
+    "N40": [
+      "16",
+      null
+    ],
+    "O40": [
+      "192",
+      "=H40*N40"
+    ],
+    "B41": [
+      "Item 3",
+      null
+    ],
+    "E41": [
+      "Category C",
+      null
+    ],
+    "F41": [
+      "0",
+      null
+    ],
+    "G41": [
+      "22",
+      null
+    ],
+    "H41": [
+      "6",
+      null
+    ],
+    "I41": [
+      "3",
+      null
+    ],
+    "J41": [
+      "9",
+      "=H41+I41"
+    ],
+    "K41": [
+      "5",
+      null
+    ],
+    "L41": [
+      "1",
+      null
+    ],
+    "M41": [
+      "6",
+      null
+    ],
+    "N41": [
+      "25",
+      null
+    ],
+    "O41": [
+      "150",
+      "=H41*N41"
+    ],
+    "B42": [
+      "Item 4",
+      null
+    ],
+    "E42": [
+      "Category D",
+      null
+    ],
+    "F42": [
+      "0",
+      null
+    ],
+    "G42": [
+      "35",
+      null
+    ],
+    "H42": [
+      "15",
+      null
+    ],
+    "I42": [
+      "5",
+      null
+    ],
+    "J42": [
+      "20",
+      "=H42+I42"
+    ],
+    "K42": [
+      "12",
+      null
+    ],
+    "L42": [
+      "1",
+      null
+    ],
+    "M42": [
+      "7",
+      null
+    ],
+    "N42": [
+      "30",
+      null
+    ],
+    "O42": [
+      "450",
+      "=H42*N42"
+    ],
+    "B43": [
+      "Item 5",
+      null
+    ],
+    "E43": [
+      "Category E",
+      null
+    ],
+    "F43": [
+      "0",
+      null
+    ],
+    "G43": [
+      "15",
+      null
+    ],
+    "H43": [
+      "25",
+      null
+    ],
+    "I43": [
+      "7",
+      null
+    ],
+    "J43": [
+      "32",
+      "=H43+I43"
+    ],
+    "K43": [
+      "4",
+      null
+    ],
+    "L43": [
+      "3",
+      null
+    ],
+    "M43": [
+      "18",
+      null
+    ],
+    "N43": [
+      "25",
+      null
+    ],
+    "O43": [
+      "625",
+      "=H43*N43"
+    ],
+    "J44": [
+      "0",
+      "=H44+I44"
+    ],
+    "O44": [
+      "0",
+      "=H44*N44"
+    ],
+    "J45": [
+      "0",
+      "=H45+I45"
+    ],
+    "O45": [
+      "0",
+      "=H45*N45"
+    ],
+    "J46": [
+      "0",
+      "=H46+I46"
+    ],
+    "O46": [
+      "0",
+      "=H46*N46"
+    ],
+    "J47": [
+      "0",
+      "=H47+I47"
+    ],
+    "O47": [
+      "0",
+      "=H47*N47"
+    ],
+    "J48": [
+      "0",
+      "=H48+I48"
+    ],
+    "O48": [
+      "0",
+      "=H48*N48"
+    ],
+    "O49": [
+      "1467",
+      "=SUM(O39:O48)"
+    ],
+    "B52": [
+      "Item Description",
+      null
+    ],
+    "C52": [
+      "SKU",
+      null
+    ],
+    "D52": [
+      "Dimensions",
+      null
+    ],
+    "E52": [
+      "Category",
+      null
+    ],
+    "F52": [
+      "Starting Inventory",
+      null
+    ],
+    "G52": [
+      "Low Stock Threshold",
+      null
+    ],
+    "H52": [
+      "Unit Cost",
+      null
+    ],
+    "I52": [
+      "Markup",
+      null
+    ],
+    "J52": [
+      "Retail Price",
+      null
+    ],
+    "K52": [
+      "Total Sales Orders",
+      null
+    ],
+    "L52": [
+      "Pending Orders",
+      null
+    ],
+    "M52": [
+      "Incoming Inventory",
+      null
+    ],
+    "N52": [
+      "Current Stock Level",
+      null
+    ],
+    "O52": [
+      "Inventory Value",
+      null
+    ],
+    "B53": [
+      "Item 1",
+      null
+    ],
+    "E53": [
+      "Category A",
+      null
+    ],
+    "F53": [
+      "0",
+      null
+    ],
+    "G53": [
+      "15",
+      null
+    ],
+    "H53": [
+      "10",
+      null
+    ],
+    "I53": [
+      "4",
+      null
+    ],
+    "J53": [
+      "14",
+      "=H53+I53"
+    ],
+    "K53": [
+      "8",
+      null
+    ],
+    "L53": [
+      "1",
+      null
+    ],
+    "M53": [
+      "6",
+      null
+    ],
+    "N53": [
+      "5",
+      null
+    ],
+    "O53": [
+      "50",
+      "=H53*N53"
+    ],
+    "B54": [
+      "Item 2",
+      null
+    ],
+    "E54": [
+      "Category B",
+      null
+    ],
+    "F54": [
+      "0",
+      null
+    ],
+    "G54": [
+      "14",
+      null
+    ],
+    "H54": [
+      "12",
+      null
+    ],
+    "I54": [
+      "5",
+      null
+    ],
+    "J54": [
+      "17",
+      "=H54+I54"
+    ],
+    "K54": [
+      "10",
+      null
+    ],
+    "L54": [
+      "2",
+      null
+    ],
+    "M54": [
+      "16",
+      null
+    ],
+    "N54": [
+      "16",
+      null
+    ],
+    "O54": [
+      "192",
+      "=H54*N54"
+    ],
+    "B55": [
+      "Item 3",
+      null
+    ],
+    "E55": [
+      "Category C",
+      null
+    ],
+    "F55": [
+      "0",
+      null
+    ],
+    "G55": [
+      "22",
+      null
+    ],
+    "H55": [
+      "6",
+      null
+    ],
+    "I55": [
+      "3",
+      null
+    ],
+    "J55": [
+      "9",
+      "=H55+I55"
+    ],
+    "K55": [
+      "5",
+      null
+    ],
+    "L55": [
+      "1",
+      null
+    ],
+    "M55": [
+      "15",
+      null
+    ],
+    "N55": [
+      "25",
+      null
+    ],
+    "O55": [
+      "150",
+      "=H55*N55"
+    ],
+    "B56": [
+      "Item 4",
+      null
+    ],
+    "E56": [
+      "Category D",
+      null
+    ],
+    "F56": [
+      "0",
+      null
+    ],
+    "G56": [
+      "35",
+      null
+    ],
+    "H56": [
+      "15",
+      null
+    ],
+    "I56": [
+      "5",
+      null
+    ],
+    "J56": [
+      "20",
+      "=H56+I56"
+    ],
+    "K56": [
+      "12",
+      null
+    ],
+    "L56": [
+      "1",
+      null
+    ],
+    "M56": [
+      "8",
+      null
+    ],
+    "N56": [
+      "30",
+      null
+    ],
+    "O56": [
+      "450",
+      "=H56*N56"
+    ],
+    "B57": [
+      "Item 5",
+      null
+    ],
+    "E57": [
+      "Category E",
+      null
+    ],
+    "F57": [
+      "0",
+      null
+    ],
+    "G57": [
+      "15",
+      null
+    ],
+    "H57": [
+      "25",
+      null
+    ],
+    "I57": [
+      "7",
+      null
+    ],
+    "J57": [
+      "32",
+      "=H57+I57"
+    ],
+    "K57": [
+      "4",
+      null
+    ],
+    "L57": [
+      "3",
+      null
+    ],
+    "M57": [
+      "12",
+      null
+    ],
+    "N57": [
+      "25",
+      null
+    ],
+    "O57": [
+      "625",
+      "=H57*N57"
+    ],
+    "J58": [
+      "0",
+      "=H58+I58"
+    ],
+    "O58": [
+      "0",
+      "=H58*N58"
+    ],
+    "J59": [
+      "0",
+      "=H59+I59"
+    ],
+    "O59": [
+      "0",
+      "=H59*N59"
+    ],
+    "J60": [
+      "0",
+      "=H60+I60"
+    ],
+    "O60": [
+      "0",
+      "=H60*N60"
+    ],
+    "J61": [
+      "0",
+      "=H61+I61"
+    ],
+    "O61": [
+      "0",
+      "=H61*N61"
+    ],
+    "J62": [
+      "0",
+      "=H62+I62"
+    ],
+    "O62": [
+      "0",
+      "=H62*N62"
+    ],
+    "O63": [
+      "1467",
+      "=SUM(O53:O62)"
+    ]
+  },
+  "Purchase Details": {
+    "B9:I9": [
+      "Quarter 1",
+      null
+    ],
+    "B6:C6": [
+      "Quarter 3",
+      null
+    ],
+    "B48:I48": [
+      "Quarter 4",
+      null
+    ],
+    "B7:C7": [
+      "Quarter 4",
+      null
+    ],
+    "B4:C4": [
+      "Quarter 1",
+      null
+    ],
+    "B5:C5": [
+      "Quarter 2",
+      null
+    ],
+    "B22:I22": [
+      "Quarter 2",
+      null
+    ],
+    "B35:I35": [
+      "Quarter 3",
+      null
+    ],
+    "B1": [
+      "Purchase Details Example",
+      null
+    ],
+    "B2": [
+      "Total Spend on Inventory",
+      null
+    ],
+    "B3": [
+      "This data auto-populates from the tables below",
+      null
+    ],
+    "D4": [
+      "1123",
+      "=SUM(I11:I20)"
+    ],
+    "D5": [
+      "803.5",
+      "=SUM(I24:I33)"
+    ],
+    "D6": [
+      "1268.5",
+      "=SUM(I37:I46)"
+    ],
+    "D7": [
+      "1313.5",
+      "=SUM(I50:I59)"
+    ],
+    "B8": [
+      "Shaded cells auto-poplate. Enter data in non-shaded cells only.",
+      null
+    ],
+    "B10": [
+      "Order Reference No.",
+      null
+    ],
+    "C10": [
+      "Item Description",
+      null
+    ],
+    "D10": [
+      "Order Date",
+      null
+    ],
+    "E10": [
+      "Expected Delivery Date",
+      null
+    ],
+    "F10": [
+      "Vendor",
+      null
+    ],
+    "G10": [
+      "Units Ordered",
+      null
+    ],
+    "H10": [
+      "Cost Per Unit",
+      null
+    ],
+    "I10": [
+      "Total \nPurchase",
+      null
+    ],
+    "B11": [
+      "1245",
+      null
+    ],
+    "C11": [
+      "Item 1",
+      null
+    ],
+    "D11": [
+      "MM/DD/YY",
+      null
+    ],
+    "E11": [
+      "MM/DD/YY",
+      null
+    ],
+    "F11": [
+      "Name",
+      null
+    ],
+    "G11": [
+      "10",
+      null
+    ],
+    "H11": [
+      "15",
+      null
+    ],
+    "I11": [
+      "150",
+      "=G11*H11"
+    ],
+    "C12": [
+      "Item 2",
+      null
+    ],
+    "D12": [
+      "MM/DD/YY",
+      null
+    ],
+    "E12": [
+      "MM/DD/YY",
+      null
+    ],
+    "G12": [
+      "12",
+      null
+    ],
+    "H12": [
+      "14",
+      null
+    ],
+    "I12": [
+      "168",
+      "=G12*H12"
+    ],
+    "C13": [
+      "Item 3",
+      null
+    ],
+    "D13": [
+      "MM/DD/YY",
+      null
+    ],
+    "E13": [
+      "MM/DD/YY",
+      null
+    ],
+    "G13": [
+      "8",
+      null
+    ],
+    "H13": [
+      "5.5",
+      null
+    ],
+    "I13": [
+      "44",
+      "=G13*H13"
+    ],
+    "C14": [
+      "Item 4",
+      null
+    ],
+    "D14": [
+      "MM/DD/YY",
+      null
+    ],
+    "E14": [
+      "MM/DD/YY",
+      null
+    ],
+    "G14": [
+      "5",
+      null
+    ],
+    "H14": [
+      "5.5",
+      null
+    ],
+    "I14": [
+      "27.5",
+      "=G14*H14"
+    ],
+    "C15": [
+      "Item 5",
+      null
+    ],
+    "D15": [
+      "MM/DD/YY",
+      null
+    ],
+    "E15": [
+      "MM/DD/YY",
+      null
+    ],
+    "G15": [
+      "24",
+      null
+    ],
+    "H15": [
+      "11",
+      null
+    ],
+    "I15": [
+      "264",
+      "=G15*H15"
+    ],
+    "C16": [
+      "Item 6",
+      null
+    ],
+    "D16": [
+      "MM/DD/YY",
+      null
+    ],
+    "E16": [
+      "MM/DD/YY",
+      null
+    ],
+    "G16": [
+      "15",
+      null
+    ],
+    "H16": [
+      "6",
+      null
+    ],
+    "I16": [
+      "90",
+      "=G16*H16"
+    ],
+    "C17": [
+      "Item 7",
+      null
+    ],
+    "D17": [
+      "MM/DD/YY",
+      null
+    ],
+    "E17": [
+      "MM/DD/YY",
+      null
+    ],
+    "G17": [
+      "12",
+      null
+    ],
+    "H17": [
+      "6",
+      null
+    ],
+    "I17": [
+      "72",
+      "=G17*H17"
+    ],
+    "C18": [
+      "Item 8",
+      null
+    ],
+    "D18": [
+      "MM/DD/YY",
+      null
+    ],
+    "E18": [
+      "MM/DD/YY",
+      null
+    ],
+    "G18": [
+      "22",
+      null
+    ],
+    "H18": [
+      "12",
+      null
+    ],
+    "I18": [
+      "264",
+      "=G18*H18"
+    ],
+    "C19": [
+      "Item 9",
+      null
+    ],
+    "D19": [
+      "MM/DD/YY",
+      null
+    ],
+    "E19": [
+      "MM/DD/YY",
+      null
+    ],
+    "G19": [
+      "6",
+      null
+    ],
+    "H19": [
+      "3.5",
+      null
+    ],
+    "I19": [
+      "21",
+      "=G19*H19"
+    ],
+    "C20": [
+      "Item 10",
+      null
+    ],
+    "D20": [
+      "MM/DD/YY",
+      null
+    ],
+    "E20": [
+      "MM/DD/YY",
+      null
+    ],
+    "G20": [
+      "9",
+      null
+    ],
+    "H20": [
+      "2.5",
+      null
+    ],
+    "I20": [
+      "22.5",
+      "=G20*H20"
+    ],
+    "B23": [
+      "Order Reference No.",
+      null
+    ],
+    "C23": [
+      "Item Description",
+      null
+    ],
+    "D23": [
+      "Order Date",
+      null
+    ],
+    "E23": [
+      "Expected Delivery Date",
+      null
+    ],
+    "F23": [
+      "Vendor",
+      null
+    ],
+    "G23": [
+      "Units Ordered",
+      null
+    ],
+    "H23": [
+      "Cost Per Unit",
+      null
+    ],
+    "I23": [
+      "Total \nPurchase",
+      null
+    ],
+    "B24": [
+      "1245",
+      null
+    ],
+    "C24": [
+      "Item 1",
+      null
+    ],
+    "D24": [
+      "MM/DD/YY",
+      null
+    ],
+    "E24": [
+      "MM/DD/YY",
+      null
+    ],
+    "F24": [
+      "Name",
+      null
+    ],
+    "G24": [
+      "5",
+      null
+    ],
+    "H24": [
+      "15",
+      null
+    ],
+    "I24": [
+      "75",
+      "=G24*H24"
+    ],
+    "C25": [
+      "Item 2",
+      null
+    ],
+    "D25": [
+      "MM/DD/YY",
+      null
+    ],
+    "E25": [
+      "MM/DD/YY",
+      null
+    ],
+    "G25": [
+      "6",
+      null
+    ],
+    "H25": [
+      "14",
+      null
+    ],
+    "I25": [
+      "84",
+      "=G25*H25"
+    ],
+    "C26": [
+      "Item 3",
+      null
+    ],
+    "D26": [
+      "MM/DD/YY",
+      null
+    ],
+    "E26": [
+      "MM/DD/YY",
+      null
+    ],
+    "G26": [
+      "15",
+      null
+    ],
+    "H26": [
+      "5.5",
+      null
+    ],
+    "I26": [
+      "82.5",
+      "=G26*H26"
+    ],
+    "C27": [
+      "Item 4",
+      null
+    ],
+    "D27": [
+      "MM/DD/YY",
+      null
+    ],
+    "E27": [
+      "MM/DD/YY",
+      null
+    ],
+    "G27": [
+      "15",
+      null
+    ],
+    "H27": [
+      "5.5",
+      null
+    ],
+    "I27": [
+      "82.5",
+      "=G27*H27"
+    ],
+    "C28": [
+      "Item 5",
+      null
+    ],
+    "D28": [
+      "MM/DD/YY",
+      null
+    ],
+    "E28": [
+      "MM/DD/YY",
+      null
+    ],
+    "G28": [
+      "15",
+      null
+    ],
+    "H28": [
+      "11",
+      null
+    ],
+    "I28": [
+      "165",
+      "=G28*H28"
+    ],
+    "C29": [
+      "Item 6",
+      null
+    ],
+    "D29": [
+      "MM/DD/YY",
+      null
+    ],
+    "E29": [
+      "MM/DD/YY",
+      null
+    ],
+    "G29": [
+      "4",
+      null
+    ],
+    "H29": [
+      "6",
+      null
+    ],
+    "I29": [
+      "24",
+      "=G29*H29"
+    ],
+    "C30": [
+      "Item 7",
+      null
+    ],
+    "D30": [
+      "MM/DD/YY",
+      null
+    ],
+    "E30": [
+      "MM/DD/YY",
+      null
+    ],
+    "G30": [
+      "6",
+      null
+    ],
+    "H30": [
+      "6",
+      null
+    ],
+    "I30": [
+      "36",
+      "=G30*H30"
+    ],
+    "C31": [
+      "Item 8",
+      null
+    ],
+    "D31": [
+      "MM/DD/YY",
+      null
+    ],
+    "E31": [
+      "MM/DD/YY",
+      null
+    ],
+    "G31": [
+      "18",
+      null
+    ],
+    "H31": [
+      "12",
+      null
+    ],
+    "I31": [
+      "216",
+      "=G31*H31"
+    ],
+    "C32": [
+      "Item 9",
+      null
+    ],
+    "D32": [
+      "MM/DD/YY",
+      null
+    ],
+    "E32": [
+      "MM/DD/YY",
+      null
+    ],
+    "G32": [
+      "6",
+      null
+    ],
+    "H32": [
+      "3.5",
+      null
+    ],
+    "I32": [
+      "21",
+      "=G32*H32"
+    ],
+    "C33": [
+      "Item 10",
+      null
+    ],
+    "D33": [
+      "MM/DD/YY",
+      null
+    ],
+    "E33": [
+      "MM/DD/YY",
+      null
+    ],
+    "G33": [
+      "7",
+      null
+    ],
+    "H33": [
+      "2.5",
+      null
+    ],
+    "I33": [
+      "17.5",
+      "=G33*H33"
+    ],
+    "B36": [
+      "Order Reference No.",
+      null
+    ],
+    "C36": [
+      "Item Description",
+      null
+    ],
+    "D36": [
+      "Order Date",
+      null
+    ],
+    "E36": [
+      "Expected Delivery Date",
+      null
+    ],
+    "F36": [
+      "Vendor",
+      null
+    ],
+    "G36": [
+      "Units Ordered",
+      null
+    ],
+    "H36": [
+      "Cost Per Unit",
+      null
+    ],
+    "I36": [
+      "Total \nPurchase",
+      null
+    ],
+    "B37": [
+      "1245",
+      null
+    ],
+    "C37": [
+      "Item 1",
+      null
+    ],
+    "D37": [
+      "MM/DD/YY",
+      null
+    ],
+    "E37": [
+      "MM/DD/YY",
+      null
+    ],
+    "F37": [
+      "Name",
+      null
+    ],
+    "G37": [
+      "1",
+      null
+    ],
+    "H37": [
+      "15",
+      null
+    ],
+    "I37": [
+      "15",
+      "=G37*H37"
+    ],
+    "C38": [
+      "Item 2",
+      null
+    ],
+    "D38": [
+      "MM/DD/YY",
+      null
+    ],
+    "E38": [
+      "MM/DD/YY",
+      null
+    ],
+    "G38": [
+      "30",
+      null
+    ],
+    "H38": [
+      "14",
+      null
+    ],
+    "I38": [
+      "420",
+      "=G38*H38"
+    ],
+    "C39": [
+      "Item 3",
+      null
+    ],
+    "D39": [
+      "MM/DD/YY",
+      null
+    ],
+    "E39": [
+      "MM/DD/YY",
+      null
+    ],
+    "G39": [
+      "8",
+      null
+    ],
+    "H39": [
+      "5.5",
+      null
+    ],
+    "I39": [
+      "44",
+      "=G39*H39"
+    ],
+    "C40": [
+      "Item 4",
+      null
+    ],
+    "D40": [
+      "MM/DD/YY",
+      null
+    ],
+    "E40": [
+      "MM/DD/YY",
+      null
+    ],
+    "G40": [
+      "5",
+      null
+    ],
+    "H40": [
+      "5.5",
+      null
+    ],
+    "I40": [
+      "27.5",
+      "=G40*H40"
+    ],
+    "C41": [
+      "Item 5",
+      null
+    ],
+    "D41": [
+      "MM/DD/YY",
+      null
+    ],
+    "E41": [
+      "MM/DD/YY",
+      null
+    ],
+    "G41": [
+      "12",
+      null
+    ],
+    "H41": [
+      "11",
+      null
+    ],
+    "I41": [
+      "132",
+      "=G41*H41"
+    ],
+    "C42": [
+      "Item 6",
+      null
+    ],
+    "D42": [
+      "MM/DD/YY",
+      null
+    ],
+    "E42": [
+      "MM/DD/YY",
+      null
+    ],
+    "G42": [
+      "25",
+      null
+    ],
+    "H42": [
+      "6",
+      null
+    ],
+    "I42": [
+      "150",
+      "=G42*H42"
+    ],
+    "C43": [
+      "Item 7",
+      null
+    ],
+    "D43": [
+      "MM/DD/YY",
+      null
+    ],
+    "E43": [
+      "MM/DD/YY",
+      null
+    ],
+    "G43": [
+      "6",
+      null
+    ],
+    "H43": [
+      "6",
+      null
+    ],
+    "I43": [
+      "36",
+      "=G43*H43"
+    ],
+    "C44": [
+      "Item 8",
+      null
+    ],
+    "D44": [
+      "MM/DD/YY",
+      null
+    ],
+    "E44": [
+      "MM/DD/YY",
+      null
+    ],
+    "G44": [
+      "32",
+      null
+    ],
+    "H44": [
+      "12",
+      null
+    ],
+    "I44": [
+      "384",
+      "=G44*H44"
+    ],
+    "C45": [
+      "Item 9",
+      null
+    ],
+    "D45": [
+      "MM/DD/YY",
+      null
+    ],
+    "E45": [
+      "MM/DD/YY",
+      null
+    ],
+    "G45": [
+      "15",
+      null
+    ],
+    "H45": [
+      "3.5",
+      null
+    ],
+    "I45": [
+      "52.5",
+      "=G45*H45"
+    ],
+    "C46": [
+      "Item 10",
+      null
+    ],
+    "D46": [
+      "MM/DD/YY",
+      null
+    ],
+    "E46": [
+      "MM/DD/YY",
+      null
+    ],
+    "G46": [
+      "3",
+      null
+    ],
+    "H46": [
+      "2.5",
+      null
+    ],
+    "I46": [
+      "7.5",
+      "=G46*H46"
+    ],
+    "B49": [
+      "Order Reference No.",
+      null
+    ],
+    "C49": [
+      "Item Description",
+      null
+    ],
+    "D49": [
+      "Order Date",
+      null
+    ],
+    "E49": [
+      "Expected Delivery Date",
+      null
+    ],
+    "F49": [
+      "Vendor",
+      null
+    ],
+    "G49": [
+      "Units Ordered",
+      null
+    ],
+    "H49": [
+      "Cost Per Unit",
+      null
+    ],
+    "I49": [
+      "Total \nPurchase",
+      null
+    ],
+    "B50": [
+      "1245",
+      null
+    ],
+    "C50": [
+      "Item 1",
+      null
+    ],
+    "D50": [
+      "MM/DD/YY",
+      null
+    ],
+    "E50": [
+      "MM/DD/YY",
+      null
+    ],
+    "F50": [
+      "Name",
+      null
+    ],
+    "G50": [
+      "22",
+      null
+    ],
+    "H50": [
+      "15",
+      null
+    ],
+    "I50": [
+      "330",
+      "=G50*H50"
+    ],
+    "C51": [
+      "Item 2",
+      null
+    ],
+    "D51": [
+      "MM/DD/YY",
+      null
+    ],
+    "E51": [
+      "MM/DD/YY",
+      null
+    ],
+    "G51": [
+      "10",
+      null
+    ],
+    "H51": [
+      "14",
+      null
+    ],
+    "I51": [
+      "140",
+      "=G51*H51"
+    ],
+    "C52": [
+      "Item 3",
+      null
+    ],
+    "D52": [
+      "MM/DD/YY",
+      null
+    ],
+    "E52": [
+      "MM/DD/YY",
+      null
+    ],
+    "G52": [
+      "10",
+      null
+    ],
+    "H52": [
+      "5.5",
+      null
+    ],
+    "I52": [
+      "55",
+      "=G52*H52"
+    ],
+    "C53": [
+      "Item 4",
+      null
+    ],
+    "D53": [
+      "MM/DD/YY",
+      null
+    ],
+    "E53": [
+      "MM/DD/YY",
+      null
+    ],
+    "G53": [
+      "10",
+      null
+    ],
+    "H53": [
+      "5.5",
+      null
+    ],
+    "I53": [
+      "55",
+      "=G53*H53"
+    ],
+    "C54": [
+      "Item 5",
+      null
+    ],
+    "D54": [
+      "MM/DD/YY",
+      null
+    ],
+    "E54": [
+      "MM/DD/YY",
+      null
+    ],
+    "G54": [
+      "24",
+      null
+    ],
+    "H54": [
+      "11",
+      null
+    ],
+    "I54": [
+      "264",
+      "=G54*H54"
+    ],
+    "C55": [
+      "Item 6",
+      null
+    ],
+    "D55": [
+      "MM/DD/YY",
+      null
+    ],
+    "E55": [
+      "MM/DD/YY",
+      null
+    ],
+    "G55": [
+      "15",
+      null
+    ],
+    "H55": [
+      "6",
+      null
+    ],
+    "I55": [
+      "90",
+      "=G55*H55"
+    ],
+    "C56": [
+      "Item 7",
+      null
+    ],
+    "D56": [
+      "MM/DD/YY",
+      null
+    ],
+    "E56": [
+      "MM/DD/YY",
+      null
+    ],
+    "G56": [
+      "12",
+      null
+    ],
+    "H56": [
+      "6",
+      null
+    ],
+    "I56": [
+      "72",
+      "=G56*H56"
+    ],
+    "C57": [
+      "Item 8",
+      null
+    ],
+    "D57": [
+      "MM/DD/YY",
+      null
+    ],
+    "E57": [
+      "MM/DD/YY",
+      null
+    ],
+    "G57": [
+      "22",
+      null
+    ],
+    "H57": [
+      "12",
+      null
+    ],
+    "I57": [
+      "264",
+      "=G57*H57"
+    ],
+    "C58": [
+      "Item 9",
+      null
+    ],
+    "D58": [
+      "MM/DD/YY",
+      null
+    ],
+    "E58": [
+      "MM/DD/YY",
+      null
+    ],
+    "G58": [
+      "6",
+      null
+    ],
+    "H58": [
+      "3.5",
+      null
+    ],
+    "I58": [
+      "21",
+      "=G58*H58"
+    ],
+    "C59": [
+      "Item 10",
+      null
+    ],
+    "D59": [
+      "MM/DD/YY",
+      null
+    ],
+    "E59": [
+      "MM/DD/YY",
+      null
+    ],
+    "G59": [
+      "9",
+      null
+    ],
+    "H59": [
+      "2.5",
+      null
+    ],
+    "I59": [
+      "22.5",
+      "=G59*H59"
+    ]
+  },
+  "Sales Details": {
+    "F4:G4": [
+      "Quarter 1",
+      null
+    ],
+    "B6:C6": [
+      "Quarter 3",
+      null
+    ],
+    "T4:T8": [
+      "Q4",
+      null
+    ],
+    "B49:I49": [
+      "Quarter 4",
+      null
+    ],
+    "B7:C7": [
+      "Quarter 4",
+      null
+    ],
+    "N4:N8": [
+      "Q2",
+      null
+    ],
+    "B5:C5": [
+      "Quarter 2",
+      null
+    ],
+    "F5:G5": [
+      "Quarter 2",
+      null
+    ],
+    "Q4:Q8": [
+      "Q3",
+      null
+    ],
+    "B10:I10": [
+      "Quarter 1",
+      null
+    ],
+    "F6:G6": [
+      "Quarter 3",
+      null
+    ],
+    "B36:I36": [
+      "Quarter 3",
+      null
+    ],
+    "B23:I23": [
+      "Quarter 2",
+      null
+    ],
+    "K4:K8": [
+      "Q1",
+      null
+    ],
+    "B4:C4": [
+      "Quarter 1",
+      null
+    ],
+    "F7:G7": [
+      "Quarter 4",
+      null
+    ],
+    "B1": [
+      "Sales Details Example",
+      null
+    ],
+    "B2": [
+      "Total Sales Revenue by Quarter",
+      null
+    ],
+    "F2": [
+      "Total Units Sold by Quarter",
+      null
+    ],
+    "K2": [
+      "Top 5 Items Sold",
+      null
+    ],
+    "B3": [
+      "This data auto-populates from the tables below",
+      null
+    ],
+    "F3": [
+      "This data auto-populates from the tables below",
+      null
+    ],
+    "K3": [
+      "This data auto-populates from the tables below",
+      null
+    ],
+    "D4": [
+      "5069",
+      "=SUM(I12:I21)"
+    ],
+    "H4": [
+      "128",
+      "=SUM(G12:G21)"
+    ],
+    "L4": [
+      "Item 5",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103363cb0>"
+    ],
+    "O4": [
+      "Item 7",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x1035bf610>"
+    ],
+    "R4": [
+      "Item 1",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x1035bf750>"
+    ],
+    "U4": [
+      "Item 8",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x10345a9e0>"
+    ],
+    "D5": [
+      "3610",
+      "=SUM(I25:I34)"
+    ],
+    "H5": [
+      "117",
+      "=SUM(G25:G34)"
+    ],
+    "L5": [
+      "Item 8",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x10353e2c0>"
+    ],
+    "O5": [
+      "Item 8",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103668dd0>"
+    ],
+    "R5": [
+      "Item 2",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103501bf0>"
+    ],
+    "U5": [
+      "Item 6",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103502580>"
+    ],
+    "D6": [
+      "5844",
+      "=SUM(I38:I47)"
+    ],
+    "H6": [
+      "153",
+      "=SUM(G38:G47)"
+    ],
+    "L6": [
+      "Item 2",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103402750>"
+    ],
+    "O6": [
+      "Item 5",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103402850>"
+    ],
+    "R6": [
+      "Item 6",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x10350a5d0>"
+    ],
+    "U6": [
+      "Item 2",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x10350a6c0>"
+    ],
+    "D7": [
+      "3294",
+      "=SUM(I51:I60)"
+    ],
+    "H7": [
+      "98",
+      "=SUM(G51:G60)"
+    ],
+    "L7": [
+      "Item 6",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x10365ac10>"
+    ],
+    "O7": [
+      "Item 6",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x10365ab30>"
+    ],
+    "R7": [
+      "Item 5",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x10352f930>"
+    ],
+    "U7": [
+      "Item 2",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x1036090d0>"
+    ],
+    "L8": [
+      "Item 7",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103609190>"
+    ],
+    "O8": [
+      "Item 10",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x1035ad0d0>"
+    ],
+    "R8": [
+      "Item 7",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x1035ad180>"
+    ],
+    "U8": [
+      "Item 10",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x103353570>"
+    ],
+    "B9": [
+      "Shaded cells auto-poplate. Enter data in non-shaded cells only.",
+      null
+    ],
+    "B11": [
+      "Invoice No.",
+      null
+    ],
+    "C11": [
+      "Item Sold",
+      null
+    ],
+    "D11": [
+      "Transaction Date",
+      null
+    ],
+    "E11": [
+      "Ship Date",
+      null
+    ],
+    "F11": [
+      "Customer Name",
+      null
+    ],
+    "G11": [
+      "Units Sold",
+      null
+    ],
+    "H11": [
+      "Retail Price",
+      null
+    ],
+    "I11": [
+      "Total Sales Amount",
+      null
+    ],
+    "B12": [
+      "1245",
+      null
+    ],
+    "C12": [
+      "Item 1",
+      null
+    ],
+    "D12": [
+      "MM/DD/YY",
+      null
+    ],
+    "E12": [
+      "MM/DD/YY",
+      null
+    ],
+    "F12": [
+      "Customer A",
+      null
+    ],
+    "G12": [
+      "10",
+      null
+    ],
+    "H12": [
+      "50",
+      null
+    ],
+    "I12": [
+      "500",
+      "=G12*H12"
+    ],
+    "C13": [
+      "Item 2",
+      null
+    ],
+    "D13": [
+      "MM/DD/YY",
+      null
+    ],
+    "E13": [
+      "MM/DD/YY",
+      null
+    ],
+    "F13": [
+      "Customer B",
+      null
+    ],
+    "G13": [
+      "17",
+      null
+    ],
+    "H13": [
+      "65",
+      null
+    ],
+    "I13": [
+      "1105",
+      "=G13*H13"
+    ],
+    "C14": [
+      "Item 3",
+      null
+    ],
+    "D14": [
+      "MM/DD/YY",
+      null
+    ],
+    "E14": [
+      "MM/DD/YY",
+      null
+    ],
+    "F14": [
+      "Customer C",
+      null
+    ],
+    "G14": [
+      "8",
+      null
+    ],
+    "H14": [
+      "25",
+      null
+    ],
+    "I14": [
+      "200",
+      "=G14*H14"
+    ],
+    "C15": [
+      "Item 4",
+      null
+    ],
+    "D15": [
+      "MM/DD/YY",
+      null
+    ],
+    "E15": [
+      "MM/DD/YY",
+      null
+    ],
+    "F15": [
+      "Customer D",
+      null
+    ],
+    "G15": [
+      "5",
+      null
+    ],
+    "H15": [
+      "25",
+      null
+    ],
+    "I15": [
+      "125",
+      "=G15*H15"
+    ],
+    "C16": [
+      "Item 5",
+      null
+    ],
+    "D16": [
+      "MM/DD/YY",
+      null
+    ],
+    "E16": [
+      "MM/DD/YY",
+      null
+    ],
+    "F16": [
+      "Customer E",
+      null
+    ],
+    "G16": [
+      "24",
+      null
+    ],
+    "H16": [
+      "60",
+      null
+    ],
+    "I16": [
+      "1440",
+      "=G16*H16"
+    ],
+    "C17": [
+      "Item 6",
+      null
+    ],
+    "D17": [
+      "MM/DD/YY",
+      null
+    ],
+    "E17": [
+      "MM/DD/YY",
+      null
+    ],
+    "F17": [
+      "Customer F",
+      null
+    ],
+    "G17": [
+      "15",
+      null
+    ],
+    "H17": [
+      "15",
+      null
+    ],
+    "I17": [
+      "225",
+      "=G17*H17"
+    ],
+    "C18": [
+      "Item 7",
+      null
+    ],
+    "D18": [
+      "MM/DD/YY",
+      null
+    ],
+    "E18": [
+      "MM/DD/YY",
+      null
+    ],
+    "F18": [
+      "Customer G",
+      null
+    ],
+    "G18": [
+      "12",
+      null
+    ],
+    "H18": [
+      "12",
+      null
+    ],
+    "I18": [
+      "144",
+      "=G18*H18"
+    ],
+    "C19": [
+      "Item 8",
+      null
+    ],
+    "D19": [
+      "MM/DD/YY",
+      null
+    ],
+    "E19": [
+      "MM/DD/YY",
+      null
+    ],
+    "F19": [
+      "Customer H",
+      null
+    ],
+    "G19": [
+      "22",
+      null
+    ],
+    "H19": [
+      "55",
+      null
+    ],
+    "I19": [
+      "1210",
+      "=G19*H19"
+    ],
+    "C20": [
+      "Item 9",
+      null
+    ],
+    "D20": [
+      "MM/DD/YY",
+      null
+    ],
+    "E20": [
+      "MM/DD/YY",
+      null
+    ],
+    "F20": [
+      "Customer I",
+      null
+    ],
+    "G20": [
+      "6",
+      null
+    ],
+    "H20": [
+      "8",
+      null
+    ],
+    "I20": [
+      "48",
+      "=G20*H20"
+    ],
+    "C21": [
+      "Item 10",
+      null
+    ],
+    "D21": [
+      "MM/DD/YY",
+      null
+    ],
+    "E21": [
+      "MM/DD/YY",
+      null
+    ],
+    "F21": [
+      "Customer J",
+      null
+    ],
+    "G21": [
+      "9",
+      null
+    ],
+    "H21": [
+      "8",
+      null
+    ],
+    "I21": [
+      "72",
+      "=G21*H21"
+    ],
+    "B24": [
+      "Invoice No.",
+      null
+    ],
+    "C24": [
+      "Item Sold",
+      null
+    ],
+    "D24": [
+      "Transaction Date",
+      null
+    ],
+    "E24": [
+      "Ship Date",
+      null
+    ],
+    "F24": [
+      "Customer Name",
+      null
+    ],
+    "G24": [
+      "Units Sold",
+      null
+    ],
+    "H24": [
+      "Retail Price",
+      null
+    ],
+    "I24": [
+      "Total Sales Amount",
+      null
+    ],
+    "B25": [
+      "1245",
+      null
+    ],
+    "C25": [
+      "Item 1",
+      null
+    ],
+    "D25": [
+      "MM/DD/YY",
+      null
+    ],
+    "E25": [
+      "MM/DD/YY",
+      null
+    ],
+    "F25": [
+      "Customer A",
+      null
+    ],
+    "G25": [
+      "7",
+      null
+    ],
+    "H25": [
+      "50",
+      null
+    ],
+    "I25": [
+      "350",
+      "=G25*H25"
+    ],
+    "C26": [
+      "Item 2",
+      null
+    ],
+    "D26": [
+      "MM/DD/YY",
+      null
+    ],
+    "E26": [
+      "MM/DD/YY",
+      null
+    ],
+    "F26": [
+      "Customer B",
+      null
+    ],
+    "G26": [
+      "6",
+      null
+    ],
+    "H26": [
+      "65",
+      null
+    ],
+    "I26": [
+      "390",
+      "=G26*H26"
+    ],
+    "C27": [
+      "Item 3",
+      null
+    ],
+    "D27": [
+      "MM/DD/YY",
+      null
+    ],
+    "E27": [
+      "MM/DD/YY",
+      null
+    ],
+    "F27": [
+      "Customer C",
+      null
+    ],
+    "G27": [
+      "7",
+      null
+    ],
+    "H27": [
+      "25",
+      null
+    ],
+    "I27": [
+      "175",
+      "=G27*H27"
+    ],
+    "C28": [
+      "Item 4",
+      null
+    ],
+    "D28": [
+      "MM/DD/YY",
+      null
+    ],
+    "E28": [
+      "MM/DD/YY",
+      null
+    ],
+    "F28": [
+      "Customer D",
+      null
+    ],
+    "G28": [
+      "3",
+      null
+    ],
+    "H28": [
+      "25",
+      null
+    ],
+    "I28": [
+      "75",
+      "=G28*H28"
+    ],
+    "C29": [
+      "Item 5",
+      null
+    ],
+    "D29": [
+      "MM/DD/YY",
+      null
+    ],
+    "E29": [
+      "MM/DD/YY",
+      null
+    ],
+    "F29": [
+      "Customer E",
+      null
+    ],
+    "G29": [
+      "12",
+      null
+    ],
+    "H29": [
+      "60",
+      null
+    ],
+    "I29": [
+      "720",
+      "=G29*H29"
+    ],
+    "C30": [
+      "Item 6",
+      null
+    ],
+    "D30": [
+      "MM/DD/YY",
+      null
+    ],
+    "E30": [
+      "MM/DD/YY",
+      null
+    ],
+    "F30": [
+      "Customer F",
+      null
+    ],
+    "G30": [
+      "10",
+      null
+    ],
+    "H30": [
+      "15",
+      null
+    ],
+    "I30": [
+      "150",
+      "=G30*H30"
+    ],
+    "C31": [
+      "Item 7",
+      null
+    ],
+    "D31": [
+      "MM/DD/YY",
+      null
+    ],
+    "E31": [
+      "MM/DD/YY",
+      null
+    ],
+    "F31": [
+      "Customer G",
+      null
+    ],
+    "G31": [
+      "35",
+      null
+    ],
+    "H31": [
+      "12",
+      null
+    ],
+    "I31": [
+      "420",
+      "=G31*H31"
+    ],
+    "C32": [
+      "Item 8",
+      null
+    ],
+    "D32": [
+      "MM/DD/YY",
+      null
+    ],
+    "E32": [
+      "MM/DD/YY",
+      null
+    ],
+    "F32": [
+      "Customer H",
+      null
+    ],
+    "G32": [
+      "22",
+      null
+    ],
+    "H32": [
+      "55",
+      null
+    ],
+    "I32": [
+      "1210",
+      "=G32*H32"
+    ],
+    "C33": [
+      "Item 9",
+      null
+    ],
+    "D33": [
+      "MM/DD/YY",
+      null
+    ],
+    "E33": [
+      "MM/DD/YY",
+      null
+    ],
+    "F33": [
+      "Customer I",
+      null
+    ],
+    "G33": [
+      "6",
+      null
+    ],
+    "H33": [
+      "8",
+      null
+    ],
+    "I33": [
+      "48",
+      "=G33*H33"
+    ],
+    "C34": [
+      "Item 10",
+      null
+    ],
+    "D34": [
+      "MM/DD/YY",
+      null
+    ],
+    "E34": [
+      "MM/DD/YY",
+      null
+    ],
+    "F34": [
+      "Customer J",
+      null
+    ],
+    "G34": [
+      "9",
+      null
+    ],
+    "H34": [
+      "8",
+      null
+    ],
+    "I34": [
+      "72",
+      "=G34*H34"
+    ],
+    "B37": [
+      "Invoice No.",
+      null
+    ],
+    "C37": [
+      "Item Sold",
+      null
+    ],
+    "D37": [
+      "Transaction Date",
+      null
+    ],
+    "E37": [
+      "Ship Date",
+      null
+    ],
+    "F37": [
+      "Customer Name",
+      null
+    ],
+    "G37": [
+      "Units Sold",
+      null
+    ],
+    "H37": [
+      "Retail Price",
+      null
+    ],
+    "I37": [
+      "Total Sales Amount",
+      null
+    ],
+    "B38": [
+      "1245",
+      null
+    ],
+    "C38": [
+      "Item 1",
+      null
+    ],
+    "D38": [
+      "MM/DD/YY",
+      null
+    ],
+    "E38": [
+      "MM/DD/YY",
+      null
+    ],
+    "F38": [
+      "Customer A",
+      null
+    ],
+    "G38": [
+      "45",
+      null
+    ],
+    "H38": [
+      "50",
+      null
+    ],
+    "I38": [
+      "2250",
+      "=G38*H38"
+    ],
+    "C39": [
+      "Item 2",
+      null
+    ],
+    "D39": [
+      "MM/DD/YY",
+      null
+    ],
+    "E39": [
+      "MM/DD/YY",
+      null
+    ],
+    "F39": [
+      "Customer B",
+      null
+    ],
+    "G39": [
+      "18",
+      null
+    ],
+    "H39": [
+      "65",
+      null
+    ],
+    "I39": [
+      "1170",
+      "=G39*H39"
+    ],
+    "C40": [
+      "Item 3",
+      null
+    ],
+    "D40": [
+      "MM/DD/YY",
+      null
+    ],
+    "E40": [
+      "MM/DD/YY",
+      null
+    ],
+    "F40": [
+      "Customer C",
+      null
+    ],
+    "G40": [
+      "9",
+      null
+    ],
+    "H40": [
+      "25",
+      null
+    ],
+    "I40": [
+      "225",
+      "=G40*H40"
+    ],
+    "C41": [
+      "Item 4",
+      null
+    ],
+    "D41": [
+      "MM/DD/YY",
+      null
+    ],
+    "E41": [
+      "MM/DD/YY",
+      null
+    ],
+    "F41": [
+      "Customer D",
+      null
+    ],
+    "G41": [
+      "6",
+      null
+    ],
+    "H41": [
+      "25",
+      null
+    ],
+    "I41": [
+      "150",
+      "=G41*H41"
+    ],
+    "C42": [
+      "Item 5",
+      null
+    ],
+    "D42": [
+      "MM/DD/YY",
+      null
+    ],
+    "E42": [
+      "MM/DD/YY",
+      null
+    ],
+    "F42": [
+      "Customer E",
+      null
+    ],
+    "G42": [
+      "14",
+      null
+    ],
+    "H42": [
+      "60",
+      null
+    ],
+    "I42": [
+      "840",
+      "=G42*H42"
+    ],
+    "C43": [
+      "Item 6",
+      null
+    ],
+    "D43": [
+      "MM/DD/YY",
+      null
+    ],
+    "E43": [
+      "MM/DD/YY",
+      null
+    ],
+    "F43": [
+      "Customer F",
+      null
+    ],
+    "G43": [
+      "15",
+      null
+    ],
+    "H43": [
+      "15",
+      null
+    ],
+    "I43": [
+      "225",
+      "=G43*H43"
+    ],
+    "C44": [
+      "Item 7",
+      null
+    ],
+    "D44": [
+      "MM/DD/YY",
+      null
+    ],
+    "E44": [
+      "MM/DD/YY",
+      null
+    ],
+    "F44": [
+      "Customer G",
+      null
+    ],
+    "G44": [
+      "13",
+      null
+    ],
+    "H44": [
+      "12",
+      null
+    ],
+    "I44": [
+      "156",
+      "=G44*H44"
+    ],
+    "C45": [
+      "Item 8",
+      null
+    ],
+    "D45": [
+      "MM/DD/YY",
+      null
+    ],
+    "E45": [
+      "MM/DD/YY",
+      null
+    ],
+    "F45": [
+      "Customer H",
+      null
+    ],
+    "G45": [
+      "12",
+      null
+    ],
+    "H45": [
+      "55",
+      null
+    ],
+    "I45": [
+      "660",
+      "=G45*H45"
+    ],
+    "C46": [
+      "Item 9",
+      null
+    ],
+    "D46": [
+      "MM/DD/YY",
+      null
+    ],
+    "E46": [
+      "MM/DD/YY",
+      null
+    ],
+    "F46": [
+      "Customer I",
+      null
+    ],
+    "G46": [
+      "11",
+      null
+    ],
+    "H46": [
+      "8",
+      null
+    ],
+    "I46": [
+      "88",
+      "=G46*H46"
+    ],
+    "C47": [
+      "Item 10",
+      null
+    ],
+    "D47": [
+      "MM/DD/YY",
+      null
+    ],
+    "E47": [
+      "MM/DD/YY",
+      null
+    ],
+    "F47": [
+      "Customer J",
+      null
+    ],
+    "G47": [
+      "10",
+      null
+    ],
+    "H47": [
+      "8",
+      null
+    ],
+    "I47": [
+      "80",
+      "=G47*H47"
+    ],
+    "B50": [
+      "Invoice No.",
+      null
+    ],
+    "C50": [
+      "Item Sold",
+      null
+    ],
+    "D50": [
+      "Transaction Date",
+      null
+    ],
+    "E50": [
+      "Ship Date",
+      null
+    ],
+    "F50": [
+      "Customer Name",
+      null
+    ],
+    "G50": [
+      "Units Sold",
+      null
+    ],
+    "H50": [
+      "Retail Price",
+      null
+    ],
+    "I50": [
+      "Total Sales Amount",
+      null
+    ],
+    "B51": [
+      "1245",
+      null
+    ],
+    "C51": [
+      "Item 1",
+      null
+    ],
+    "D51": [
+      "MM/DD/YY",
+      null
+    ],
+    "E51": [
+      "MM/DD/YY",
+      null
+    ],
+    "F51": [
+      "Customer A",
+      null
+    ],
+    "G51": [
+      "5",
+      null
+    ],
+    "H51": [
+      "50",
+      null
+    ],
+    "I51": [
+      "250",
+      "=G51*H51"
+    ],
+    "C52": [
+      "Item 2",
+      null
+    ],
+    "D52": [
+      "MM/DD/YY",
+      null
+    ],
+    "E52": [
+      "MM/DD/YY",
+      null
+    ],
+    "F52": [
+      "Customer B",
+      null
+    ],
+    "G52": [
+      "12",
+      null
+    ],
+    "H52": [
+      "65",
+      null
+    ],
+    "I52": [
+      "780",
+      "=G52*H52"
+    ],
+    "C53": [
+      "Item 3",
+      null
+    ],
+    "D53": [
+      "MM/DD/YY",
+      null
+    ],
+    "E53": [
+      "MM/DD/YY",
+      null
+    ],
+    "F53": [
+      "Customer C",
+      null
+    ],
+    "G53": [
+      "8",
+      null
+    ],
+    "H53": [
+      "25",
+      null
+    ],
+    "I53": [
+      "200",
+      "=G53*H53"
+    ],
+    "C54": [
+      "Item 4",
+      null
+    ],
+    "D54": [
+      "MM/DD/YY",
+      null
+    ],
+    "E54": [
+      "MM/DD/YY",
+      null
+    ],
+    "F54": [
+      "Customer D",
+      null
+    ],
+    "G54": [
+      "5",
+      null
+    ],
+    "H54": [
+      "25",
+      null
+    ],
+    "I54": [
+      "125",
+      "=G54*H54"
+    ],
+    "C55": [
+      "Item 5",
+      null
+    ],
+    "D55": [
+      "MM/DD/YY",
+      null
+    ],
+    "E55": [
+      "MM/DD/YY",
+      null
+    ],
+    "F55": [
+      "Customer E",
+      null
+    ],
+    "G55": [
+      "4",
+      null
+    ],
+    "H55": [
+      "60",
+      null
+    ],
+    "I55": [
+      "240",
+      "=G55*H55"
+    ],
+    "C56": [
+      "Item 6",
+      null
+    ],
+    "D56": [
+      "MM/DD/YY",
+      null
+    ],
+    "E56": [
+      "MM/DD/YY",
+      null
+    ],
+    "F56": [
+      "Customer F",
+      null
+    ],
+    "G56": [
+      "15",
+      null
+    ],
+    "H56": [
+      "15",
+      null
+    ],
+    "I56": [
+      "225",
+      "=G56*H56"
+    ],
+    "C57": [
+      "Item 7",
+      null
+    ],
+    "D57": [
+      "MM/DD/YY",
+      null
+    ],
+    "E57": [
+      "MM/DD/YY",
+      null
+    ],
+    "F57": [
+      "Customer G",
+      null
+    ],
+    "G57": [
+      "12",
+      null
+    ],
+    "H57": [
+      "12",
+      null
+    ],
+    "I57": [
+      "144",
+      "=G57*H57"
+    ],
+    "C58": [
+      "Item 8",
+      null
+    ],
+    "D58": [
+      "MM/DD/YY",
+      null
+    ],
+    "E58": [
+      "MM/DD/YY",
+      null
+    ],
+    "F58": [
+      "Customer H",
+      null
+    ],
+    "G58": [
+      "22",
+      null
+    ],
+    "H58": [
+      "55",
+      null
+    ],
+    "I58": [
+      "1210",
+      "=G58*H58"
+    ],
+    "C59": [
+      "Item 9",
+      null
+    ],
+    "D59": [
+      "MM/DD/YY",
+      null
+    ],
+    "E59": [
+      "MM/DD/YY",
+      null
+    ],
+    "F59": [
+      "Customer I",
+      null
+    ],
+    "G59": [
+      "6",
+      null
+    ],
+    "H59": [
+      "8",
+      null
+    ],
+    "I59": [
+      "48",
+      "=G59*H59"
+    ],
+    "C60": [
+      "Item 10",
+      null
+    ],
+    "D60": [
+      "MM/DD/YY",
+      null
+    ],
+    "E60": [
+      "MM/DD/YY",
+      null
+    ],
+    "F60": [
+      "Customer J",
+      null
+    ],
+    "G60": [
+      "9",
+      null
+    ],
+    "H60": [
+      "8",
+      null
+    ],
+    "I60": [
+      "72",
+      "=G60*H60"
+    ]
+  },
+  "- Disclaimer -": {
+    "B2": [
+      "Any articles, templates, or information provided by Smartsheet on the website are for reference only. While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, articles, templates, or related graphics contained on the website. Any reliance you place on such information is therefore strictly at your own risk. ",
+      null
+    ]
+  }
+}

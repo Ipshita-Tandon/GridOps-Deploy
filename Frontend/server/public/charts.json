@@ -1,0 +1,24 @@
+{
+    "charts": [
+      {
+        "sheet_name": "Monthly budget report", 
+        "charts_on_sheet": [
+          {
+            "type": "bar",
+            "series": [
+              {
+                "title": "Total",
+                "coords": "H9:K17",
+                "data_points": [
+                  {"value": "100", "label": "Pets"},
+                  {"value": "125", "label": "Gifts and charity"}
+                  
+                ]
+              }
+            ],
+            "file": "xl/charts/chart1.xml"
+          }
+        ]
+      }
+    ]
+  } 

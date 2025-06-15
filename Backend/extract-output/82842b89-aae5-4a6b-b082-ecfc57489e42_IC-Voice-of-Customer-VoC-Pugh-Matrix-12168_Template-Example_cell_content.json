@@ -1,0 +1,809 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "EXAMPLE - VoC Pugh Matrix": {
+    "B9:B14": [
+      "Faster",
+      null
+    ],
+    "C3:C8": [
+      "Superior Quality",
+      null
+    ],
+    "B3:B8": [
+      "Better",
+      null
+    ],
+    "C15:C20": [
+      "Cost Effectiveness",
+      null
+    ],
+    "B15:B20": [
+      "Cheaper",
+      null
+    ],
+    "C9:C14": [
+      "Increased Efficiency",
+      null
+    ],
+    "B1": [
+      "Voice of Customer (VoC) Pugh Matrix Template – Example",
+      null
+    ],
+    "D2": [
+      "Criteria",
+      null
+    ],
+    "E2": [
+      "Description",
+      null
+    ],
+    "F2": [
+      "Importance \nScore of 1 to 5",
+      null
+    ],
+    "G2": [
+      "Strategic Planning",
+      null
+    ],
+    "H2": [
+      "Product Development",
+      null
+    ],
+    "I2": [
+      "Market Positioning",
+      null
+    ],
+    "J2": [
+      "Service Delivery",
+      null
+    ],
+    "K2": [
+      "Customer Support",
+      null
+    ],
+    "D3": [
+      "High-Reliability Charging Stations",
+      null
+    ],
+    "E3": [
+      "Ensure our charging stations are built with top-tier components to minimize downtime and enhance customer trust.",
+      null
+    ],
+    "F3": [
+      "3",
+      null
+    ],
+    "G3": [
+      "4",
+      null
+    ],
+    "H3": [
+      "4",
+      null
+    ],
+    "I3": [
+      "1",
+      null
+    ],
+    "J3": [
+      "1",
+      null
+    ],
+    "K3": [
+      "2",
+      null
+    ],
+    "D4": [
+      "Durable EV Infrastructure",
+      null
+    ],
+    "E4": [
+      "Invest in long-lasting materials for all infrastructure to reduce maintenance needs and provide consistent service.",
+      null
+    ],
+    "F4": [
+      "4",
+      null
+    ],
+    "G4": [
+      "4",
+      null
+    ],
+    "H4": [
+      "3",
+      null
+    ],
+    "I4": [
+      "4",
+      null
+    ],
+    "J4": [
+      "3",
+      null
+    ],
+    "K4": [
+      "5",
+      null
+    ],
+    "D5": [
+      "Premium User Experience",
+      null
+    ],
+    "E5": [
+      "Design user-friendly interfaces for easy navigation and operation, ensuring customer satisfaction.",
+      null
+    ],
+    "F5": [
+      "1",
+      null
+    ],
+    "G5": [
+      "3",
+      null
+    ],
+    "H5": [
+      "1",
+      null
+    ],
+    "I5": [
+      "5",
+      null
+    ],
+    "J5": [
+      "4",
+      null
+    ],
+    "K5": [
+      "2",
+      null
+    ],
+    "D6": [
+      "Top-Notch Safety Standards",
+      null
+    ],
+    "E6": [
+      "Implement the highest safety protocols to protect users and their vehicles during charging.",
+      null
+    ],
+    "F6": [
+      "4",
+      null
+    ],
+    "G6": [
+      "5",
+      null
+    ],
+    "H6": [
+      "4",
+      null
+    ],
+    "I6": [
+      "3",
+      null
+    ],
+    "J6": [
+      "2",
+      null
+    ],
+    "K6": [
+      "4",
+      null
+    ],
+    "D7": [
+      "Innovative Technology Integration",
+      null
+    ],
+    "E7": [
+      "Continuously integrate the latest EV technologies to offer state-of-the-art charging solutions.",
+      null
+    ],
+    "F7": [
+      "1",
+      null
+    ],
+    "G7": [
+      "4",
+      null
+    ],
+    "H7": [
+      "4",
+      null
+    ],
+    "I7": [
+      "4",
+      null
+    ],
+    "J7": [
+      "2",
+      null
+    ],
+    "K7": [
+      "1",
+      null
+    ],
+    "D8": [
+      "Environmentally Friendly Solutions",
+      null
+    ],
+    "E8": [
+      "Utilize sustainable practices and materials to reduce our environmental footprint while maintaining quality.",
+      null
+    ],
+    "F8": [
+      "1",
+      null
+    ],
+    "G8": [
+      "3",
+      null
+    ],
+    "H8": [
+      "2",
+      null
+    ],
+    "I8": [
+      "2",
+      null
+    ],
+    "J8": [
+      "3",
+      null
+    ],
+    "K8": [
+      "4",
+      null
+    ],
+    "D9": [
+      "Rapid Charging Capabilities",
+      null
+    ],
+    "E9": [
+      "Develop fast-charging stations to reduce wait times and improve customer convenience.",
+      null
+    ],
+    "F9": [
+      "3",
+      null
+    ],
+    "G9": [
+      "5",
+      null
+    ],
+    "H9": [
+      "2",
+      null
+    ],
+    "I9": [
+      "1",
+      null
+    ],
+    "J9": [
+      "3",
+      null
+    ],
+    "K9": [
+      "5",
+      null
+    ],
+    "D10": [
+      "Streamlined Charging Process",
+      null
+    ],
+    "E10": [
+      "Simplify the charging process with intuitive steps, reducing the time spent at each station.",
+      null
+    ],
+    "F10": [
+      "2",
+      null
+    ],
+    "G10": [
+      "1",
+      null
+    ],
+    "H10": [
+      "3",
+      null
+    ],
+    "I10": [
+      "2",
+      null
+    ],
+    "J10": [
+      "3",
+      null
+    ],
+    "K10": [
+      "4",
+      null
+    ],
+    "D11": [
+      "Optimized Logistics Routes",
+      null
+    ],
+    "E11": [
+      "Use advanced algorithms to create the most efficient delivery and service routes, minimizing delays.",
+      null
+    ],
+    "F11": [
+      "4",
+      null
+    ],
+    "G11": [
+      "4",
+      null
+    ],
+    "H11": [
+      "2",
+      null
+    ],
+    "I11": [
+      "5",
+      null
+    ],
+    "J11": [
+      "4",
+      null
+    ],
+    "K11": [
+      "1",
+      null
+    ],
+    "D12": [
+      "Quick Issue Resolution",
+      null
+    ],
+    "E12": [
+      "Implement systems that enable rapid identification and resolution of technical issues, keeping downtime to a minimum.",
+      null
+    ],
+    "F12": [
+      "1",
+      null
+    ],
+    "G12": [
+      "3",
+      null
+    ],
+    "H12": [
+      "1",
+      null
+    ],
+    "I12": [
+      "2",
+      null
+    ],
+    "J12": [
+      "1",
+      null
+    ],
+    "K12": [
+      "1",
+      null
+    ],
+    "D13": [
+      "Seamless Payment Integration",
+      null
+    ],
+    "E13": [
+      "Offer multiple quick and secure payment options to speed up transactions and enhance the user experience.",
+      null
+    ],
+    "F13": [
+      "3",
+      null
+    ],
+    "G13": [
+      "3",
+      null
+    ],
+    "H13": [
+      "3",
+      null
+    ],
+    "I13": [
+      "4",
+      null
+    ],
+    "J13": [
+      "2",
+      null
+    ],
+    "K13": [
+      "5",
+      null
+    ],
+    "D14": [
+      "Efficient Customer Support",
+      null
+    ],
+    "E14": [
+      "Provide responsive and knowledgeable customer service to quickly address any inquiries or concerns.",
+      null
+    ],
+    "F14": [
+      "5",
+      null
+    ],
+    "G14": [
+      "2",
+      null
+    ],
+    "H14": [
+      "5",
+      null
+    ],
+    "I14": [
+      "1",
+      null
+    ],
+    "J14": [
+      "5",
+      null
+    ],
+    "K14": [
+      "2",
+      null
+    ],
+    "D15": [
+      "Affordable Charging Rates",
+      null
+    ],
+    "E15": [
+      "Set competitive pricing for charging services to attract cost-conscious customers.",
+      null
+    ],
+    "F15": [
+      "1",
+      null
+    ],
+    "G15": [
+      "5",
+      null
+    ],
+    "H15": [
+      "2",
+      null
+    ],
+    "I15": [
+      "3",
+      null
+    ],
+    "J15": [
+      "1",
+      null
+    ],
+    "K15": [
+      "2",
+      null
+    ],
+    "D16": [
+      "Cost-Effective Maintenance",
+      null
+    ],
+    "E16": [
+      "Develop maintenance plans that reduce long-term costs while ensuring reliability and safety.",
+      null
+    ],
+    "F16": [
+      "4",
+      null
+    ],
+    "G16": [
+      "5",
+      null
+    ],
+    "H16": [
+      "3",
+      null
+    ],
+    "I16": [
+      "2",
+      null
+    ],
+    "J16": [
+      "3",
+      null
+    ],
+    "K16": [
+      "1",
+      null
+    ],
+    "D17": [
+      "Energy-Efficient Operations",
+      null
+    ],
+    "E17": [
+      "Utilize energy-saving technologies to reduce operational costs and pass the savings on to customers.",
+      null
+    ],
+    "F17": [
+      "1",
+      null
+    ],
+    "G17": [
+      "3",
+      null
+    ],
+    "H17": [
+      "2",
+      null
+    ],
+    "I17": [
+      "3",
+      null
+    ],
+    "J17": [
+      "1",
+      null
+    ],
+    "K17": [
+      "4",
+      null
+    ],
+    "D18": [
+      "Flexible Payment Plans",
+      null
+    ],
+    "E18": [
+      "Offer customizable payment plans that cater to different customer needs, providing financial flexibility.",
+      null
+    ],
+    "F18": [
+      "1",
+      null
+    ],
+    "G18": [
+      "3",
+      null
+    ],
+    "H18": [
+      "2",
+      null
+    ],
+    "I18": [
+      "2",
+      null
+    ],
+    "J18": [
+      "3",
+      null
+    ],
+    "K18": [
+      "4",
+      null
+    ],
+    "D19": [
+      "Bundle Service Discounts",
+      null
+    ],
+    "E19": [
+      "Create bundled service packages that offer discounts, encouraging customers to use multiple services.",
+      null
+    ],
+    "F19": [
+      "3",
+      null
+    ],
+    "G19": [
+      "5",
+      null
+    ],
+    "H19": [
+      "2",
+      null
+    ],
+    "I19": [
+      "1",
+      null
+    ],
+    "J19": [
+      "3",
+      null
+    ],
+    "K19": [
+      "5",
+      null
+    ],
+    "D20": [
+      "Reduced Overhead Costs",
+      null
+    ],
+    "E20": [
+      "Streamline operations to minimize overhead expenses, allowing for more competitive pricing in the market.",
+      null
+    ],
+    "F20": [
+      "2",
+      null
+    ],
+    "G20": [
+      "1",
+      null
+    ],
+    "H20": [
+      "3",
+      null
+    ],
+    "I20": [
+      "2",
+      null
+    ],
+    "J20": [
+      "3",
+      null
+    ],
+    "K20": [
+      "4",
+      null
+    ],
+    "F21": [
+      "Non-Weighted Solution Scores",
+      null
+    ],
+    "G21": [
+      "63",
+      "=SUM(G3:G20)"
+    ],
+    "H21": [
+      "48",
+      "=SUM(H3:H20)"
+    ],
+    "I21": [
+      "47",
+      "=SUM(I3:I20)"
+    ],
+    "J21": [
+      "47",
+      "=SUM(J3:J20)"
+    ],
+    "K21": [
+      "56",
+      "=SUM(K3:K20)"
+    ],
+    "F22": [
+      "Weighted Solution Scores",
+      null
+    ],
+    "G22": [
+      "#REF!",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x114accff0>"
+    ],
+    "H22": [
+      "#REF!",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x105832840>"
+    ],
+    "I22": [
+      "#REF!",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x11387a350>"
+    ],
+    "J22": [
+      "#REF!",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x1138787d0>"
+    ],
+    "K22": [
+      "#REF!",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x145341a90>"
+    ]
+  },
+  "BLANK - VoC Pugh Matrix": {
+    "B9:B14": [
+      "Faster",
+      null
+    ],
+    "C3:C8": [
+      "Superior Quality",
+      null
+    ],
+    "B3:B8": [
+      "Better",
+      null
+    ],
+    "C15:C20": [
+      "Cost Effectiveness",
+      null
+    ],
+    "B15:B20": [
+      "Cheaper",
+      null
+    ],
+    "C9:C14": [
+      "Increased Efficiency",
+      null
+    ],
+    "B1": [
+      "Voice of Customer (VoC) Pugh Matrix Template",
+      null
+    ],
+    "D2": [
+      "Criteria",
+      null
+    ],
+    "E2": [
+      "Description",
+      null
+    ],
+    "F2": [
+      "Importance \nScore of 1 to 5",
+      null
+    ],
+    "G2": [
+      "Strategic Planning",
+      null
+    ],
+    "H2": [
+      "Product Development",
+      null
+    ],
+    "I2": [
+      "Market Positioning",
+      null
+    ],
+    "J2": [
+      "Service Delivery",
+      null
+    ],
+    "K2": [
+      "Customer Support",
+      null
+    ],
+    "F21": [
+      "Non-Weighted Solution Scores",
+      null
+    ],
+    "G21": [
+      "0",
+      "=SUM(G3:G20)"
+    ],
+    "H21": [
+      "0",
+      "=SUM(H3:H20)"
+    ],
+    "I21": [
+      "0",
+      "=SUM(I3:I20)"
+    ],
+    "J21": [
+      "0",
+      "=SUM(J3:J20)"
+    ],
+    "K21": [
+      "0",
+      "=SUM(K3:K20)"
+    ],
+    "F22": [
+      "Weighted Solution Scores",
+      null
+    ],
+    "G22": [
+      "0",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x145a19080>"
+    ],
+    "H22": [
+      "0",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x11093ecf0>"
+    ],
+    "I22": [
+      "0",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x113e4bdd0>"
+    ],
+    "J22": [
+      "0",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x113e4bfb0>"
+    ],
+    "K22": [
+      "0",
+      "<openpyxl.worksheet.formula.ArrayFormula object at 0x113e4a870>"
+    ]
+  },
+  "- Disclaimer -": {
+    "B2": [
+      "Any articles, templates, or information provided by Smartsheet on the website are for reference only. While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, articles, templates, or related graphics contained on the website. Any reliance you place on such information is therefore strictly at your own risk. ",
+      null
+    ]
+  }
+}

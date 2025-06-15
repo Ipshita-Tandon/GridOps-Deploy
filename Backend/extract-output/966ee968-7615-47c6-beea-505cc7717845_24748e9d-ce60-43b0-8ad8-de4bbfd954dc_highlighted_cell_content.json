@@ -1,0 +1,433 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Budget summary": {
+    "C6:D6": [
+      "Demo and Build Construction, LLC.",
+      null
+    ],
+    "C7:D7": [
+      "C#12345678",
+      null
+    ],
+    "C10:D10": [
+      "6035550198",
+      null
+    ],
+    "C11:D11": [
+      "789 Smith Street, Bozeman, MT 06030",
+      null
+    ],
+    "C5:D5": [
+      "Take out old flooring, replace with new tile. Finish and trim all new flooring. Replace current cabinets with more modern style. Finish and trim all cabinets.",
+      null
+    ],
+    "C9:D9": [
+      "http://websitegoeshere.com/",
+      null
+    ],
+    "C8:D8": [
+      "Michael Peltier",
+      null
+    ],
+    "C4:D4": [
+      "Kitchen remodel",
+      null
+    ],
+    "D1": [
+      "Itemized Expenses",
+      null
+    ],
+    "B2": [
+      "HOME",
+      null
+    ],
+    "C2": [
+      "CONSTRUCTION \nBUDGET",
+      null
+    ],
+    "B3": [
+      "PROJECT INFORMATION",
+      null
+    ],
+    "B4": [
+      "Project name",
+      null
+    ],
+    "B5": [
+      "Project description",
+      null
+    ],
+    "B6": [
+      "Contractor",
+      null
+    ],
+    "B7": [
+      "Licensed/Bonded number",
+      null
+    ],
+    "B8": [
+      "Contact name",
+      null
+    ],
+    "B9": [
+      "Website",
+      null
+    ],
+    "B10": [
+      "Phone",
+      null
+    ],
+    "B11": [
+      "Address",
+      null
+    ],
+    "B12": [
+      "FINANCIAL STATUS",
+      null
+    ],
+    "B13": [
+      "Account",
+      null
+    ],
+    "C13": [
+      "Amount",
+      null
+    ],
+    "B14": [
+      "Cash amount",
+      null
+    ],
+    "C14": [
+      "3500",
+      null
+    ],
+    "B15": [
+      "Financed amount",
+      null
+    ],
+    "C15": [
+      "0",
+      null
+    ],
+    "B16": [
+      "Total allotted funds",
+      null
+    ],
+    "B17": [
+      "Funds used to date",
+      null
+    ],
+    "B18": [
+      "Funds remaining",
+      null
+    ]
+  },
+  "Itemized expenses": {
+    "E1": [
+      "Budget Summary",
+      null
+    ],
+    "B2": [
+      "LIST",
+      null
+    ],
+    "C2": [
+      "OF \nEXPENSES",
+      null
+    ],
+    "B3": [
+      "PROJECT FUNDS ALLOTTED",
+      null
+    ],
+    "C3": [
+      "FUNDS USED TO DATE",
+      null
+    ],
+    "D3": [
+      "FUNDS REMAINING",
+      null
+    ],
+    "B5": [
+      "Item",
+      null
+    ],
+    "C5": [
+      "Category",
+      null
+    ],
+    "D5": [
+      "Amount",
+      null
+    ],
+    "B6": [
+      "Tile flooring",
+      null
+    ],
+    "C6": [
+      "Materials",
+      null
+    ],
+    "D6": [
+      "350",
+      null
+    ],
+    "B7": [
+      "Floor glue",
+      null
+    ],
+    "C7": [
+      "Materials",
+      null
+    ],
+    "D7": [
+      "75",
+      null
+    ],
+    "B8": [
+      "Flooring",
+      null
+    ],
+    "C8": [
+      "Materials",
+      null
+    ],
+    "D8": [
+      "400",
+      null
+    ],
+    "B9": [
+      "Floor caulking",
+      null
+    ],
+    "C9": [
+      "Materials",
+      null
+    ],
+    "D9": [
+      "20",
+      null
+    ],
+    "B10": [
+      "Floor trim",
+      null
+    ],
+    "C10": [
+      "Materials",
+      null
+    ],
+    "D10": [
+      "40",
+      null
+    ],
+    "B11": [
+      "New cabinets",
+      null
+    ],
+    "C11": [
+      "Materials",
+      null
+    ],
+    "D11": [
+      "250",
+      null
+    ],
+    "B12": [
+      "Cabinet coating",
+      null
+    ],
+    "C12": [
+      "Materials",
+      null
+    ],
+    "D12": [
+      "200",
+      null
+    ],
+    "B13": [
+      "Cabinet hardware",
+      null
+    ],
+    "C13": [
+      "Materials",
+      null
+    ],
+    "D13": [
+      "100",
+      null
+    ],
+    "B14": [
+      "Take out flooring",
+      null
+    ],
+    "C14": [
+      "Labor",
+      null
+    ],
+    "D14": [
+      "150",
+      null
+    ],
+    "B15": [
+      "Strip flooring glue",
+      null
+    ],
+    "C15": [
+      "Labor",
+      null
+    ],
+    "D15": [
+      "50",
+      null
+    ],
+    "B16": [
+      "Sand floor",
+      null
+    ],
+    "C16": [
+      "Labor",
+      null
+    ],
+    "D16": [
+      "50",
+      null
+    ],
+    "B17": [
+      "Prep floor",
+      null
+    ],
+    "C17": [
+      "Labor",
+      null
+    ],
+    "D17": [
+      "100",
+      null
+    ],
+    "B18": [
+      "Floor installation",
+      null
+    ],
+    "C18": [
+      "Labor",
+      null
+    ],
+    "D18": [
+      "200",
+      null
+    ],
+    "B19": [
+      "Floor caulking",
+      null
+    ],
+    "C19": [
+      "Labor",
+      null
+    ],
+    "D19": [
+      "25",
+      null
+    ],
+    "B20": [
+      "Floor trim",
+      null
+    ],
+    "C20": [
+      "Labor",
+      null
+    ],
+    "D20": [
+      "50",
+      null
+    ],
+    "B21": [
+      "Remove old cabinets",
+      null
+    ],
+    "C21": [
+      "Labor",
+      null
+    ],
+    "D21": [
+      "150",
+      null
+    ],
+    "B22": [
+      "Prep cabinet area",
+      null
+    ],
+    "C22": [
+      "Labor",
+      null
+    ],
+    "D22": [
+      "50",
+      null
+    ],
+    "B23": [
+      "Install new cabinets",
+      null
+    ],
+    "C23": [
+      "Labor",
+      null
+    ],
+    "D23": [
+      "300",
+      null
+    ],
+    "B24": [
+      "Caulk cabinets",
+      null
+    ],
+    "C24": [
+      "Labor",
+      null
+    ],
+    "D24": [
+      "100",
+      null
+    ],
+    "B25": [
+      "Apply cabinet coating",
+      null
+    ],
+    "C25": [
+      "Labor",
+      null
+    ],
+    "D25": [
+      "100",
+      null
+    ],
+    "B26": [
+      "Install cabinet hardware",
+      null
+    ],
+    "C26": [
+      "Labor",
+      null
+    ],
+    "D26": [
+      "50",
+      null
+    ],
+    "B27": [
+      "Total",
+      null
+    ]
+  },
+  "ChartData": {
+    "A1": [
+      "This sheet should remain hidden.",
+      null
+    ],
+    "A2": [
+      "Chart Labels",
+      null
+    ]
+  }
+}

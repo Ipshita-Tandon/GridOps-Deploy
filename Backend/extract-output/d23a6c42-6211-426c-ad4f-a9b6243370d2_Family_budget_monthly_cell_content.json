@@ -1,0 +1,1891 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Monthly budget report": {
+    "C3:F3": [
+      "Budget\nOverview",
+      null
+    ],
+    "K1": [
+      " ",
+      null
+    ],
+    "C5": [
+      "Overview",
+      null
+    ],
+    "D6": [
+      "Projected",
+      null
+    ],
+    "E6": [
+      "Actual",
+      null
+    ],
+    "F6": [
+      "Difference",
+      null
+    ],
+    "C7": [
+      "Balance",
+      null
+    ],
+    "D7": [
+      "1585",
+      "=D9-D8"
+    ],
+    "E7": [
+      "1740",
+      "=E9-E8"
+    ],
+    "F7": [
+      " ",
+      null
+    ],
+    "C8": [
+      "Expenses",
+      null
+    ],
+    "D8": [
+      "7915",
+      "=SUM(TBL_MonthlyExpenses[Projected cost])"
+    ],
+    "E8": [
+      "7860",
+      "=SUM(TBL_MonthlyExpenses[Actual cost])"
+    ],
+    "F8": [
+      "-55",
+      "=E8-D8"
+    ],
+    "C9": [
+      "Total income",
+      null
+    ],
+    "D9": [
+      "9500",
+      "=SUM(D14:D16)"
+    ],
+    "E9": [
+      "9600",
+      "=SUM(E14:E16)"
+    ],
+    "F9": [
+      "100",
+      "=E9-D9"
+    ],
+    "H9": [
+      "Actual expenses",
+      null
+    ],
+    "C12": [
+      "Income summary",
+      null
+    ],
+    "D13": [
+      "Projected",
+      null
+    ],
+    "E13": [
+      "Actual",
+      null
+    ],
+    "F13": [
+      "Difference",
+      null
+    ],
+    "C14": [
+      "Income 1",
+      null
+    ],
+    "D14": [
+      "6000",
+      null
+    ],
+    "E14": [
+      "5800",
+      null
+    ],
+    "F14": [
+      "-200",
+      "=E14-D14"
+    ],
+    "C15": [
+      "Income 2",
+      null
+    ],
+    "D15": [
+      "1000",
+      null
+    ],
+    "E15": [
+      "2300",
+      null
+    ],
+    "F15": [
+      "1300",
+      "=E15-D15"
+    ],
+    "C16": [
+      "Extra income",
+      null
+    ],
+    "D16": [
+      "2500",
+      null
+    ],
+    "E16": [
+      "1500",
+      null
+    ],
+    "F16": [
+      "-1000",
+      "=E16-D16"
+    ],
+    "C19": [
+      "Comparsion Chart",
+      null
+    ]
+  },
+  "Monthly expenses": {
+    "C2:E2": [
+      "Monthly expenses",
+      null
+    ],
+    "C4": [
+      "Description",
+      null
+    ],
+    "D4": [
+      "Category",
+      null
+    ],
+    "E4": [
+      "Projected cost",
+      null
+    ],
+    "F4": [
+      "Actual cost",
+      null
+    ],
+    "G4": [
+      "Difference",
+      null
+    ],
+    "C5": [
+      "Extracurricular activities",
+      null
+    ],
+    "D5": [
+      "Children",
+      null
+    ],
+    "E5": [
+      "40",
+      null
+    ],
+    "F5": [
+      "40",
+      null
+    ],
+    "G5": [
+      "0",
+      "='Monthly expenses'!$E5-'Monthly expenses'!$F5"
+    ],
+    "C6": [
+      "Medical",
+      null
+    ],
+    "D6": [
+      "Children",
+      null
+    ],
+    "G6": [
+      "0",
+      "='Monthly expenses'!$E6-'Monthly expenses'!$F6"
+    ],
+    "C7": [
+      "School supplies",
+      null
+    ],
+    "D7": [
+      "Children",
+      null
+    ],
+    "G7": [
+      "0",
+      "='Monthly expenses'!$E7-'Monthly expenses'!$F7"
+    ],
+    "C8": [
+      "School tuition",
+      null
+    ],
+    "D8": [
+      "Children",
+      null
+    ],
+    "E8": [
+      "100",
+      null
+    ],
+    "F8": [
+      "100",
+      null
+    ],
+    "G8": [
+      "0",
+      "='Monthly expenses'!$E8-'Monthly expenses'!$F8"
+    ],
+    "C9": [
+      "Concerts",
+      null
+    ],
+    "D9": [
+      "Entertainment",
+      null
+    ],
+    "E9": [
+      "50",
+      null
+    ],
+    "F9": [
+      "40",
+      null
+    ],
+    "G9": [
+      "10",
+      "='Monthly expenses'!$E9-'Monthly expenses'!$F9"
+    ],
+    "C10": [
+      "Live theater",
+      null
+    ],
+    "D10": [
+      "Entertainment",
+      null
+    ],
+    "E10": [
+      "200",
+      null
+    ],
+    "F10": [
+      "150",
+      null
+    ],
+    "G10": [
+      "50",
+      "='Monthly expenses'!$E10-'Monthly expenses'!$F10"
+    ],
+    "C11": [
+      "Movies",
+      null
+    ],
+    "D11": [
+      "Entertainment",
+      null
+    ],
+    "E11": [
+      "50",
+      null
+    ],
+    "F11": [
+      "28",
+      null
+    ],
+    "G11": [
+      "22",
+      "='Monthly expenses'!$E11-'Monthly expenses'!$F11"
+    ],
+    "C12": [
+      "Music (CDs, downloads, etc.)",
+      null
+    ],
+    "D12": [
+      "Entertainment",
+      null
+    ],
+    "E12": [
+      "50",
+      null
+    ],
+    "F12": [
+      "30",
+      null
+    ],
+    "G12": [
+      "20",
+      "='Monthly expenses'!$E12-'Monthly expenses'!$F12"
+    ],
+    "C13": [
+      "Sporting events",
+      null
+    ],
+    "D13": [
+      "Entertainment",
+      null
+    ],
+    "E13": [
+      "0",
+      null
+    ],
+    "F13": [
+      "40",
+      null
+    ],
+    "G13": [
+      "-40",
+      "='Monthly expenses'!$E13-'Monthly expenses'!$F13"
+    ],
+    "C14": [
+      "Video (purchase)",
+      null
+    ],
+    "D14": [
+      "Entertainment",
+      null
+    ],
+    "E14": [
+      "20",
+      null
+    ],
+    "F14": [
+      "50",
+      null
+    ],
+    "G14": [
+      "-30",
+      "='Monthly expenses'!$E14-'Monthly expenses'!$F14"
+    ],
+    "C15": [
+      "Video (rental)",
+      null
+    ],
+    "D15": [
+      "Entertainment",
+      null
+    ],
+    "E15": [
+      "30",
+      null
+    ],
+    "F15": [
+      "20",
+      null
+    ],
+    "G15": [
+      "10",
+      "='Monthly expenses'!$E15-'Monthly expenses'!$F15"
+    ],
+    "C16": [
+      "Dining out",
+      null
+    ],
+    "D16": [
+      "Food",
+      null
+    ],
+    "E16": [
+      "1000",
+      null
+    ],
+    "F16": [
+      "1200",
+      null
+    ],
+    "G16": [
+      "-200",
+      "='Monthly expenses'!$E16-'Monthly expenses'!$F16"
+    ],
+    "C17": [
+      "Groceries",
+      null
+    ],
+    "D17": [
+      "Food",
+      null
+    ],
+    "E17": [
+      "100",
+      null
+    ],
+    "F17": [
+      "120",
+      null
+    ],
+    "G17": [
+      "-20",
+      "='Monthly expenses'!$E17-'Monthly expenses'!$F17"
+    ],
+    "C18": [
+      "Charity 1",
+      null
+    ],
+    "D18": [
+      "Gifts and charity",
+      null
+    ],
+    "E18": [
+      "75",
+      null
+    ],
+    "F18": [
+      "100",
+      null
+    ],
+    "G18": [
+      "-25",
+      "='Monthly expenses'!$E18-'Monthly expenses'!$F18"
+    ],
+    "C19": [
+      "Charity 2",
+      null
+    ],
+    "D19": [
+      "Gifts and charity",
+      null
+    ],
+    "E19": [
+      "25",
+      null
+    ],
+    "F19": [
+      "25",
+      null
+    ],
+    "G19": [
+      "0",
+      "='Monthly expenses'!$E19-'Monthly expenses'!$F19"
+    ],
+    "C20": [
+      "Gift 1",
+      null
+    ],
+    "D20": [
+      "Gifts and charity",
+      null
+    ],
+    "G20": [
+      "0",
+      "='Monthly expenses'!$E20-'Monthly expenses'!$F20"
+    ],
+    "C21": [
+      "Gift 2",
+      null
+    ],
+    "D21": [
+      "Gifts and charity",
+      null
+    ],
+    "G21": [
+      "0",
+      "='Monthly expenses'!$E21-'Monthly expenses'!$F21"
+    ],
+    "C22": [
+      "Cable/satellite",
+      null
+    ],
+    "D22": [
+      "Housing",
+      null
+    ],
+    "E22": [
+      "100",
+      null
+    ],
+    "F22": [
+      "100",
+      null
+    ],
+    "G22": [
+      "0",
+      "='Monthly expenses'!$E22-'Monthly expenses'!$F22"
+    ],
+    "C23": [
+      "Electric",
+      null
+    ],
+    "D23": [
+      "Housing",
+      null
+    ],
+    "E23": [
+      "45",
+      null
+    ],
+    "F23": [
+      "50",
+      null
+    ],
+    "G23": [
+      "-5",
+      "='Monthly expenses'!$E23-'Monthly expenses'!$F23"
+    ],
+    "C24": [
+      "Gas",
+      null
+    ],
+    "D24": [
+      "Housing",
+      null
+    ],
+    "E24": [
+      "300",
+      null
+    ],
+    "F24": [
+      "400",
+      null
+    ],
+    "G24": [
+      "-100",
+      "='Monthly expenses'!$E24-'Monthly expenses'!$F24"
+    ],
+    "C25": [
+      "House cleaning service",
+      null
+    ],
+    "D25": [
+      "Housing",
+      null
+    ],
+    "E25": [
+      "200",
+      null
+    ],
+    "G25": [
+      "200",
+      "='Monthly expenses'!$E25-'Monthly expenses'!$F25"
+    ],
+    "C26": [
+      "Maintenance",
+      null
+    ],
+    "D26": [
+      "Housing",
+      null
+    ],
+    "E26": [
+      "200",
+      null
+    ],
+    "F26": [
+      "150",
+      null
+    ],
+    "G26": [
+      "50",
+      "='Monthly expenses'!$E26-'Monthly expenses'!$F26"
+    ],
+    "C27": [
+      "Mortgage/rent",
+      null
+    ],
+    "D27": [
+      "Housing",
+      null
+    ],
+    "E27": [
+      "1700",
+      null
+    ],
+    "F27": [
+      "1700",
+      null
+    ],
+    "G27": [
+      "0",
+      "='Monthly expenses'!$E27-'Monthly expenses'!$F27"
+    ],
+    "C28": [
+      "Natural gas/oil",
+      null
+    ],
+    "D28": [
+      "Housing",
+      null
+    ],
+    "G28": [
+      "0",
+      "='Monthly expenses'!$E28-'Monthly expenses'!$F28"
+    ],
+    "C29": [
+      "Internet Service",
+      null
+    ],
+    "D29": [
+      "Housing",
+      null
+    ],
+    "E29": [
+      "100",
+      null
+    ],
+    "F29": [
+      "100",
+      null
+    ],
+    "G29": [
+      "0",
+      "='Monthly expenses'!$E29-'Monthly expenses'!$F29"
+    ],
+    "C30": [
+      "Phone (cell)",
+      null
+    ],
+    "D30": [
+      "Housing",
+      null
+    ],
+    "E30": [
+      "60",
+      null
+    ],
+    "F30": [
+      "60",
+      null
+    ],
+    "G30": [
+      "0",
+      "='Monthly expenses'!$E30-'Monthly expenses'!$F30"
+    ],
+    "C31": [
+      "Phone (home)",
+      null
+    ],
+    "D31": [
+      "Housing",
+      null
+    ],
+    "E31": [
+      "35",
+      null
+    ],
+    "F31": [
+      "39",
+      null
+    ],
+    "G31": [
+      "-4",
+      "='Monthly expenses'!$E31-'Monthly expenses'!$F31"
+    ],
+    "C32": [
+      "Supplies",
+      null
+    ],
+    "D32": [
+      "Housing",
+      null
+    ],
+    "E32": [
+      "40",
+      null
+    ],
+    "F32": [
+      "55",
+      null
+    ],
+    "G32": [
+      "-15",
+      "='Monthly expenses'!$E32-'Monthly expenses'!$F32"
+    ],
+    "C33": [
+      "Waste removal and recycle",
+      null
+    ],
+    "D33": [
+      "Housing",
+      null
+    ],
+    "E33": [
+      "25",
+      null
+    ],
+    "F33": [
+      "22",
+      null
+    ],
+    "G33": [
+      "3",
+      "='Monthly expenses'!$E33-'Monthly expenses'!$F33"
+    ],
+    "C34": [
+      "Water and sewer",
+      null
+    ],
+    "D34": [
+      "Housing",
+      null
+    ],
+    "E34": [
+      "25",
+      null
+    ],
+    "F34": [
+      "26",
+      null
+    ],
+    "G34": [
+      "-1",
+      "='Monthly expenses'!$E34-'Monthly expenses'!$F34"
+    ],
+    "C35": [
+      "Health",
+      null
+    ],
+    "D35": [
+      "Insurance",
+      null
+    ],
+    "E35": [
+      "400",
+      null
+    ],
+    "F35": [
+      "400",
+      null
+    ],
+    "G35": [
+      "0",
+      "='Monthly expenses'!$E35-'Monthly expenses'!$F35"
+    ],
+    "C36": [
+      "Home",
+      null
+    ],
+    "D36": [
+      "Insurance",
+      null
+    ],
+    "E36": [
+      "400",
+      null
+    ],
+    "F36": [
+      "400",
+      null
+    ],
+    "G36": [
+      "0",
+      "='Monthly expenses'!$E36-'Monthly expenses'!$F36"
+    ],
+    "C37": [
+      "Life",
+      null
+    ],
+    "D37": [
+      "Insurance",
+      null
+    ],
+    "E37": [
+      "100",
+      null
+    ],
+    "F37": [
+      "100",
+      null
+    ],
+    "G37": [
+      "0",
+      "='Monthly expenses'!$E37-'Monthly expenses'!$F37"
+    ],
+    "C38": [
+      "Credit Card 1",
+      null
+    ],
+    "D38": [
+      "Loans",
+      null
+    ],
+    "E38": [
+      "200",
+      null
+    ],
+    "F38": [
+      "200",
+      null
+    ],
+    "G38": [
+      "0",
+      "='Monthly expenses'!$E38-'Monthly expenses'!$F38"
+    ],
+    "C39": [
+      "Credit Card 2",
+      null
+    ],
+    "D39": [
+      "Loans",
+      null
+    ],
+    "G39": [
+      "0",
+      "='Monthly expenses'!$E39-'Monthly expenses'!$F39"
+    ],
+    "C40": [
+      "Credit Card 3",
+      null
+    ],
+    "D40": [
+      "Loans",
+      null
+    ],
+    "G40": [
+      "0",
+      "='Monthly expenses'!$E40-'Monthly expenses'!$F40"
+    ],
+    "C41": [
+      "Personal",
+      null
+    ],
+    "D41": [
+      "Loans",
+      null
+    ],
+    "G41": [
+      "0",
+      "='Monthly expenses'!$E41-'Monthly expenses'!$F41"
+    ],
+    "C42": [
+      "Student",
+      null
+    ],
+    "D42": [
+      "Loans",
+      null
+    ],
+    "G42": [
+      "0",
+      "='Monthly expenses'!$E42-'Monthly expenses'!$F42"
+    ],
+    "C43": [
+      "Clothing",
+      null
+    ],
+    "D43": [
+      "Personal care",
+      null
+    ],
+    "E43": [
+      "150",
+      null
+    ],
+    "F43": [
+      "140",
+      null
+    ],
+    "G43": [
+      "10",
+      "='Monthly expenses'!$E43-'Monthly expenses'!$F43"
+    ],
+    "C44": [
+      "Dry cleaning",
+      null
+    ],
+    "D44": [
+      "Personal care",
+      null
+    ],
+    "G44": [
+      "0",
+      "='Monthly expenses'!$E44-'Monthly expenses'!$F44"
+    ],
+    "C45": [
+      "Hair/nails",
+      null
+    ],
+    "D45": [
+      "Personal care",
+      null
+    ],
+    "G45": [
+      "0",
+      "='Monthly expenses'!$E45-'Monthly expenses'!$F45"
+    ],
+    "C46": [
+      "Health club",
+      null
+    ],
+    "D46": [
+      "Personal care",
+      null
+    ],
+    "G46": [
+      "0",
+      "='Monthly expenses'!$E46-'Monthly expenses'!$F46"
+    ],
+    "C47": [
+      "Medical",
+      null
+    ],
+    "D47": [
+      "Personal care",
+      null
+    ],
+    "G47": [
+      "0",
+      "='Monthly expenses'!$E47-'Monthly expenses'!$F47"
+    ],
+    "C48": [
+      "Food",
+      null
+    ],
+    "D48": [
+      "Pets",
+      null
+    ],
+    "E48": [
+      "150",
+      null
+    ],
+    "F48": [
+      "75",
+      null
+    ],
+    "G48": [
+      "75",
+      "='Monthly expenses'!$E48-'Monthly expenses'!$F48"
+    ],
+    "C49": [
+      "Grooming",
+      null
+    ],
+    "D49": [
+      "Pets",
+      null
+    ],
+    "E49": [
+      "20",
+      null
+    ],
+    "F49": [
+      "25",
+      null
+    ],
+    "G49": [
+      "-5",
+      "='Monthly expenses'!$E49-'Monthly expenses'!$F49"
+    ],
+    "C50": [
+      "Medical",
+      null
+    ],
+    "D50": [
+      "Pets",
+      null
+    ],
+    "G50": [
+      "0",
+      "='Monthly expenses'!$E50-'Monthly expenses'!$F50"
+    ],
+    "C51": [
+      "Toys",
+      null
+    ],
+    "D51": [
+      "Pets",
+      null
+    ],
+    "G51": [
+      "0",
+      "='Monthly expenses'!$E51-'Monthly expenses'!$F51"
+    ],
+    "C52": [
+      "Investment account",
+      null
+    ],
+    "D52": [
+      "Savings",
+      null
+    ],
+    "E52": [
+      "200",
+      null
+    ],
+    "F52": [
+      "200",
+      null
+    ],
+    "G52": [
+      "0",
+      "='Monthly expenses'!$E52-'Monthly expenses'!$F52"
+    ],
+    "C53": [
+      "Retirement account",
+      null
+    ],
+    "D53": [
+      "Savings",
+      null
+    ],
+    "G53": [
+      "0",
+      "='Monthly expenses'!$E53-'Monthly expenses'!$F53"
+    ],
+    "C54": [
+      "Federal",
+      null
+    ],
+    "D54": [
+      "Taxes",
+      null
+    ],
+    "E54": [
+      "300",
+      null
+    ],
+    "F54": [
+      "300",
+      null
+    ],
+    "G54": [
+      "0",
+      "='Monthly expenses'!$E54-'Monthly expenses'!$F54"
+    ],
+    "C55": [
+      "Local",
+      null
+    ],
+    "D55": [
+      "Taxes",
+      null
+    ],
+    "G55": [
+      "0",
+      "='Monthly expenses'!$E55-'Monthly expenses'!$F55"
+    ],
+    "C56": [
+      "State",
+      null
+    ],
+    "D56": [
+      "Taxes",
+      null
+    ],
+    "G56": [
+      "0",
+      "='Monthly expenses'!$E56-'Monthly expenses'!$F56"
+    ],
+    "C57": [
+      "Bus/rideshare fare",
+      null
+    ],
+    "D57": [
+      "Transportation",
+      null
+    ],
+    "E57": [
+      "100",
+      null
+    ],
+    "F57": [
+      "150",
+      null
+    ],
+    "G57": [
+      "-50",
+      "='Monthly expenses'!$E57-'Monthly expenses'!$F57"
+    ],
+    "C58": [
+      "Fuel",
+      null
+    ],
+    "D58": [
+      "Transportation",
+      null
+    ],
+    "E58": [
+      "450",
+      null
+    ],
+    "F58": [
+      "400",
+      null
+    ],
+    "G58": [
+      "50",
+      "='Monthly expenses'!$E58-'Monthly expenses'!$F58"
+    ],
+    "C59": [
+      "Insurance",
+      null
+    ],
+    "D59": [
+      "Transportation",
+      null
+    ],
+    "E59": [
+      "300",
+      null
+    ],
+    "F59": [
+      "300",
+      null
+    ],
+    "G59": [
+      "0",
+      "='Monthly expenses'!$E59-'Monthly expenses'!$F59"
+    ],
+    "C60": [
+      "Licensing ",
+      null
+    ],
+    "D60": [
+      "Transportation",
+      null
+    ],
+    "E60": [
+      "25",
+      null
+    ],
+    "F60": [
+      "25",
+      null
+    ],
+    "G60": [
+      "0",
+      "='Monthly expenses'!$E60-'Monthly expenses'!$F60"
+    ],
+    "C61": [
+      "Maintenance",
+      null
+    ],
+    "D61": [
+      "Transportation",
+      null
+    ],
+    "E61": [
+      "100",
+      null
+    ],
+    "F61": [
+      "50",
+      null
+    ],
+    "G61": [
+      "50",
+      "='Monthly expenses'!$E61-'Monthly expenses'!$F61"
+    ],
+    "C62": [
+      "Parking fees",
+      null
+    ],
+    "D62": [
+      "Transportation",
+      null
+    ],
+    "G62": [
+      "0",
+      "='Monthly expenses'!$E62-'Monthly expenses'!$F62"
+    ],
+    "C63": [
+      "Vehicle payment",
+      null
+    ],
+    "D63": [
+      "Transportation",
+      null
+    ],
+    "E63": [
+      "450",
+      null
+    ],
+    "F63": [
+      "450",
+      null
+    ],
+    "G63": [
+      "0",
+      "='Monthly expenses'!$E63-'Monthly expenses'!$F63"
+    ]
+  },
+  "Expenses categories": {
+    "I1": [
+      " ",
+      null
+    ],
+    "C2": [
+      "Expense categories",
+      null
+    ],
+    "C4": [
+      "Categories",
+      null
+    ],
+    "D4": [
+      "Blank Column",
+      null
+    ],
+    "C5": [
+      "Children",
+      null
+    ],
+    "C6": [
+      "Entertainment",
+      null
+    ],
+    "C7": [
+      "Food",
+      null
+    ],
+    "C8": [
+      "Gifts and charity",
+      null
+    ],
+    "C9": [
+      "Housing",
+      null
+    ],
+    "C10": [
+      "Insurance",
+      null
+    ],
+    "C11": [
+      "Loans",
+      null
+    ],
+    "C12": [
+      "Personal care",
+      null
+    ],
+    "C13": [
+      "Pets",
+      null
+    ],
+    "C14": [
+      "Savings",
+      null
+    ],
+    "C15": [
+      "Taxes",
+      null
+    ],
+    "C16": [
+      "Transportation",
+      null
+    ],
+    "C17": [
+      "Total",
+      null
+    ]
+  },
+  "Expenses summary": {
+    "H1": [
+      " ",
+      null
+    ],
+    "C2": [
+      "Expenses summary",
+      null
+    ],
+    "C4": [
+      "Expenses",
+      null
+    ],
+    "D4": [
+      "Projected Cost",
+      null
+    ],
+    "E4": [
+      "Actual Cost",
+      null
+    ],
+    "F4": [
+      "Difference ",
+      null
+    ],
+    "C5": [
+      "Housing",
+      null
+    ],
+    "D5": [
+      "2830",
+      null
+    ],
+    "E5": [
+      "2702",
+      null
+    ],
+    "F5": [
+      "128",
+      null
+    ],
+    "C6": [
+      "Cable/satellite",
+      null
+    ],
+    "D6": [
+      "100",
+      null
+    ],
+    "E6": [
+      "100",
+      null
+    ],
+    "F6": [
+      "0",
+      null
+    ],
+    "C7": [
+      "Electric",
+      null
+    ],
+    "D7": [
+      "45",
+      null
+    ],
+    "E7": [
+      "50",
+      null
+    ],
+    "F7": [
+      "-5",
+      null
+    ],
+    "C8": [
+      "Gas",
+      null
+    ],
+    "D8": [
+      "300",
+      null
+    ],
+    "E8": [
+      "400",
+      null
+    ],
+    "F8": [
+      "-100",
+      null
+    ],
+    "C9": [
+      "House cleaning service",
+      null
+    ],
+    "D9": [
+      "200",
+      null
+    ],
+    "F9": [
+      "200",
+      null
+    ],
+    "C10": [
+      "Internet Service",
+      null
+    ],
+    "D10": [
+      "100",
+      null
+    ],
+    "E10": [
+      "100",
+      null
+    ],
+    "F10": [
+      "0",
+      null
+    ],
+    "C11": [
+      "Maintenance",
+      null
+    ],
+    "D11": [
+      "200",
+      null
+    ],
+    "E11": [
+      "150",
+      null
+    ],
+    "F11": [
+      "50",
+      null
+    ],
+    "C12": [
+      "Mortgage/rent",
+      null
+    ],
+    "D12": [
+      "1700",
+      null
+    ],
+    "E12": [
+      "1700",
+      null
+    ],
+    "F12": [
+      "0",
+      null
+    ],
+    "C13": [
+      "Natural gas/oil",
+      null
+    ],
+    "F13": [
+      "0",
+      null
+    ],
+    "C14": [
+      "Phone (cell)",
+      null
+    ],
+    "D14": [
+      "60",
+      null
+    ],
+    "E14": [
+      "60",
+      null
+    ],
+    "F14": [
+      "0",
+      null
+    ],
+    "C15": [
+      "Phone (home)",
+      null
+    ],
+    "D15": [
+      "35",
+      null
+    ],
+    "E15": [
+      "39",
+      null
+    ],
+    "F15": [
+      "-4",
+      null
+    ],
+    "C16": [
+      "Supplies",
+      null
+    ],
+    "D16": [
+      "40",
+      null
+    ],
+    "E16": [
+      "55",
+      null
+    ],
+    "F16": [
+      "-15",
+      null
+    ],
+    "C17": [
+      "Waste removal and recycle",
+      null
+    ],
+    "D17": [
+      "25",
+      null
+    ],
+    "E17": [
+      "22",
+      null
+    ],
+    "F17": [
+      "3",
+      null
+    ],
+    "C18": [
+      "Water and sewer",
+      null
+    ],
+    "D18": [
+      "25",
+      null
+    ],
+    "E18": [
+      "26",
+      null
+    ],
+    "F18": [
+      "-1",
+      null
+    ],
+    "C19": [
+      "Transportation",
+      null
+    ],
+    "D19": [
+      "1425",
+      null
+    ],
+    "E19": [
+      "1375",
+      null
+    ],
+    "F19": [
+      "50",
+      null
+    ],
+    "C20": [
+      "Bus/rideshare fare",
+      null
+    ],
+    "D20": [
+      "100",
+      null
+    ],
+    "E20": [
+      "150",
+      null
+    ],
+    "F20": [
+      "-50",
+      null
+    ],
+    "C21": [
+      "Fuel",
+      null
+    ],
+    "D21": [
+      "450",
+      null
+    ],
+    "E21": [
+      "400",
+      null
+    ],
+    "F21": [
+      "50",
+      null
+    ],
+    "C22": [
+      "Insurance",
+      null
+    ],
+    "D22": [
+      "300",
+      null
+    ],
+    "E22": [
+      "300",
+      null
+    ],
+    "F22": [
+      "0",
+      null
+    ],
+    "C23": [
+      "Licensing",
+      null
+    ],
+    "D23": [
+      "25",
+      null
+    ],
+    "E23": [
+      "25",
+      null
+    ],
+    "F23": [
+      "0",
+      null
+    ],
+    "C24": [
+      "Maintenance",
+      null
+    ],
+    "D24": [
+      "100",
+      null
+    ],
+    "E24": [
+      "50",
+      null
+    ],
+    "F24": [
+      "50",
+      null
+    ],
+    "C25": [
+      "Parking fees",
+      null
+    ],
+    "F25": [
+      "0",
+      null
+    ],
+    "C26": [
+      "Vehicle payment",
+      null
+    ],
+    "D26": [
+      "450",
+      null
+    ],
+    "E26": [
+      "450",
+      null
+    ],
+    "F26": [
+      "0",
+      null
+    ],
+    "C27": [
+      "Food",
+      null
+    ],
+    "D27": [
+      "1100",
+      null
+    ],
+    "E27": [
+      "1320",
+      null
+    ],
+    "F27": [
+      "-220",
+      null
+    ],
+    "C28": [
+      "Dining out",
+      null
+    ],
+    "D28": [
+      "1000",
+      null
+    ],
+    "E28": [
+      "1200",
+      null
+    ],
+    "F28": [
+      "-200",
+      null
+    ],
+    "C29": [
+      "Groceries",
+      null
+    ],
+    "D29": [
+      "100",
+      null
+    ],
+    "E29": [
+      "120",
+      null
+    ],
+    "F29": [
+      "-20",
+      null
+    ],
+    "C30": [
+      "Insurance",
+      null
+    ],
+    "D30": [
+      "900",
+      null
+    ],
+    "E30": [
+      "900",
+      null
+    ],
+    "F30": [
+      "0",
+      null
+    ],
+    "C31": [
+      "Health",
+      null
+    ],
+    "D31": [
+      "400",
+      null
+    ],
+    "E31": [
+      "400",
+      null
+    ],
+    "F31": [
+      "0",
+      null
+    ],
+    "C32": [
+      "Home",
+      null
+    ],
+    "D32": [
+      "400",
+      null
+    ],
+    "E32": [
+      "400",
+      null
+    ],
+    "F32": [
+      "0",
+      null
+    ],
+    "C33": [
+      "Life",
+      null
+    ],
+    "D33": [
+      "100",
+      null
+    ],
+    "E33": [
+      "100",
+      null
+    ],
+    "F33": [
+      "0",
+      null
+    ],
+    "C34": [
+      "Entertainment",
+      null
+    ],
+    "D34": [
+      "400",
+      null
+    ],
+    "E34": [
+      "358",
+      null
+    ],
+    "F34": [
+      "42",
+      null
+    ],
+    "C35": [
+      "Taxes",
+      null
+    ],
+    "D35": [
+      "300",
+      null
+    ],
+    "E35": [
+      "300",
+      null
+    ],
+    "F35": [
+      "0",
+      null
+    ],
+    "C36": [
+      "Savings",
+      null
+    ],
+    "D36": [
+      "200",
+      null
+    ],
+    "E36": [
+      "200",
+      null
+    ],
+    "F36": [
+      "0",
+      null
+    ],
+    "C37": [
+      "Loans",
+      null
+    ],
+    "D37": [
+      "200",
+      null
+    ],
+    "E37": [
+      "200",
+      null
+    ],
+    "F37": [
+      "0",
+      null
+    ],
+    "C38": [
+      "Children",
+      null
+    ],
+    "D38": [
+      "140",
+      null
+    ],
+    "E38": [
+      "140",
+      null
+    ],
+    "F38": [
+      "0",
+      null
+    ],
+    "O38": [
+      " ",
+      null
+    ],
+    "C39": [
+      "Personal care",
+      null
+    ],
+    "D39": [
+      "150",
+      null
+    ],
+    "E39": [
+      "140",
+      null
+    ],
+    "F39": [
+      "10",
+      null
+    ],
+    "C40": [
+      "Gifts and charity",
+      null
+    ],
+    "D40": [
+      "100",
+      null
+    ],
+    "E40": [
+      "125",
+      null
+    ],
+    "F40": [
+      "-25",
+      null
+    ],
+    "C41": [
+      "Pets",
+      null
+    ],
+    "D41": [
+      "170",
+      null
+    ],
+    "E41": [
+      "100",
+      null
+    ],
+    "F41": [
+      "70",
+      null
+    ],
+    "C42": [
+      "Grand Total",
+      null
+    ],
+    "D42": [
+      "7915",
+      null
+    ],
+    "E42": [
+      "7860",
+      null
+    ],
+    "F42": [
+      "55",
+      null
+    ]
+  }
+}

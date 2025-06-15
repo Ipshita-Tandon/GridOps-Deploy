@@ -1,0 +1,109 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Budget Overview": {
+    "A1": [
+      "Department",
+      null
+    ],
+    "B1": [
+      "Revenue",
+      null
+    ],
+    "C1": [
+      "Expenses",
+      null
+    ],
+    "D1": [
+      "Notes",
+      null
+    ],
+    "E1": [
+      "Scenario",
+      null
+    ],
+    "A2": [
+      "Finance",
+      null
+    ],
+    "B2": [
+      "50000",
+      null
+    ],
+    "C2": [
+      "45000",
+      null
+    ],
+    "E2": [
+      "Base",
+      null
+    ],
+    "A3": [
+      "Sales",
+      null
+    ],
+    "B3": [
+      "70000",
+      null
+    ],
+    "C3": [
+      "75000",
+      null
+    ],
+    "E3": [
+      "Optimistic",
+      null
+    ],
+    "A4": [
+      "HR",
+      null
+    ],
+    "B4": [
+      "30000",
+      null
+    ],
+    "C4": [
+      "28000",
+      null
+    ],
+    "E4": [
+      "Pessimistic",
+      null
+    ],
+    "A5": [
+      "Finance",
+      null
+    ],
+    "B5": [
+      "52000",
+      null
+    ],
+    "C5": [
+      "47000",
+      null
+    ],
+    "E5": [
+      "Base",
+      null
+    ],
+    "A6": [
+      "Sales",
+      null
+    ],
+    "B6": [
+      "68000",
+      null
+    ],
+    "C6": [
+      "72000",
+      null
+    ],
+    "E6": [
+      "Optimistic",
+      null
+    ]
+  }
+}

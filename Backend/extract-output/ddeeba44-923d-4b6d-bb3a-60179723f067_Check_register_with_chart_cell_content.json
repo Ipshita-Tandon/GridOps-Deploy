@@ -1,0 +1,519 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Check register": {
+    "M2": [
+      "Breakdown of withdrawals",
+      null
+    ],
+    "F3": [
+      "CHECK REGISTER",
+      null
+    ],
+    "Q3": [
+      "2",
+      "=_xlfn.RANK.EQ(S3,$S$3:$S$9,0)"
+    ],
+    "R3": [
+      "Credit card",
+      null
+    ],
+    "S3": [
+      "936.4803",
+      "=SUMIF(TBL_Transactions[Category],R3, TBL_Transactions[Withdrawal])+ROW(R3)/10000"
+    ],
+    "F4": [
+      "Bank account number: ",
+      null
+    ],
+    "H4": [
+      "987654321",
+      null
+    ],
+    "Q4": [
+      "3",
+      "=_xlfn.RANK.EQ(S4,$S$3:$S$9,0)"
+    ],
+    "R4": [
+      "Groceries",
+      null
+    ],
+    "S4": [
+      "205.61040000000003",
+      "=SUMIF(TBL_Transactions[Category],R4, TBL_Transactions[Withdrawal])+ROW(R4)/10000"
+    ],
+    "F5": [
+      "Current balance: ",
+      null
+    ],
+    "H5": [
+      " $ 613.89",
+      "=\" \" & TEXT(OFFSET(I1,COUNTA(I:I)+5,0),\"$ #,##0.00\")"
+    ],
+    "Q5": [
+      "7",
+      "=_xlfn.RANK.EQ(S5,$S$3:$S$9,0)"
+    ],
+    "R5": [
+      "Insurance",
+      null
+    ],
+    "S5": [
+      "35.200500000000005",
+      "=SUMIF(TBL_Transactions[Category],R5, TBL_Transactions[Withdrawal])+ROW(R5)/10000"
+    ],
+    "Q6": [
+      "4",
+      "=_xlfn.RANK.EQ(S6,$S$3:$S$9,0)"
+    ],
+    "R6": [
+      "Investment",
+      null
+    ],
+    "S6": [
+      "200.0006",
+      "=SUMIF(TBL_Transactions[Category],R6, TBL_Transactions[Withdrawal])+ROW(R6)/10000"
+    ],
+    "Q7": [
+      "1",
+      "=_xlfn.RANK.EQ(S7,$S$3:$S$9,0)"
+    ],
+    "R7": [
+      "Mortgage",
+      null
+    ],
+    "S7": [
+      "961.7707",
+      "=SUMIF(TBL_Transactions[Category],R7, TBL_Transactions[Withdrawal])+ROW(R7)/10000"
+    ],
+    "Q8": [
+      "6",
+      "=_xlfn.RANK.EQ(S8,$S$3:$S$9,0)"
+    ],
+    "R8": [
+      "Other",
+      null
+    ],
+    "S8": [
+      "53.6508",
+      "=SUMIF(TBL_Transactions[Category],R8, TBL_Transactions[Withdrawal])+ROW(R8)/10000"
+    ],
+    "Q9": [
+      "5",
+      "=_xlfn.RANK.EQ(S9,$S$3:$S$9,0)"
+    ],
+    "R9": [
+      "Utilities",
+      null
+    ],
+    "S9": [
+      "194.20090000000002",
+      "=SUMIF(TBL_Transactions[Category],R9, TBL_Transactions[Withdrawal])+ROW(R9)/10000"
+    ],
+    "C10": [
+      "Date",
+      null
+    ],
+    "D10": [
+      "Check #",
+      null
+    ],
+    "E10": [
+      "Description",
+      null
+    ],
+    "F10": [
+      "Category",
+      null
+    ],
+    "G10": [
+      "Withdrawal",
+      null
+    ],
+    "H10": [
+      "Deposit",
+      null
+    ],
+    "I10": [
+      "Balance",
+      null
+    ],
+    "C11": [
+      "2025-05-29 00:00:00",
+      "=TODAY()-B11"
+    ],
+    "B12": [
+      "60",
+      null
+    ],
+    "C12": [
+      "2025-03-30 00:00:00",
+      "=TODAY()-B12"
+    ],
+    "E12": [
+      "Beginning balance",
+      null
+    ],
+    "F12": [
+      "Deposit",
+      null
+    ],
+    "H12": [
+      "2916.73",
+      null
+    ],
+    "I12": [
+      "2916.73",
+      "=Balance"
+    ],
+    "B13": [
+      "45",
+      null
+    ],
+    "C13": [
+      "2025-04-14 00:00:00",
+      "=TODAY()-B13"
+    ],
+    "D13": [
+      "2251",
+      null
+    ],
+    "E13": [
+      "Grocery store",
+      null
+    ],
+    "F13": [
+      "Groceries",
+      null
+    ],
+    "G13": [
+      "205.61",
+      null
+    ],
+    "I13": [
+      "2711.12",
+      "=Balance"
+    ],
+    "B14": [
+      "40",
+      null
+    ],
+    "C14": [
+      "2025-04-19 00:00:00",
+      "=TODAY()-B14"
+    ],
+    "D14": [
+      "67112449",
+      null
+    ],
+    "E14": [
+      "Home mortgage",
+      null
+    ],
+    "F14": [
+      "Mortgage",
+      null
+    ],
+    "G14": [
+      "961.77",
+      null
+    ],
+    "I14": [
+      "1749.35",
+      "=Balance"
+    ],
+    "B15": [
+      "35",
+      null
+    ],
+    "C15": [
+      "2025-04-24 00:00:00",
+      "=TODAY()-B15"
+    ],
+    "D15": [
+      "Debit",
+      null
+    ],
+    "E15": [
+      "Coffee shop",
+      null
+    ],
+    "F15": [
+      "Other",
+      null
+    ],
+    "G15": [
+      "3.65",
+      null
+    ],
+    "I15": [
+      "1745.6999999999998",
+      "=Balance"
+    ],
+    "B16": [
+      "30",
+      null
+    ],
+    "C16": [
+      "2025-04-29 00:00:00",
+      "=TODAY()-B16"
+    ],
+    "D16": [
+      "2252",
+      null
+    ],
+    "E16": [
+      "Gas and electric company",
+      null
+    ],
+    "F16": [
+      "Utilities",
+      null
+    ],
+    "G16": [
+      "145.33",
+      null
+    ],
+    "I16": [
+      "1600.37",
+      "=Balance"
+    ],
+    "N16": [
+      "Mortgage",
+      "=VLOOKUP(1,$Q$3:$S$9,2,FALSE)"
+    ],
+    "O16": [
+      "961.7707",
+      "=VLOOKUP(1,$Q$3:$S$9,3,FALSE)"
+    ],
+    "B17": [
+      "25",
+      null
+    ],
+    "C17": [
+      "2025-05-04 00:00:00",
+      "=TODAY()-B17"
+    ],
+    "D17": [
+      "ATM",
+      null
+    ],
+    "E17": [
+      "Cash",
+      null
+    ],
+    "F17": [
+      "Other",
+      null
+    ],
+    "G17": [
+      "50",
+      null
+    ],
+    "I17": [
+      "1550.37",
+      "=Balance"
+    ],
+    "N17": [
+      "Credit card",
+      "=VLOOKUP(2,$Q$3:$S$9,2,FALSE)"
+    ],
+    "O17": [
+      "936.4803",
+      "=VLOOKUP(2,$Q$3:$S$9,3,FALSE)"
+    ],
+    "B18": [
+      "20",
+      null
+    ],
+    "C18": [
+      "2025-05-09 00:00:00",
+      "=TODAY()-B18"
+    ],
+    "D18": [
+      "68240158",
+      null
+    ],
+    "E18": [
+      "Credit card",
+      null
+    ],
+    "F18": [
+      "Credit card",
+      null
+    ],
+    "G18": [
+      "936.48",
+      null
+    ],
+    "I18": [
+      "613.8899999999999",
+      "=Balance"
+    ],
+    "N18": [
+      "Groceries",
+      "=VLOOKUP(3,$Q$3:$S$9,2,FALSE)"
+    ],
+    "O18": [
+      "205.61040000000003",
+      "=VLOOKUP(3,$Q$3:$S$9,3,FALSE)"
+    ],
+    "B19": [
+      "15",
+      null
+    ],
+    "C19": [
+      "2025-05-14 00:00:00",
+      "=TODAY()-B19"
+    ],
+    "E19": [
+      "Paycheck",
+      null
+    ],
+    "F19": [
+      "Deposit",
+      null
+    ],
+    "H19": [
+      "2365.82",
+      null
+    ],
+    "I19": [
+      "2979.71",
+      "=Balance"
+    ],
+    "N19": [
+      "Investment",
+      "=VLOOKUP(4,$Q$3:$S$9,2,FALSE)"
+    ],
+    "O19": [
+      "200.0006",
+      "=VLOOKUP(4,$Q$3:$S$9,3,FALSE)"
+    ],
+    "B20": [
+      "7",
+      null
+    ],
+    "C20": [
+      "2025-05-22 00:00:00",
+      "=TODAY()-B20"
+    ],
+    "E20": [
+      "Mutual fund investment",
+      null
+    ],
+    "F20": [
+      "Investment",
+      null
+    ],
+    "G20": [
+      "200",
+      null
+    ],
+    "I20": [
+      "2779.71",
+      "=Balance"
+    ],
+    "N20": [
+      "Utilities",
+      "=VLOOKUP(5,$Q$3:$S$9,2,FALSE)"
+    ],
+    "O20": [
+      "194.20090000000002",
+      "=VLOOKUP(5,$Q$3:$S$9,3,FALSE)"
+    ],
+    "B21": [
+      "1",
+      null
+    ],
+    "C21": [
+      "2025-05-28 00:00:00",
+      "=TODAY()-B21"
+    ],
+    "D21": [
+      "2253",
+      null
+    ],
+    "E21": [
+      "The Phone Company",
+      null
+    ],
+    "F21": [
+      "Utilities",
+      null
+    ],
+    "G21": [
+      "48.87",
+      null
+    ],
+    "I21": [
+      "2730.84",
+      "=Balance"
+    ],
+    "N21": [
+      "Other",
+      "=VLOOKUP(6,$Q$3:$S$9,2,FALSE)"
+    ],
+    "O21": [
+      "53.6508",
+      "=VLOOKUP(6,$Q$3:$S$9,3,FALSE)"
+    ],
+    "B22": [
+      "0",
+      null
+    ],
+    "C22": [
+      "2025-05-29 00:00:00",
+      "=TODAY()-B22"
+    ],
+    "D22": [
+      "25-552",
+      null
+    ],
+    "E22": [
+      "Insurance",
+      null
+    ],
+    "F22": [
+      "Insurance",
+      null
+    ],
+    "G22": [
+      "35.2",
+      null
+    ],
+    "I22": [
+      "2695.6400000000003",
+      "=Balance"
+    ],
+    "N22": [
+      "Insurance",
+      "=VLOOKUP(7,$Q$3:$S$9,2,FALSE)"
+    ],
+    "O22": [
+      "35.200500000000005",
+      "=VLOOKUP(7,$Q$3:$S$9,3,FALSE)"
+    ]
+  },
+  "Sheet1": {
+    "B5:D5": [
+      "I AM MERGED",
+      null
+    ],
+    "B6": [
+      "M1",
+      null
+    ],
+    "C6": [
+      "M2",
+      null
+    ],
+    "D6": [
+      "M3",
+      null
+    ]
+  }
+}

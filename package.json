@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "localtunnel": "^2.0.2"
+  },
+  "scripts": {
+    "start-tunnel": "lt --port 8080"
+  }
+}

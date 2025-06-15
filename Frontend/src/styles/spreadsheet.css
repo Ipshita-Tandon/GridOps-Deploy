@@ -1,0 +1,23 @@
+@import '@syncfusion/ej2-base/styles/material-dark.css';
+@import '@syncfusion/ej2-buttons/styles/material-dark.css';
+@import '@syncfusion/ej2-calendars/styles/material-dark.css';
+@import '@syncfusion/ej2-dropdowns/styles/material-dark.css';
+@import '@syncfusion/ej2-inputs/styles/material-dark.css';
+@import '@syncfusion/ej2-navigations/styles/material-dark.css';
+@import '@syncfusion/ej2-popups/styles/material-dark.css';
+@import '@syncfusion/ej2-splitbuttons/styles/material-dark.css';
+@import '@syncfusion/ej2-react-spreadsheet/styles/material-dark.css';
+
+/* Custom styles for dark theme */
+.e-spreadsheet {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.e-spreadsheet .e-tab .e-tab-header {
+  background-color: #1f1f1f;
+}
+
+.e-spreadsheet .e-ribbon {
+  background-color: #1f1f1f;
+} 

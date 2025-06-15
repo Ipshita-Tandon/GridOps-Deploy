@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WOPI Excel Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // --- START OF CONFIGURATION ---
+      const DEFAULT_EXCEL_FILENAME = "sample.xlsx"; // Define your default Excel file here
+      // --- END OF CONFIGURATION ---
+
+      let currentLoadedFile = DEFAULT_EXCEL_FILENAME;
+      let lastHighlightedFileName = null;
+
+      async function loadExcelViewer(fileName = DEFAULT_EXCEL_FILENAME) {
+        currentLoadedFile = fileName;
+        const status = document.getElementById("status");
+        status.textContent = `Loading ${fileName}...`;
+
+        const res = await fetch("http://localhost:3000/host-url");
+        const data = await res.json();
+        const hostUrl = data.hostUrl;
+
+        if (!hostUrl || hostUrl.includes("localhost")) {
+          status.textContent =
+            "Ngrok not ready. Please ensure Ngrok is running and accessible. Or run server first before ngrok.";
+          return;
+        }
+
+        const fileToLoad = fileName;
+        const wopiSrc = encodeURIComponent(
+          `${hostUrl}/wopi/files/${fileToLoad}`
+        );
+        const token = "12345";
+
+        const viewerUrl = `https://excel.officeapps.live.com/x/_layouts/xlviewerinternal.aspx?WOPISrc=${wopiSrc}&access_token=${token}`;
+        document.getElementById("excel-viewer").src = viewerUrl;
+        status.textContent = `Displaying ${fileToLoad}.`;
+
+        if (!fileToLoad.includes("_highlighted_")) {
+          const downloadButton = document.getElementById(
+            "download-highlighted-button"
+          );
+          if (downloadButton) {
+            downloadButton.style.display = "none";
+          }
+        }
+      }
+
+      function downloadHighlightedFile() {
+        if (lastHighlightedFileName) {
+          const tempLink = document.createElement("a");
+          tempLink.href = `http://localhost:3000/${lastHighlightedFileName}`;
+          tempLink.download = lastHighlightedFileName;
+          document.body.appendChild(tempLink);
+          tempLink.click();
+          document.body.removeChild(tempLink);
+        } else {
+          document.getElementById("status").textContent =
+            "No highlighted file to download yet.";
+        }
+      }
+
+      async function highlightCells() {
+        const status = document.getElementById("status");
+        const highlightButton = document.getElementById("highlight-button");
+        const downloadButton = document.getElementById(
+          "download-highlighted-button"
+        );
+
+        // Get both sheet name and cell ranges
+        const sheetName = document
+          .getElementById("sheet-name-input")
+          .value.trim();
+        const cellRanges = document
+          .getElementById("cell-ranges-input")
+          .value.trim();
+
+        if (!sheetName) {
+          status.textContent = "Please enter a sheet name.";
+          return;
+        }
+
+        if (!cellRanges) {
+          status.textContent = "Please enter cell addresses (e.g., A1,B5,C3).";
+          return;
+        }
+
+        status.textContent = `Highlighting cells in ${currentLoadedFile}, sheet: ${sheetName}...`;
+        highlightButton.disabled = true;
+
+        try {
+          const response = await fetch(
+            "http://localhost:3000/highlight-cells",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                fileName: currentLoadedFile,
+                sheetName: sheetName,
+                cellRanges: cellRanges,
+              }),
+            }
+          );
+
+          if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`Server error: ${response.status} - ${errorText}`);
+          }
+
+          const result = await response.json();
+          const newFileName = result.highlightedFileName;
+
+          if (newFileName) {
+            console.log("Highlighting successful, new file:", newFileName);
+            lastHighlightedFileName = newFileName;
+
+            if (downloadButton) {
+              downloadButton.style.display = "inline-block";
+              console.log("Download button should now be visible");
+            } else {
+              console.error("Download button element not found");
+            }
+
+            loadExcelViewer(newFileName);
+            status.textContent = `Successfully highlighted cells in sheet '${sheetName}'. Displaying ${newFileName}. Click 'Download Last Highlighted Excel' to save the file.`;
+          } else {
+            status.textContent =
+              "Failed to get highlighted file name from server.";
+          }
+        } catch (error) {
+          console.error("Error during highlighting:", error);
+          status.textContent = `Error highlighting cells: ${error.message}.`;
+        } finally {
+          highlightButton.disabled = false;
+        }
+      }
+
+      function loadSampleExcel() {
+        loadExcelViewer("sample.xlsx");
+      }
+    </script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        padding: 20px;
+        background-color: #f4f7f6;
+        color: #333;
+      }
+      h2 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      p#status {
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: #e74c3c;
+      }
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+      .control-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+      .input-group {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      input[type="text"] {
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+        width: 200px;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+      }
+      button:hover {
+        background-color: #2980b9;
+        transform: translateY(-2px);
+      }
+      button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+      }
+      iframe {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        width: 100%;
+        height: 800px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+        display: block;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 768px) {
+        .controls {
+          flex-direction: column;
+          align-items: center;
+        }
+        .input-group {
+          flex-direction: column;
+          width: 100%;
+        }
+        input[type="text"] {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body onload="loadExcelViewer()">
+    <h2>📊 Excel Viewer via WOPI</h2>
+    <p id="status">Loading...</p>
+
+    <div class="controls">
+      <button onclick="loadExcelViewer(DEFAULT_EXCEL_FILENAME)">
+        Load Default Excel
+      </button>
+      <button onclick="loadSampleExcel()">Load Sample Excel</button>
+      <div class="control-group">
+        <div class="input-group">
+          <input
+            type="text"
+            id="sheet-name-input"
+            placeholder="Sheet name (e.g., Sheet1)"
+          />
+          <input
+            type="text"
+            id="cell-ranges-input"
+            placeholder="Cell ranges (e.g., A1,B2:C4)"
+          />
+        </div>
+        <button id="highlight-button" onclick="highlightCells()">
+          Highlight Cells
+        </button>
+        <button
+          id="download-highlighted-button"
+          style="display: none"
+          onclick="downloadHighlightedFile()"
+        >
+          Download Last Highlighted Excel
+        </button>
+      </div>
+    </div>
+
+    <iframe
+      id="excel-viewer"
+      width="100%"
+      height="800"
+      frameborder="0"
+      sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+    ></iframe>
+  </body>
+</html>

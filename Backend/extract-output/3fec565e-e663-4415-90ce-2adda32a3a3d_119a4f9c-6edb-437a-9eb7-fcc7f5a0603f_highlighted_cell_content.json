@@ -1,0 +1,533 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Weekly Sales Activity Report": {
+    "C6:H6": [
+      "SALES REPRESENTATIVE",
+      null
+    ],
+    "C2:H2": [
+      "REPORT WEEK",
+      null
+    ],
+    "J2:K2": [
+      "COMMENTS",
+      null
+    ],
+    "C9:H9": [
+      "REGION",
+      null
+    ],
+    "C4:E4": [
+      "Monday, May 2nd, 20XX",
+      null
+    ],
+    "C3:E3": [
+      "START DATE",
+      null
+    ],
+    "F4:H4": [
+      "Sunday, May 8th, 20XX",
+      null
+    ],
+    "F3:H3": [
+      "END DATE",
+      null
+    ],
+    "C1": [
+      "WEEKLY SALES ACTIVITY REPORT TEMPLATE",
+      null
+    ],
+    "C12": [
+      "COLD CALLS MADE",
+      null
+    ],
+    "D12": [
+      "FOLLOW-UP CALLS",
+      null
+    ],
+    "E12": [
+      "EMAILS \nSENT",
+      null
+    ],
+    "F12": [
+      "MEETINGS ARRANGED",
+      null
+    ],
+    "G12": [
+      "VISITS COMPLETED",
+      null
+    ],
+    "H12": [
+      "LEADS GENERATED",
+      null
+    ],
+    "I12": [
+      "DEALS \nCLOSED",
+      null
+    ],
+    "J12": [
+      "PRODUCTS SOLD",
+      null
+    ],
+    "K12": [
+      "SALES \nREVENUE",
+      null
+    ],
+    "L12": [
+      "TARGET \nAMOUNT",
+      null
+    ],
+    "M12": [
+      "VARIANCE",
+      null
+    ],
+    "N12": [
+      "NOTES",
+      null
+    ],
+    "B13": [
+      "MON",
+      null
+    ],
+    "C13": [
+      "5",
+      null
+    ],
+    "D13": [
+      "7",
+      null
+    ],
+    "E13": [
+      "80",
+      null
+    ],
+    "F13": [
+      "12",
+      null
+    ],
+    "G13": [
+      "3",
+      null
+    ],
+    "H13": [
+      "18",
+      null
+    ],
+    "I13": [
+      "3",
+      null
+    ],
+    "J13": [
+      "785",
+      null
+    ],
+    "K13": [
+      "285000",
+      null
+    ],
+    "L13": [
+      "250000",
+      null
+    ],
+    "B14": [
+      "TUES",
+      null
+    ],
+    "C14": [
+      "35",
+      null
+    ],
+    "D14": [
+      "25",
+      null
+    ],
+    "E14": [
+      "22",
+      null
+    ],
+    "F14": [
+      "8",
+      null
+    ],
+    "G14": [
+      "2",
+      null
+    ],
+    "H14": [
+      "16",
+      null
+    ],
+    "I14": [
+      "1",
+      null
+    ],
+    "J14": [
+      "500",
+      null
+    ],
+    "K14": [
+      "210000",
+      null
+    ],
+    "L14": [
+      "250000",
+      null
+    ],
+    "N14": [
+      "Lassiter reduced order.",
+      null
+    ],
+    "B15": [
+      "WED",
+      null
+    ],
+    "C15": [
+      "7",
+      null
+    ],
+    "D15": [
+      "1",
+      null
+    ],
+    "E15": [
+      "2",
+      null
+    ],
+    "F15": [
+      "6",
+      null
+    ],
+    "G15": [
+      "5",
+      null
+    ],
+    "H15": [
+      "8",
+      null
+    ],
+    "I15": [
+      "6",
+      null
+    ],
+    "J15": [
+      "7",
+      null
+    ],
+    "K15": [
+      "350000",
+      null
+    ],
+    "L15": [
+      "250000",
+      null
+    ],
+    "N15": [
+      "Dule increased order.",
+      null
+    ],
+    "B16": [
+      "THURS",
+      null
+    ],
+    "C16": [
+      "2",
+      null
+    ],
+    "D16": [
+      "1",
+      null
+    ],
+    "E16": [
+      "4",
+      null
+    ],
+    "F16": [
+      "5",
+      null
+    ],
+    "G16": [
+      "3",
+      null
+    ],
+    "H16": [
+      "2",
+      null
+    ],
+    "I16": [
+      "2",
+      null
+    ],
+    "J16": [
+      "2",
+      null
+    ],
+    "K16": [
+      "138750",
+      null
+    ],
+    "L16": [
+      "200000",
+      null
+    ],
+    "B17": [
+      "FRI",
+      null
+    ],
+    "C17": [
+      "1",
+      null
+    ],
+    "D17": [
+      "0",
+      null
+    ],
+    "E17": [
+      "3",
+      null
+    ],
+    "F17": [
+      "1",
+      null
+    ],
+    "G17": [
+      "2",
+      null
+    ],
+    "H17": [
+      "8",
+      null
+    ],
+    "I17": [
+      "0",
+      null
+    ],
+    "J17": [
+      "5",
+      null
+    ],
+    "K17": [
+      "0",
+      null
+    ],
+    "L17": [
+      "50000",
+      null
+    ],
+    "N17": [
+      "Shepard canceled order.",
+      null
+    ],
+    "B18": [
+      "SAT",
+      null
+    ],
+    "C18": [
+      "0",
+      null
+    ],
+    "D18": [
+      "0",
+      null
+    ],
+    "E18": [
+      "0",
+      null
+    ],
+    "F18": [
+      "0",
+      null
+    ],
+    "G18": [
+      "0",
+      null
+    ],
+    "H18": [
+      "0",
+      null
+    ],
+    "I18": [
+      "0",
+      null
+    ],
+    "J18": [
+      "0",
+      null
+    ],
+    "K18": [
+      "0",
+      null
+    ],
+    "L18": [
+      "0",
+      null
+    ],
+    "B19": [
+      "SUN",
+      null
+    ],
+    "C19": [
+      "0",
+      null
+    ],
+    "D19": [
+      "0",
+      null
+    ],
+    "E19": [
+      "0",
+      null
+    ],
+    "F19": [
+      "0",
+      null
+    ],
+    "G19": [
+      "0",
+      null
+    ],
+    "H19": [
+      "0",
+      null
+    ],
+    "I19": [
+      "0",
+      null
+    ],
+    "J19": [
+      "0",
+      null
+    ],
+    "K19": [
+      "0",
+      null
+    ],
+    "L19": [
+      "0",
+      null
+    ],
+    "B20": [
+      "TOTALS",
+      null
+    ]
+  },
+  "BLANK - Weekly Sales Activity": {
+    "C6:H6": [
+      "SALES REPRESENTATIVE",
+      null
+    ],
+    "C2:H2": [
+      "REPORT WEEK",
+      null
+    ],
+    "J2:K2": [
+      "COMMENTS",
+      null
+    ],
+    "C9:H9": [
+      "REGION",
+      null
+    ],
+    "C3:E3": [
+      "START DATE",
+      null
+    ],
+    "F3:H3": [
+      "END DATE",
+      null
+    ],
+    "B1": [
+      "WEEKLY SALES ACTIVITY REPORT TEMPLATE",
+      null
+    ],
+    "C12": [
+      "COLD CALLS MADE",
+      null
+    ],
+    "D12": [
+      "FOLLOW-UP CALLS",
+      null
+    ],
+    "E12": [
+      "EMAILS \nSENT",
+      null
+    ],
+    "F12": [
+      "MEETINGS ARRANGED",
+      null
+    ],
+    "G12": [
+      "VISITS COMPLETED",
+      null
+    ],
+    "H12": [
+      "LEADS GENERATED",
+      null
+    ],
+    "I12": [
+      "DEALS \nCLOSED",
+      null
+    ],
+    "J12": [
+      "PRODUCTS SOLD",
+      null
+    ],
+    "K12": [
+      "SALES \nREVENUE",
+      null
+    ],
+    "L12": [
+      "TARGET \nAMOUNT",
+      null
+    ],
+    "M12": [
+      "VARIANCE",
+      null
+    ],
+    "N12": [
+      "NOTES",
+      null
+    ],
+    "B13": [
+      "MON",
+      null
+    ],
+    "B14": [
+      "TUES",
+      null
+    ],
+    "B15": [
+      "WED",
+      null
+    ],
+    "B16": [
+      "THURS",
+      null
+    ],
+    "B17": [
+      "FRI",
+      null
+    ],
+    "B18": [
+      "SAT",
+      null
+    ],
+    "B19": [
+      "SUN",
+      null
+    ],
+    "B20": [
+      "TOTALS",
+      null
+    ]
+  },
+  "- Disclaimer -": {
+    "B2": [
+      "Any articles, templates, or information provided by Smartsheet on the website are for reference only. While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, articles, templates, or related graphics contained on the website. Any reliance you place on such information is therefore strictly at your own risk.\n",
+      null
+    ]
+  }
+}

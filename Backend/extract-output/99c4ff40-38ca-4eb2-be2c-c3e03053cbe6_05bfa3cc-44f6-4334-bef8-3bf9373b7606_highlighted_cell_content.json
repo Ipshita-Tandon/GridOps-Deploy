@@ -1,0 +1,285 @@
+{
+  "schema": [
+    "value",
+    "formula",
+    "hyperlink"
+  ],
+  "Invoice": {
+    "B29:D29": [
+      "Labor Total:",
+      null
+    ],
+    "B2:E4": [
+      "Time & Materials Invoice",
+      null
+    ],
+    "B20:D20": [
+      "Materials Total:",
+      null
+    ],
+    "B40:G40": [
+      "Thank you for your business!",
+      null
+    ],
+    "F2": [
+      "Date:",
+      null
+    ],
+    "F3": [
+      "Invoice No.:",
+      null
+    ],
+    "F4": [
+      "Due Date:",
+      null
+    ],
+    "C7": [
+      "From:",
+      null
+    ],
+    "D7": [
+      "Bill To:",
+      null
+    ],
+    "F7": [
+      "Totals:",
+      null
+    ],
+    "C8": [
+      "Name/Company Name",
+      null
+    ],
+    "D8": [
+      "Name/Company Name",
+      null
+    ],
+    "F8": [
+      "Material:",
+      null
+    ],
+    "C9": [
+      "City, State, Zip Code",
+      null
+    ],
+    "D9": [
+      "City, State, Zip Code",
+      null
+    ],
+    "F9": [
+      "Labor:",
+      null
+    ],
+    "C10": [
+      "Email",
+      null
+    ],
+    "D10": [
+      "Email",
+      null
+    ],
+    "F10": [
+      "Invoice Total:",
+      null
+    ],
+    "C11": [
+      "Phone",
+      null
+    ],
+    "D11": [
+      "Phone",
+      null
+    ],
+    "B13": [
+      "No.",
+      null
+    ],
+    "C13": [
+      "Material Name",
+      null
+    ],
+    "D13": [
+      "Description",
+      null
+    ],
+    "E13": [
+      "Quantity ",
+      null
+    ],
+    "F13": [
+      "Cost Per Item",
+      null
+    ],
+    "G13": [
+      "Total",
+      null
+    ],
+    "B14": [
+      "1",
+      null
+    ],
+    "C14": [
+      "Material A",
+      null
+    ],
+    "D14": [
+      "Description 1",
+      null
+    ],
+    "E14": [
+      "70",
+      null
+    ],
+    "F14": [
+      "80",
+      null
+    ],
+    "B15": [
+      "2",
+      null
+    ],
+    "C15": [
+      "Material B",
+      null
+    ],
+    "D15": [
+      "Description 2",
+      null
+    ],
+    "E15": [
+      "40",
+      null
+    ],
+    "F15": [
+      "60",
+      null
+    ],
+    "B16": [
+      "3",
+      null
+    ],
+    "C16": [
+      "Material C",
+      null
+    ],
+    "D16": [
+      "Description 3",
+      null
+    ],
+    "E16": [
+      "60",
+      null
+    ],
+    "F16": [
+      "50",
+      null
+    ],
+    "B22": [
+      "No.",
+      null
+    ],
+    "C22": [
+      "Labor Name",
+      null
+    ],
+    "D22": [
+      "Description",
+      null
+    ],
+    "E22": [
+      "Hours",
+      null
+    ],
+    "F22": [
+      "Rate Per Hour",
+      null
+    ],
+    "G22": [
+      "Total",
+      null
+    ],
+    "B23": [
+      "1",
+      null
+    ],
+    "C23": [
+      "Labor A",
+      null
+    ],
+    "D23": [
+      "Description 1",
+      null
+    ],
+    "E23": [
+      "56",
+      null
+    ],
+    "F23": [
+      "100",
+      null
+    ],
+    "B24": [
+      "2",
+      null
+    ],
+    "C24": [
+      "Labor B",
+      null
+    ],
+    "D24": [
+      "Description 2",
+      null
+    ],
+    "E24": [
+      "64",
+      null
+    ],
+    "F24": [
+      "120",
+      null
+    ],
+    "B25": [
+      "3",
+      null
+    ],
+    "C25": [
+      "Labor C",
+      null
+    ],
+    "D25": [
+      "Description 3",
+      null
+    ],
+    "E25": [
+      "72",
+      null
+    ],
+    "F25": [
+      "130",
+      null
+    ],
+    "F31": [
+      "Subtotal:",
+      null
+    ],
+    "F32": [
+      "Tax Rate:",
+      null
+    ],
+    "G32": [
+      "0",
+      null
+    ],
+    "F33": [
+      "Total Tax:",
+      null
+    ],
+    "F34": [
+      "Invoice Total:",
+      null
+    ],
+    "C35": [
+      "Payment Terms:",
+      null
+    ]
+  }
+}
